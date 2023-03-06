@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Rubik Spray Paint';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/rubikspraypaint/v1/WnzhHBAoeBPUDTB4EWR82y6EXWPH-Ro-.ttf) format('truetype');
+}

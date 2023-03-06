@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Nosifer';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/nosifer/v20/ZGjXol5JTp0g5bxZaC0.ttf) format('truetype');
+}

@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Rowdies';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/rowdies/v15/ptRMTieMYPNBAK219hth5O4.ttf) format('truetype');
+}

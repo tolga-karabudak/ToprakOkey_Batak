@@ -1,0 +1,10 @@
+﻿@font-face {
+  font-family: 'Bungee Spice';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/bungeespice/v8/nwpTtK2nIhxE0q-IwgSpZBqCzw.ttf) format('truetype');
+}
+body {
+  --google-font-color-bungeespice:none;
+}

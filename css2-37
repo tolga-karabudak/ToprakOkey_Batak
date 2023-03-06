@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Berkshire Swash';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/berkshireswash/v16/ptRRTi-cavZOGqCvnNJDl5m5XmNPrQ.ttf) format('truetype');
+}

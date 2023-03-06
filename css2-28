@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Smokum';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/smokum/v24/TK3iWkUbAhopmrdGHg.ttf) format('truetype');
+}

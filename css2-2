@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Akaya Telivigala';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/akayatelivigala/v22/lJwc-oo_iG9wXqU3rCTD395tp0uifdI.ttf) format('truetype');
+}

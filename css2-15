@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Mr Bedfort';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/mrbedfort/v21/MQpR-WCtNZSWAdTMwBiclio.ttf) format('truetype');
+}

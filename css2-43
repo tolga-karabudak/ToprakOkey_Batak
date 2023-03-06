@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Climate Crisis';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/climatecrisis/v3/wEOpEB3AntNeKCPBVW9XOKlmp3AUgWFN1DvIvcM0gFp6jQ.ttf) format('truetype');
+}

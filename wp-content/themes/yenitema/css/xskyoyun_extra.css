@@ -1,0 +1,1969 @@
+﻿/*
+	* Bu dosya, extra ozellik eklemek veya varolan ozellikleri override yapmaniz icindir.
+	* Bu dosyada islem yapmayiniz; Ana css dosyasi ile oynamaniz; versiyon degisikliklerinde
+	  isinizi zorlastiracaktir. .Webs.
+*/
+.CinsiyetErkek .LobiNickListeAvatar {
+	border-color: #39ccff;
+}
+.CinsiyetBayan .LobiNickListeAvatar {
+	border-color: #ff79fc;
+}
+.CinsiyetBilinmiyor .LobiNickListeAvatar {
+	border-color: white;
+}
+
+/* Kullanici Nick Renkleri (1-99) */
+/* .NickRenk1 ~ NickRenk99 arasi tanim yapiniz. */
+/*
+.NickRenk1 {
+	color: #FF0000;
+}
+.NickRenk2 {
+	color: #800000;
+}
+.NickRenk3 {
+	color: #FFFF00;
+}
+.NickRenk4 {
+	color: #808000;
+}
+.NickRenk5 {
+	color: #00FF00;
+}
+.NickRenk6 {
+	color: #00FFFF;
+}
+.NickRenk7 {
+	color: #008080;
+}
+.NickRenk8 {
+	color: #0000FF;
+}
+.NickRenk9 {
+	color: #000080;
+}
+.NickRenk10 {
+	color: #FF00FF;
+}
+.NickRenk11 {
+	color: #800080;
+}
+.NickRenk12 {
+	color: #FFA07A;
+}
+.NickRenk13 {
+	color: #FFD700;
+}
+.NickRenk14 {
+	color: #FF8C00;
+}
+.NickRenk15 {
+	color: #F0E68C;
+}
+.NickRenk16 {
+	color: #2E8B57;
+}
+.NickRenk17 {
+	color: #556B2F;
+}
+.NickRenk18 {
+	color: #40E0D0;
+}
+.NickRenk19 {
+	color: #00BFFF;
+}
+.NickRenk20 {
+	color: #483D8B;
+}
+.NickRenk21 {
+	color: #EE82EE;
+}
+.NickRenk22 {
+	color: #8B008B;
+}
+.NickRenk23 {
+	color: #87CEFA;
+}
+.NickRenk24 {
+	color: #FF69B4;
+}
+.NickRenk25 {
+	color: #FFB6C1;
+}
+.NickRenk26 {
+	color: #2F4F4F;
+}
+.NickRenk27 {
+	color: #DEB887;
+}
+.NickRenk28 {
+	color: #F4A460;
+}
+.NickRenk29 {
+	color: #CD853F;
+}
+.NickRenk30 {
+	color: #D2691E;
+}
+.NickRenk31 {
+	color: #A0522D;
+}
+.NickRenk32 {
+	color: #A52A2A;
+}
+*/
+/* Kullanici Yazi Renkleri (1-99) */
+/* .YaziRenk1 ~ YaziRenk99 arasi tanim yapiniz. */
+/*
+.YaziRenk1 {
+	color: #FF0000;
+}
+.YaziRenk2 {
+	color: #800000;
+}
+.YaziRenk3 {
+	color: #FFFF00;
+}
+.YaziRenk4 {
+	color: #808000;
+}
+.YaziRenk5 {
+	color: #00FF00;
+}
+.YaziRenk6 {
+	color: #00FFFF;
+}
+.YaziRenk7 {
+	color: #008080;
+}
+.YaziRenk8 {
+	color: #0000FF;
+}
+.YaziRenk9 {
+	color: #000080;
+}
+.YaziRenk10 {
+	color: #FF00FF;
+}
+.YaziRenk11 {
+	color: #800080;
+}
+.YaziRenk12 {
+	color: #FFA07A;
+}
+.YaziRenk13 {
+	color: #FFD700;
+}
+.YaziRenk14 {
+	color: #FF8C00;
+}
+.YaziRenk15 {
+	color: #F0E68C;
+}
+.YaziRenk16 {
+	color: #2E8B57;
+}
+.YaziRenk17 {
+	color: #556B2F;
+}
+.YaziRenk18 {
+	color: #40E0D0;
+}
+.YaziRenk19 {
+	color: #00BFFF;
+}
+.YaziRenk20 {
+	color: #483D8B;
+}
+.YaziRenk21 {
+	color: #EE82EE;
+}
+.YaziRenk22 {
+	color: #8B008B;
+}
+.YaziRenk23 {
+	color: #87CEFA;
+}
+.YaziRenk24 {
+	color: #FF69B4;
+}
+.YaziRenk25 {
+	color: #FFB6C1;
+}
+.YaziRenk26 {
+	color: #2F4F4F;
+}
+.YaziRenk27 {
+	color: #DEB887;
+}
+.YaziRenk28 {
+	color: #F4A460;
+}
+.YaziRenk29 {
+	color: #CD853F;
+}
+.YaziRenk30 {
+	color: #D2691E;
+}
+.YaziRenk31 {
+	color: #A0522D;
+}
+.YaziRenk32 {
+	color: #A52A2A;
+}
+*/
+/* Gold Uye Nick Renkleri (101-199) */
+/* .NickRenk101 ~ NickRenk199 arasi tanim yapiniz. */
+/*
+.NickRenk101 {
+	color: #FF0000;
+}
+.NickRenk102 {
+	color: #800000;
+}
+.NickRenk103 {
+	color: #FFFF00;
+}
+.NickRenk104 {
+	color: #808000;
+}
+.NickRenk105 {
+	color: #00FF00;
+}
+.NickRenk106 {
+	color: #00FFFF;
+}
+.NickRenk107 {
+	color: #008080;
+}
+.NickRenk108 {
+	color: #0000FF;
+}
+.NickRenk109 {
+	color: #000080;
+}
+.NickRenk110 {
+	color: #FF00FF;
+}
+.NickRenk111 {
+	color: #800080;
+}
+.NickRenk112 {
+	color: #FFA07A;
+}
+.NickRenk113 {
+	color: #FFD700;
+}
+.NickRenk114 {
+	color: #FF8C00;
+}
+.NickRenk115 {
+	color: #F0E68C;
+}
+.NickRenk116 {
+	color: #2E8B57;
+}
+.NickRenk117 {
+	color: #556B2F;
+}
+.NickRenk118 {
+	color: #40E0D0;
+}
+.NickRenk119 {
+	color: #00BFFF;
+}
+.NickRenk120 {
+	color: #483D8B;
+}
+.NickRenk121 {
+	color: #EE82EE;
+}
+.NickRenk122 {
+	color: #8B008B;
+}
+.NickRenk123 {
+	color: #87CEFA;
+}
+.NickRenk124 {
+	color: #FF69B4;
+}
+.NickRenk125 {
+	color: #FFB6C1;
+}
+.NickRenk126 {
+	color: #2F4F4F;
+}
+.NickRenk127 {
+	color: #DEB887;
+}
+.NickRenk128 {
+	color: #F4A460;
+}
+.NickRenk129 {
+	color: #CD853F;
+}
+.NickRenk130 {
+	color: #D2691E;
+}
+.NickRenk131 {
+	color: #A0522D;
+}
+.NickRenk132 {
+	color: #A52A2A;
+}
+*/
+/* Gold Uye Yazi Renkleri (101-199) */
+/* .YaziRenk101 ~ YaziRenk199 arasi tanim yapiniz. */
+
+/*
+.YaziRenk101 {
+	color: #FF0000;
+}
+.YaziRenk102 {
+	color: #800000;
+}
+.YaziRenk103 {
+	color: #FFFF00;
+}
+.YaziRenk104 {
+	color: #808000;
+}
+.YaziRenk105 {
+	color: #00FF00;
+}
+.YaziRenk106 {
+	color: #00FFFF;
+}
+.YaziRenk107 {
+	color: #008080;
+}
+.YaziRenk108 {
+	color: #0000FF;
+}
+.YaziRenk109 {
+	color: #000080;
+}
+.YaziRenk110 {
+	color: #FF00FF;
+}
+.YaziRenk111 {
+	color: #800080;
+}
+.YaziRenk112 {
+	color: #FFA07A;
+}
+.YaziRenk113 {
+	color: #FFD700;
+}
+.YaziRenk114 {
+	color: #FF8C00;
+}
+.YaziRenk115 {
+	color: #F0E68C;
+}
+.YaziRenk116 {
+	color: #2E8B57;
+}
+.YaziRenk117 {
+	color: #556B2F;
+}
+.YaziRenk118 {
+	color: #40E0D0;
+}
+.YaziRenk119 {
+	color: #00BFFF;
+}
+.YaziRenk120 {
+	color: #483D8B;
+}
+.YaziRenk121 {
+	color: #EE82EE;
+}
+.YaziRenk122 {
+	color: #8B008B;
+}
+.YaziRenk123 {
+	color: #87CEFA;
+}
+.YaziRenk124 {
+	color: #FF69B4;
+}
+.YaziRenk125 {
+	color: #FFB6C1;
+}
+.YaziRenk126 {
+	color: #2F4F4F;
+}
+.YaziRenk127 {
+	color: #DEB887;
+}
+.YaziRenk128 {
+	color: #F4A460;
+}
+.YaziRenk129 {
+	color: #CD853F;
+}
+.YaziRenk130 {
+	color: #D2691E;
+}
+.YaziRenk131 {
+	color: #A0522D;
+}
+.YaziRenk132 {
+	color: #A52A2A;
+}
+*/
+/* Yonetici Nick Renkleri (501-599) */
+/* .NickRenk501 ~ NickRenk599 arasi tanim yapiniz. */
+
+/*
+.NickRenk501 {
+	color: #FF0000;
+}
+.NickRenk502 {
+	color: #800000;
+}
+.NickRenk503 {
+	color: #FFFF00;
+}
+.NickRenk504 {
+	color: #808000;
+}
+.NickRenk505 {
+	color: #00FF00;
+}
+.NickRenk506 {
+	color: #00FFFF;
+}
+.NickRenk507 {
+	color: #008080;
+}
+.NickRenk508 {
+	color: #0000FF;
+}
+.NickRenk509 {
+	color: #000080;
+}
+.NickRenk510 {
+	color: #FF00FF;
+}
+.NickRenk511 {
+	color: #800080;
+}
+.NickRenk512 {
+	color: #FFA07A;
+}
+.NickRenk513 {
+	color: #FFD700;
+}
+.NickRenk514 {
+	color: #FF8C00;
+}
+.NickRenk515 {
+	color: #F0E68C;
+}
+.NickRenk516 {
+	color: #2E8B57;
+}
+.NickRenk517 {
+	color: #556B2F;
+}
+.NickRenk518 {
+	color: #40E0D0;
+}
+.NickRenk519 {
+	color: #00BFFF;
+}
+.NickRenk520 {
+	color: #483D8B;
+}
+.NickRenk521 {
+	color: #EE82EE;
+}
+.NickRenk522 {
+	color: #8B008B;
+}
+.NickRenk523 {
+	color: #87CEFA;
+}
+.NickRenk524 {
+	color: #FF69B4;
+}
+.NickRenk525 {
+	color: #FFB6C1;
+}
+.NickRenk526 {
+	color: #2F4F4F;
+}
+.NickRenk527 {
+	color: #DEB887;
+}
+.NickRenk528 {
+	color: #F4A460;
+}
+.NickRenk529 {
+	color: #CD853F;
+}
+.NickRenk530 {
+	color: #D2691E;
+}
+.NickRenk531 {
+	color: #A0522D;
+}
+.NickRenk532 {
+	color: #A52A2A;
+}
+*/
+/* Yonetici Yazi Renkleri (501-599) */
+/* .YaziRenk501 ~ YaziRenk599 arasi tanim yapiniz. */
+
+/*
+.YaziRenk501 {
+	color: #FF0000;
+}
+.YaziRenk502 {
+	color: #800000;
+}
+.YaziRenk503 {
+	color: #FFFF00;
+}
+.YaziRenk504 {
+	color: #808000;
+}
+.YaziRenk505 {
+	color: #00FF00;
+}
+.YaziRenk506 {
+	color: #00FFFF;
+}
+.YaziRenk507 {
+	color: #008080;
+}
+.YaziRenk508 {
+	color: #0000FF;
+}
+.YaziRenk509 {
+	color: #000080;
+}
+.YaziRenk510 {
+	color: #FF00FF;
+}
+.YaziRenk511 {
+	color: #800080;
+}
+.YaziRenk512 {
+	color: #FFA07A;
+}
+.YaziRenk513 {
+	color: #FFD700;
+}
+.YaziRenk514 {
+	color: #FF8C00;
+}
+.YaziRenk515 {
+	color: #F0E68C;
+}
+.YaziRenk516 {
+	color: #2E8B57;
+}
+.YaziRenk157 {
+	color: #556B2F;
+}
+.YaziRenk518 {
+	color: #40E0D0;
+}
+.YaziRenk519 {
+	color: #00BFFF;
+}
+.YaziRenk520 {
+	color: #483D8B;
+}
+.YaziRenk521 {
+	color: #EE82EE;
+}
+.YaziRenk522 {
+	color: #8B008B;
+}
+.YaziRenk523 {
+	color: #87CEFA;
+}
+.YaziRenk524 {
+	color: #FF69B4;
+}
+.YaziRenk525 {
+	color: #FFB6C1;
+}
+.YaziRenk526 {
+	color: #2F4F4F;
+}
+.YaziRenk527 {
+	color: #DEB887;
+}
+.YaziRenk528 {
+	color: #F4A460;
+}
+.YaziRenk529 {
+	color: #CD853F;
+}
+.YaziRenk530 {
+	color: #D2691E;
+}
+.YaziRenk531 {
+	color: #A0522D;
+}
+.YaziRenk532 {
+	color: #A52A2A;
+}
+*/
+
+
+.RenkSalonOper {
+	color: #000000;
+}
+.RenkSalonAdmin {
+	color: #000000;
+}
+.RenkSalonSahip {
+	color: #000000;
+}
+
+.RenkOyunOper {
+color: #000000;	
+}
+
+/*
+.RenkOyunAdmin {
+	color: #f12929;
+}
+*/
+.RenkOyunSahip {
+	color: #000000;
+}
+.RenkPremium {
+	color: #000000;
+}
+.RenkScrollBar {
+	color: #1AB7EA;
+}
+.RenkKullGiris {
+	color: #00AFF0;
+}
+.RenkKullCikis {
+	color: #8A8D8F;
+}
+.RenkOyunDurduruldu {
+	color: #DD4B39;
+}
+.RenkOyunBaslatildi {
+	color: #DD4B39;
+}
+.RenkOyunBotEklendi {
+	color: #DD4B39;
+}
+.RenkOyunBotCikarildi {
+	color: #DD4B39;
+}
+.RenkOyunMasaKapatildi {
+	color: #DD4B39;
+}
+.RenkAlinanPuanMasa {
+	color: #DD4B39;
+}
+.RenkAlinanPuanLobi {
+	color: #DD4B39;
+}
+.RenkMasaNickAyrildi {
+	color: #8A8D8F;
+}
+.RenkMasaIzleyiciAyrildi {
+	color: #8A8D8F;
+}
+.RenkMasadanAyrildiniz {
+	color: #8A8D8F;
+}
+.RenkOynadiginizMasayiIzleyemezsiniz {
+	color: #DD4B39;
+}
+.RenkMasayiZatenIzliyorsunuz {
+	color: #DD4B39;
+}
+.RenkMasaIzleyiciyeKapali {
+	color: #DD4B39;
+}
+/*
+.RenkGenelMesaj {
+	color: #DD4B39;
+}
+.RenkGenelOdaMesaji {
+	color: #FF3333;
+}
+*/
+.RenkMasaDoluDurumda {
+	color: #DD4B39;
+}
+.RenkHerhangiMasadaYoksunuz {
+	color: #DD4B39;
+}
+.RenkMasaOyunOynuyorsunuz {
+	color: #DD4B39;
+}
+.RenkMasaOyunBitti {
+	color: #DD4B39;
+}
+.RenkMasaOyunBaslatilabilir {
+	color: #DD4B39;
+}
+.RenkMasaYeniOyunBaslatildi {
+	color: #CB2027;
+}
+.RenkAyarlarDegisim {
+	color: #1AB7EA;
+}
+.RenkOzelMesajUyarisi {
+	color: #DD4B39;
+}
+.RenkOzelMesajEngelUyarisi {
+	color: #DD4B39;
+}
+.RenkMasaCokFazlaIzleme {
+	color: #DD4B39;
+}
+.RenkOyunBaslatilmisDurumda {
+	color: #DD4B39;
+}
+.RenkOyunMasaOpuSizDegilsiniz {
+	color: #4183C4;
+}
+.RenkDortKisiGerekiyor {
+	color: #DD4B39;
+}
+.RenkOyunBaslatilamadi {
+	color: #DD4B39;
+}
+.RenkOturmaDakikagecti {
+	color: #DD4B39;
+}
+.RenkGostergeGosterildi {
+	color: #DD4B39;
+}
+.RenkOyunCifteGidiliyor {
+	color: #DD4B39;
+}
+.RenkOyunTurDonuluyor {
+	color: #DD4B39;
+}
+.RenkOyunElAcanYok {
+	color: #DD4B39;
+}
+.RenkMasaAyarDegisti {
+	color: #DD4B39;
+}
+.RenkOyunBaslamamis {
+	color: #DD4B39;
+}
+.RenkKullCevrimDisi {
+	color: #DD4B39;
+}
+.RenkSohbetKapaliDurumda {
+	color: #DD4B39;
+}
+.RenkIzleyiciModuIslevGecersiz {
+	color: #1AB7EA;
+}
+.RenkAyniIPIkiKisi {
+	color: #DD4B39;
+}
+.RenkIzleyiciMasayaGirdi {
+	color: #1AB7EA;
+}
+.RenkOyunBasladiAyarlarDegismez {
+	color: #DD4B39;
+}
+.RenkKullMasayaGirisYapti {
+	color: #1AB7EA;
+}
+.RenkOyundanAtildiniz {
+	color: #1AB7EA;
+}
+.RenkNickMesajSatiriLobi {
+	color: #000000;
+}
+.RenkNickMesajSatiriMasa {
+	color: #000000;
+}
+.RenkMesajSatiriMasa {
+	color: #DD4B39;
+}
+.RenkNickMesajSatiriOzel {
+	color: #000000;
+}
+.RenkKomutKullanimiDeaktif {
+	color: #FF0000;
+}
+.RenkAdminLogMesaj {
+	/*display:table;*/
+	color: #FF0000;
+	font-weight: bold;
+}
+.RenkSohbetAcildiKapatildi {
+	color: #FF0000;
+}
+.RenkIzleyiciGirisiKapatildiAcildi {
+	color: #FF0000;
+}
+.RenkSohbetTemizlendi {
+	color: #FF3333;
+}
+.RenkGenelHata {
+	color: #FF0000;
+}
+.RenkAdminIslemCevabi {
+	color: #FF0000;
+}
+.RenkMasaMesajinizIletilemedi {
+	color: #DD4B39;
+}
+.RenkOzelMesajinizIletilemedi {
+	color: #DD4B39;
+}
+.RenkLobiMesajinizIletilemedi {
+	color: #DD4B39;
+}
+.RenkOzelMesajHatali {
+	color: #FF0000;
+}
+.RenkMasaMesajHatali {
+	color: #DD4B39;
+}
+.RenkSikayetSatiri {
+	color: #DD4B39;
+}
+.RenkIsmarlamaSatiri {
+	color: #DD4B39;
+}
+.RenkIsmarlamaSatiriBize {
+	color: #5852ff;
+}
+.AnaUstPanelExtPos .AnaUstPanelExtTbl {
+	clear: both;
+	margin: 0 auto;
+	float: unset !important;
+    float: none !important;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+.AnaUstPanelExtTbl {
+	float: right;
+	height: 100%;
+	table-layout: fixed;
+}
+.AnaUstPanelExtTbl td {
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+#AnaPanelRadyo {
+	float: right;
+	display: inline-block;
+	color: white;
+}
+#AnaPanelRadyo > #radyoPanel {
+	border: 0px;
+	width: 100%;
+	float: left;
+}
+#AnaPanelRadyo > #radyoPanel > #ana {
+	display: inline-block;
+	float: left;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #baslik {
+	text-align: right;
+	float: right;
+	overflow: hidden;
+	margin: 0px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+	max-width: 18vw;
+    display: inline-block;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol {
+	float: right;
+	margin-left: 2px;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol > #radyoYazi {
+	text-align: center;
+	margin-bottom: 2px;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol > #sesKontrol {
+	float: right;
+	width: 80px;
+	cursor: pointer; cursor: hand;
+	background: white !important;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol > #sesKontrol > * {
+	cursor: pointer; cursor: hand;
+}
+#AnaPanelRadyo .radyoButon {
+	float: right;
+	cursor: pointer; cursor: hand;
+}
+#AnaPanelRadyo .radyoButon img {
+	width: 24px;
+	height: 24px;
+}
+
+#AnaAvatarImg {
+	background: #eee no-repeat center;
+	background-size: cover;
+}
+#MasaButonBaslat {
+	box-shadow: inset 0px 0px 0px 2px #ff0000;
+}
+
+.MasaButonOynanmiyor {
+	animation: masaOynanmiyor 2s linear 0s infinite;
+	-webkit-animation: masaOynanmiyor 2s linear 0s infinite;
+	-moz-animation: masaOynanmiyor 2s linear 0s infinite;
+	-ms-animation: masaOynanmiyor 2s linear 0s infinite;
+	-o-animation: masaOynanmiyor 2s linear 0s infinite;
+}
+
+.MasaRenkSiraSizde {
+	animation: masaSiraSizde 1s linear 0s infinite;
+	-webkit-animation: masaSiraSizde 1s linear 0s infinite;
+	-moz-animation: masaSiraSizde 1s linear 0s infinite;
+	-ms-animation: masaSiraSizde 1s linear 0s infinite;
+	-o-animation: masaSiraSizde 1s linear 0s infinite;
+}
+
+@keyframes masaOynanmiyor {
+	0% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 2px #ff0000; }
+	100% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+}
+@-webkit-keyframes masaOynanmiyor {
+	0% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 2px #ff0000; }
+	100% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+}
+@-moz-keyframes masaOynanmiyor {
+	0% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 2px #ff0000; }
+	100% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+}
+@-o-keyframes masaOynanmiyor {
+	0% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 2px #ff0000; }
+	100% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+}
+@-ms-keyframes masaOynanmiyor {
+	0% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 2px #ff0000; }
+	100% { box-shadow: inset 0px 0px 0px 2px #ffffff; }
+}
+
+@keyframes masaSiraSizde {
+	0% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 4px #241cf1; }
+	100% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+}
+@-webkit-keyframes masaSiraSizde {
+	0% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 4px #780e19; }
+	100% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+}
+@-moz-keyframes masaSiraSizde {
+	0% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 4px #780e19; }
+	100% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+}
+@-o-keyframes masaSiraSizde {
+	0% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 4px #780e19; }
+	100% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+}
+@-ms-keyframes masaSiraSizde {
+	0% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+	50% { box-shadow: inset 0px 0px 0px 4px #780e19; }
+	100% { box-shadow: inset 0px 0px 0px 4px #ffffff; }
+}
+
+
+.fileinput-button {
+	display: block;
+    width: 107px;
+    margin-bottom: 5px;
+}
+#yuklee, #tamamla {
+	font-size: 12px;
+}
+.fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    direction: ltr;
+    cursor: pointer;
+}
+.res-goster {
+	display:none;
+}
+
+
+/*
+#AnaPanelRadyo > #radyoPanel > #ana > #baslik {
+    text-align: right;
+    float: right;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    max-width: 8.5vw;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ex1 */
+
+
+
+
+.LobiNickListeAnaSec {
+	background-color: #fff;
+}
+.LobiNickListeTekil {
+	background-color: #fff;
+}
+.SeciliNick {
+	background-color: #076161;
+}
+#LobiMasaListeBilgiMasaNoStr {
+	color: #f1cb65;
+}
+.fileinput-button {
+	display: block;
+	width: 107px;
+	margin-bottom: 5px;
+}
+#yuklee, #tamamla {
+	font-size: 12px;
+}
+.fileinput-button input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	opacity: 0;
+	-ms-filter: 'alpha(opacity=0)';
+	direction: ltr;
+	cursor: pointer;
+}
+.res-goster {
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+    .LobiNickListeAnaSec:hover {
+    background: linear-gradient(to right, #1747b8 10%, white 90%) !important;
+    }
+
+
+.MasaArkaPanelYaziGorun .SabitSagUst {
+    opacity: 1!important;
+	z-index:99999
+}
+#MasaPanelSag .IconB {
+    width: 60px;
+    height: 60px;
+	min-width: 40px;
+    min-height: 40px;
+}
+
+#LobiMasaListeBilgiMasaNoStr {
+	color:#ffbc00;
+}
+
+*/
+
+
+.tabYeniMesaj {
+  font-size: 100px;
+  animation: mesaj-uyari 0.7s ease-in-out infinite;
+  text-align: center;
+}
+
+@keyframes mesaj-uyari {
+  0% {
+    background-color: #f46a36;
+  }
+  50% {
+    background-color: #5b5b5b;
+  }
+  100% {
+   background-color: #5b5b5b;
+  }
+}
+
+
+
+
+
+
+
+
+/*
+
+
+.hs::-webkit-scrollbar {
+ 
+  width: 0;
+  height: 0;
+}
+
+.hs__wrapper{
+	width: 200px;
+    height: 150px;
+	border-left: 2px solid #b9b9b9;
+	background:#fff;
+	position:absolute;
+	right:0px;
+	top:30px;
+}
+.hs {	
+	margin: 0px;
+	width: 200px; 
+	padding:5px;
+	height: 150px;
+	overflow-y: scroll;
+	scrollbar-width: none;
+ 
+	-ms-overflow-style: none;
+ 
+	-webkit-overflow-scrolling: touch;
+}
+
+.hs__item {
+	flex-grow: 1;
+	flex-shrink: 0;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	-webkit-user-select: none;
+	 -moz-user-select: none;
+	  -ms-user-select: none;
+		  user-select: none;
+}
+
+.hs__item__description {
+  z-index: 1;
+  align-self: flex-start;
+  width:100%;
+}
+.hs__item__subtitle {
+	background: #293e48;
+    padding: 2px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    color: #d4d3d3;
+}
+
+@media only screen and (min-width: 990px) {
+  .hs__wrapper {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .nickEtiketle svg{
+	  width:12px
+  }
+  td .LobiNickListeNickStr{
+	font-size: 14px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  td .LobiNickListeNickStr{
+	font-size: 11px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .hs__wrapper .hs__item {
+    flex: 1 0 calc(23% - 10px * 2);
+  }
+}
+@media only screen and (hover: none) and (pointer: coarse) and (max-width: 990px) {
+  .hs__wrapper .hs__item {
+    flex: 1 0 calc(45% - 10px * 2);
+  }
+}
+
+
+
+*/
+
+
+
+ 
+.MasaNickYatay.MasaNickOrtak.MasaNickArka ,.MasaNickDikey.MasaNickOrtak.MasaNickArka{
+	background: -moz-linear-gradient(180deg, rgba(65,65,65,0.99608) 0%,rgb(1,1,1)  100%);
+	background: -webkit-linear-gradient(180deg, rgba(65,65,65,0.99608) 0%, rgb(1,1,1) 100%);
+	background: linear-gradient(180deg, rgba(65,65,65,0.99608) 0%, rgb(1,1,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010101",endColorstr="#3a3a3a",GradientType=1);
+	padding: 10px 10px;
+}
+
+
+
+
+
+
+
+.LobiMesajContainer{
+	border: none!important;
+    padding: 5px;
+    box-shadow: 0px 0px 9px 0px #000000;
+}
+ #LobiMasaFiltreleButonDiv, #LobiMasaFiltreTmzlButonDiv ,#oyunBilgiButtonDiv{
+
+    box-shadow: 0px 3px 3px -1px #000000;
+}
+
+#oyunBilgiButtonDiv{
+	background: rgb(207,72,72);
+	background: -moz-linear-gradient(180deg, rgba(207,72,72,1) 0%, rgba(163,24,24,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(207,72,72,1) 0%, rgba(163,24,24,1) 100%);
+	background: linear-gradient(180deg, rgba(207,72,72,1) 0%, rgba(163,24,24,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cf4848",endColorstr="#a31818",GradientType=1);
+}
+#LobiFiltreSfrButonDiv{
+	height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+	margin-left: 8px!important;
+	background-size: 16px!important;
+    box-shadow: 0px 0px 8px -3px #000000;
+}
+
+
+
+#baslat{
+	position:relative;
+	top:0px;
+}
+
+
+.SDlgYesil , .SDlgMavi , .SDlgSari , .SDlgKirimizi ,.SDlgKirmizi{
+	background-color: #0f6c25e0!important;
+
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12)!important;
+}
+.SDlgOrtak #DlgIcerikDiv{
+	color:#000!important;
+}
+#DialogProfilim .menuDiv , .mevcutSifreDiv , #DialogProfilim #DlgSayfaKisiselBilgiler, #DialogProfilim #DlgSayfaSifreIslem, #DialogProfilim #DlgSayfaAvatarIslem{
+	border:none!important;
+}
+
+
+
+
+#AnaButonHakkinda{
+	width:20px;
+	height:20px;
+}
+
+/*
+.ui-slider .ui-slider-handle{
+	height: 16px;
+}
+.ui-slider-horizontal {
+    height: 8px;
+}
+
+
+
+
+
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol > #radyoYazi{
+	font-size: small;
+}
+#AnaPanelRadyo > #radyoPanel > #ana > #baslik{
+	font-size: x-small;
+}
+.LobiNickListeTekil{
+	background: #f9f9f9;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #0a832973;
+    box-shadow: none;
+    padding: 4px;
+}
+
+*/
+
+
+
+.LobiNickListeTekil:nth-of-type(odd){
+	background: #ffffff;
+}
+
+
+
+
+ /*
+
+.LobiMasaFiltreDiv.FormSatirXIc.IconYaziTp , 
+.FormSatirXIc.IconYaziTp{
+	margin: 0px 1px 1px 1px;
+    height: 35px;
+}
+
+.LobiSagAna{
+	background-color: #cccccc3d;
+}
+#LobiMasaFiltreInp,#LobiFiltreInp{
+	height: 100%!important;
+    font-size: 15px;
+	border: none;
+    box-shadow: none;
+}
+
+ */
+
+
+
+/*
+
+
+.SabitSolUst5x5, #PencereOdaListesi #BaslikDiv{
+	font-size: 17px;
+}
+
+.OdaTekil {
+    border: 2px solid #7d7d7d;
+    background: #d3d3d3;
+}
+ */
+
+ 
+
+
+
+ 
+/*
+
+#KullGirisButonGirisYap , #KullGirisButonFacebook , #KullGirisButonMisafir , #KullGirisButonKayitOl , #KullGirisButonSifreUnut , #KullGirisButonNickDusur{
+	margin-top: 10px;
+    box-shadow: 0px 4px 5px 0px #aba3a3;
+}
+
+
+.FormDis{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+*/
+
+
+
+
+
+.AnaUstPanel {
+background: linear-gradient(to top, #1b305c 10%, #1b305c 50%) !important;
+}
+
+.AnaTabPanel{
+background: linear-gradient(to top, #1b305c 10%, #1b305c 50%) !important;
+}
+
+
+
+
+ 
+.AnaUstYazi{
+	font-size: 11px;
+    font-weight: normal;
+}
+
+body.BaseOkey .AnaUstPanelHG{
+	border-radius:10px;
+
+	background: #393f3c00!important;
+}
+
+
+
+
+
+/*
+
+#YaziKutusuLobi{
+	background-color: #282840;
+}
+
+#YaziKutusuLobi .FormSatirXIc.IconYaziTp{
+	margin: 0px!important;
+	height: 100%!important;
+}
+#YaziKutusuLobi .FormSatirXIc.IconYaziTp input{
+	box-shadow: none!important;
+    border: 1px solid #5454f2!important;
+    margin: 3px 0px 3px 1px;
+    height: 31px!important;
+}
+*/
+
+
+
+
+
+/*
+#GonderButonDiv, #GulButonDiv , #IsmarlaButonDiv , #TemizleButonDiv , #LobiNicklerSolButonDiv , #renkPaleti{
+	margin: 3px 2px 4px 2px;
+    height: 30px;
+    border: 0px solid #929292;
+    background-size: 26px!important;
+    box-shadow: none!important;
+}
+
+
+
+
+#GonderButonDiv{
+	margin-left: 5px;
+}
+
+@media (max-width:400px){
+		#LobiMasaFiltreInp, #LobiFiltreInp {
+		font-size: 12px;
+	}
+}
+
+
+
+
+.CinsiyetErkek .LobiNickListeAvatar {
+	border-color: #39ccff;
+    border: 1px solid #39ccff;
+}
+.CinsiyetBayan .LobiNickListeAvatar {
+	border-color: #ff79fc;
+    border: 1px  solid #ff79fc;
+}
+.CinsiyetBilinmiyor .LobiNickListeAvatar {
+	border-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+*/
+
+
+.LobiNickListeAnaSec:hover {  
+    background: linear-gradient(to top, #474750 10%, #e2e2e2 90%) !important;
+
+ }
+
+
+.SeciliNick {
+background: linear-gradient(to right, #9f9f9f 10%, #424242 90%) !important;
+    color: white;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+
+
+
+/*
+
+
+#DialogAyarlarim #DlgIcerikDiv, #DialogYeniMasa #DlgIcerikDiv, #DialogProfilim #DlgIcerikDiv {
+    color: #000 !important;
+}
+.SDlgOrtak #DlgBaslikStr {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    padding-left: 10px;
+    width: auto;
+    font-weight: 500 !important;
+    color: #fff !important;
+}
+
+
+
+
+*/
+
+
+/*
+
+
+.NLDaralt .LobiSolAna {
+    width: 100% !important;
+}
+
+.LobiSagAna {
+    width: 20% !important;
+}
+
+.LobiSolAna {
+    width: 80% !important;
+}
+
+.YaziKutusuLobi {
+    position: absolute;
+    bottom: 0px;
+    width: 80% !important;
+    background-color: white;
+    vertical-align: middle;
+}
+
+
+ 
+
+
+
+#MasaGeriSayimCnv {
+    background: #fff !important;
+    border: 3px solid #fff !important;
+    -khtml-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+
+
+
+
+
+
+#AnaToplamDiv {
+	height:34px;
+	width:40px;
+    padding-right: 12px !important;
+    float: left;
+    padding: 5px !important;
+    text-align: center;
+    background: #2081c1;
+    border-radius: 5px;
+    color: white;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+ 
+
+#AdminMenuSecim {
+    background-color: #001a50 !important;
+}
+
+#AdminLogMenuSecim{
+
+    background-color: #001a50 !important;
+}
+
+*/
+
+
+
+.AnaHosGldDiv, #AnaNickDiv, #AnaPingDiv {
+    font-weight: 500 !important;
+}
+
+
+
+ 
+
+
+
+
+ 
+
+
+#AnaAvatarImg {
+    background: #5f5f60 no-repeat center !important;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 625px) {
+
+  #AnaToplamDiv {padding: 9px !important}  
+}
+
+@media screen and (max-width: 1280px) and (min-width: 625px) {
+
+    .LobiNickListeAvatar {
+    height: 4vw;
+    width: 4vw;}
+    .LobiNickListeText {
+    height: 4vw;}
+
+    }
+
+@media screen and (max-width: 640px) and (min-width: 360px) {
+.LobiNickListeNickStr {
+      font-size: 11px !important; 
+ 
+}
+
+.LobiNickListeAvatar {
+     height: 6vw !important;
+    width: 6vw !important;
+    margin-top: 6px !important;  
+ 
+}
+
+ 
+
+
+
+
+.LobiNickListeTekil {
+    max-height: 16vw !important;
+}
+
+/*
+
+.LobiSolAna {
+    float: left;
+    height: 100% !important;
+    width: 67% !important;
+    overflow: hidden;
+}
+
+
+
+.LobiSagAna {
+    height: 100%;
+    width: 33% !important;
+    float: left;
+    background-color: #fff;
+    padding-left: 1px;
+}
+
+*/
+
+
+
+
+
+/*
+.FontO {font-size: 14px !important;}
+    
+    .butonText {
+    font-size: 9px !important;
+    border-radius: 2px !important;
+    padding: 5px !important;
+}
+
+.SkyHand {
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-weight: bold;
+    text-align: left !important;
+    font-size: 10px !important;
+}
+
+*/
+
+
+
+
+ 
+.YaziKutusuLobi {
+    position: absolute;
+    bottom: 0px;
+    width: 67% !important;
+    background-color: #f8f9fa;
+    vertical-align: middle;
+}
+ 
+
+.Yazilar .yaziic {
+    word-break: break-all;
+    word-wrap: break-word;
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+/*
+ 
+#AnaToplamDiv { padding: 6px !important;
+} 
+
+*/
+
+
+
+
+/*
+
+.tabButonOrtakAE {
+    padding: 0px !important
+}
+
+.SmileyClassIc {
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;
+    border: 0px solid #e9ecf3;
+    float: left;
+    width: 22px !important;
+    height: 22px !important;
+}
+
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px)  {
+.YaziKutusuLobi {
+    position: absolute;
+    bottom: 0px;
+    width: 67% !important;
+    background-color: white;
+    vertical-align: middle;
+}
+}
+
+@media screen and (max-width: 640px) and (min-width: 360px){
+.YaziKutusuLobi {
+    position: absolute;
+    bottom: 0px;
+    width: 67% !important;
+    background-color: white;
+    vertical-align: middle;
+}
+
+.IconO {
+    width: expression((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    width: -webkit-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    width: -moz-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    width: -o-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    width: calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    height: expression((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    height: -webkit-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    height: -moz-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    height: -o-calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    height: calc((6vh * 0.5 + 6vw * 0.5) / 2.0);
+    min-width: 20px !important;
+    min-height: 20px !important;
+    max-width: 48px !important;
+    max-height: 48px !important;
+}
+}
+
+
+*/
+
+
+
+#AnaPanelRadyo .radyoButon {
+    float: left !important;
+    cursor: pointer;
+    cursor: hand;
+    margin-top: 12px !important;
+    margin-bottom: 7px !important
+ 
+}
+
+#ana{
+	position:relative;
+ 
+	top:0px;
+	    padding: 0px 5px !important;
+}
+
+#baslat{
+	position:relative;
+	top:0px;
+	    padding: 0px 0px !important;
+}
+
+#bekle{
+	position:relative;
+	top:0px;
+	    padding: 0px 5px !important;
+}
+
+#durdur{
+	position:relative;
+	top:0px;
+	    padding: 0px 0px !important;
+}
+
+#radyoYazi { 	font-size: 10px !important;    padding-right: 8px;
+		     padding-top: 5px;}
+
+#baslik { 	font-size: 8px !important;   padding-right: 8px;
+		  padding-bottom: 5px;
+		}
+
+#AnaPanelRadyo > #radyoPanel > #ana > #kontrol > #sesKontrol  {
+    float: left !important;
+    width: 75px !important;
+    cursor: pointer;
+    cursor: hand;
+    background: #c60404 !important;
+    margin-top: -1px !important;
+	font-size: 8px !important;
+
+
+	      margin-top: 5px;
+      margin-bottom: 5px;
+
+      margin-left: 7px;
+      margin-right: 7px;
+	
+}
+
+#AnaPanelRadyo > #radyoPanel > #ana > #baslik {
+    margin-top: -13px !important;
+}
+}
+
+
+
+
+
+/*
+#LobiMasaContainer {
+    background: url(https://toprakokey.net/wp-content/themes/yenitema/res/color/arka.jpg);
+    position: relative;
+    width: 100%;
+    height: 60%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 5px;
+    padding: 0px 10px !important;
+	 
+}
+*/
+
+/*lobi text size*/
+/*.FontO {font-size: 16px !important;} */
+/*
+.LobiMasaListeTekil {margin-bottom: 0px !important}
+.LobiNickListeTekil {
+    max-height: 7vw;
+    min-height: 38px;
+    cursor: pointer;
+    cursor: hand;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    overflow: hidden;
+    width: 100%;
+    min-width: 105px;
+    border: 0px solid #ffffffeb !important;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 0px #000000, inset 0 0 0px #ccc !important;
+    -moz-box-shadow: 0 0 10px #000000, inset 0 0 8px #ccc;
+    -o-box-shadow: 0 0 10px #000000, inset 0 0 8px #ccc;
+    background-color: #f4f4f4 !important;
+    border-bottom: 0.1px solid #17b8a9 !important;
+    padding: 3px !important;
+}
+
+
+ */
+
+
+
+
+
+  
+
+

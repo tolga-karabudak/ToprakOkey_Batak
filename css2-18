@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Playball';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/playball/v16/TK3gWksYAxQ7jbsKcj8D.ttf) format('truetype');
+}

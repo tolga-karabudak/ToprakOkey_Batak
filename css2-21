@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Rubik Iso';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/rubikiso/v1/x3dickHUfr-S4VAI4sABfA.ttf) format('truetype');
+}

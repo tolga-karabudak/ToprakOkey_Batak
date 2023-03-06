@@ -1,0 +1,7 @@
+﻿@font-face {
+  font-family: 'Tilt Prism';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/tiltprism/v5/5h11iZgyPHoZ3YikNzWGfWey2dCAZXT-bH9V4VGn-FJ7tLI25oc_rIbwoQ.ttf) format('truetype');
+}

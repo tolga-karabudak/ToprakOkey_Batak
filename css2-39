@@ -1,0 +1,14 @@
+﻿@font-face {
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(s/greatvibes/v14/RWmMoKWR9v4ksMfaWd_JN-XC.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Shantell Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(s/shantellsans/v4/FeUaS0pCoLIo-lcdY7kjvNoQqWVWB0qWpl29ajppTuUTu_kJKmHesPOL-maYi4xZeHCNQ09eBlmv2QcUzJ39-rAISYQiS2i2.ttf) format('truetype');
+}

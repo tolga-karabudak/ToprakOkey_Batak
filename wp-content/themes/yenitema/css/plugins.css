@@ -1,0 +1,28 @@
+/*
+ *contextMenu.js v 1.4.0
+ *Author: Sudhanshu Yadav
+ *s-yadav.github.com
+ *Copyright (c) 2013 Sudhanshu Yadav.
+ *Dual licensed under the MIT and GPL licenses
+*/
+ 
+/*! jQuery Timepicker Addon - v1.6.1 - 2015-11-14
+ * http://trentrichardson.com/examples/timepicker
+ * Copyright (c) 2015 Trent Richardson; Licensed MIT
+*/
+
+/**
+ * jQuery Wheel Color Picker
+ * Base Stylesheet
+ * 
+ * http://www.jar2.net/projects/jquery-wheelcolorpicker
+ * 
+ * Copyright © 2011-2016 Fajar Chandra. All rights reserved.
+ * Released under MIT License.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Note: Width, height, left, and top properties are handled by the 
+ * plugin. These values might change on the fly.
+ */
+.iw-contextMenu{-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);-moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);box-shadow:1px 1px 2px rgba(0, 0, 0, 0.2);border:1px solid #E6E6E6;display:none;z-index:1000}.iw-cm-menu{background:#F4F4F4;color:#333;margin:0px;padding:0px}.iw-cm-menu li{list-style:none;padding:3px;padding-left:30px;padding-right:20px;border-bottom:1px solid #CCC;cursor:pointer;position:relative}.iw-mOverlay{position:absolute;width:100%;height:100%;top:0px;left:0px;background:#FFF;opacity:.5}.iw-contextMenu li.iw-mDisable{opacity:.3}.iw-mSelected{background-color:#003366;color:#F2F2F2}.iw-cm-arrow-right{width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:5px solid #333333;position:absolute;right:3px;top:50%;margin-top:-3px}.iw-mSelected > .iw-cm-arrow-right{border-left:5px solid #FFF}.iw-mIcon{width:20px;height:20px;left:0px;top:3px;position:absolute}#ui-datepicker-div{background:#ebebeb}.ui-timepicker-div .ui-widget-header{margin-bottom:8px}.ui-timepicker-div dl{text-align:left}.ui-timepicker-div dl dt{float:left;clear:left;padding:0 0 0 5px}.ui-timepicker-div dl dd{margin:0 10px 10px 40%}.ui-timepicker-div dl dd input{width:100%}.ui-timepicker-div td{font-size:90%}.ui-tpicker-grid-label{background:none;border:none;margin:0;padding:0}.ui-timepicker-div .ui_tpicker_unit_hide{display:none}.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input{background:none;color:inherit;border:none;outline:none;border-bottom:solid 1px #555;width:95%}.ui-timepicker-div .ui_tpicker_time .ui_tpicker_time_input:focus{border-bottom-color:#aaa}.ui-timepicker-rtl{direction:rtl}.ui-timepicker-rtl dl{text-align:right;padding:0 5px 0 0}.ui-timepicker-rtl dl dt{float:right;clear:right}.ui-timepicker-rtl dl dd{margin:0 40% 10px 10px}.ui-timepicker-div.ui-timepicker-oneLine{padding-right:2px}.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time,.ui-timepicker-div.ui-timepicker-oneLine dt{display:none}.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label{display:block;padding-top:2px}.ui-timepicker-div.ui-timepicker-oneLine dl{text-align:right}.ui-timepicker-div.ui-timepicker-oneLine dl dd,.ui-timepicker-div.ui-timepicker-oneLine dl dd > div{display:inline-block;margin:0}.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before,.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before{content:':';display:inline-block}.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before,.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before{content:'.';display:inline-block}.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide,.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before{display:none}
+.jQWCP-wWidget{position:absolute;width:250px;height:180px;background:#eee;box-shadow:1px 1px 4px rgba(0,0,0,.5);border-radius:4px;border:1px solid #aaa;padding:10px;z-index:1001}.jQWCP-wWidget.jQWCP-block{position:relative;border-color:#aaa;box-shadow:inset 1px 1px 1px #ccc}.jQWCP-scursor,.jQWCP-wWheelCursor{cursor:crosshair;box-shadow:1px 1px 2px #000}.jQWCP-wWheel{background-size:contain;position:relative;float:left;width:180px;height:180px;-webkit-border-radius:90px;-moz-border-radius:50%;border-radius:50%;border:1px solid #aaa;margin:-1px 10px -1px -1px;transition:border .15s;cursor:crosshair}.jQWCP-wWheel:hover{border-color:#666}.jQWCP-wWheelOverlay{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:0;-webkit-border-radius:90px;-moz-border-radius:50%;border-radius:50%}.jQWCP-wWheelCursor{width:8px;height:8px;position:absolute;top:50%;left:50%;margin:-6px;border:2px solid #fff;border-radius:50%}.jQWCP-slider-wrapper,.jQWCP-wPreview{position:relative;width:20px;height:180px;float:left;margin-right:10px}.jQWCP-slider-wrapper:last-child,.jQWCP-wPreview:last-child,.jQWCP-wWheel:last-child{margin-right:0}.jQWCP-slider,.jQWCP-wPreviewBox{position:absolute;width:100%;height:100%;left:0;top:0;box-sizing:border-box;border:1px solid #aaa;margin:-1px;-moz-border-radius:4px;border-radius:4px;transition:border .15s}.jQWCP-slider{cursor:crosshair}.jQWCP-slider-wrapper:hover .jQWCP-slider{border-color:#666}.jQWCP-scursor{position:absolute;left:0;top:0;right:0;height:6px;margin:-5px -1px -5px -3px;border:2px solid #fff;border-radius:4px}.jQWCP-wAlphaSlider,.jQWCP-wPreviewBox{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEVAQEB/f39eaJUuAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYRBDgK9dKdMgAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAARSURBVAjXY/jPwIAVYRf9DwB+vw/x6vMT1wAAAABJRU5ErkJggg==) center center}.jQWCP-overlay{position:fixed;top:0;left:0;bottom:0;right:0;z-index:1000}.jQWCP-mobile.jQWCP-wWidget{position:fixed;bottom:0;left:0!important;top:auto!important;width:100%;height:75%;max-height:240px;box-sizing:border-box;border-radius:0}

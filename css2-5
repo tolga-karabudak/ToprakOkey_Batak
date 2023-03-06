@@ -1,0 +1,8 @@
+﻿@font-face {
+  font-family: 'DynaPuff';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(s/dynapuff/v1/z7N5dRvsZDIVHbYPMhZJ3HQ83UaSu4uhr7-ZFeoYkgAr1x8RSxYu6Yg.ttf) format('truetype');
+}
