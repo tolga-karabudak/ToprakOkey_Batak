@@ -1,10 +1,5026 @@
-html,body{height:100%;cursor:default;margin:0;padding:0;-webkit-text-size-adjust:none;font-family:'Roboto Slab',Verdana,Arial,Helvetica,sans-serif;font-weight:normal}body{background-size:100% 100%;background-repeat:no-repeat;background-position:center}table td,table th{vertical-align:top;padding:0;text-align:left;margin:0}table{border:0;border-spacing:0}img,a{border:0;outline:0;-webkit-touch-callout:none;pointer-events:none}html{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}*:not(input):not(textarea){-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}*,*:before,*:after{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}input,select{vertical-align:middle}textarea{resize:none;white-space:nowrap}fieldset{margin:0}#SkyToolTip{top:0;left:0;position:absolute;z-index:999999;background-color:#555;color:#fff;border-radius:6px;padding:5px 10px;white-space:nowrap}.YaziTahtasi{overflow-x:hidden;overflow-y:visible;height:100%;width:100%}.YaziNesnesi:focus{outline:0}.YaziNesnesi{width:100%;min-width:50px;outline:0;text-align:left;resize:none;background-color:inherit;font-weight:bold}.YaziYazmaAlaniArka{background-color:#f6fcff !important;border:1px solid #9a9a9a !important;-khtml-border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;border-radius:4px !important}body.BaseOkey{background-image:url('../res/okey/bg.jpg')}body.BaseOkey .MasaNickArka{border:4px solid #780e19 !important;-khtml-border-radius:12px !important;-webkit-border-radius:12px !important;-moz-border-radius:12px !important;border-radius:12px !important}body.BaseOkey .MasaRenkAktif{border:4px solid white !important}body.BaseOkey #LobiMasaContainer{background-color:#ccc}.AnaFormlar{height:100%;width:100%;text-align:center}.AnaFormlar .FormTbl{height:100%;width:100%;table-layout:fixed;text-align:center}.AnaFormlar .FormTblTd{height:100%;width:100%;text-align:center;vertical-align:middle;text-align:center}.AnaFormlar a,.AnaFormlar a:hover,.AnaFormlar a:active{text-decoration:none;color:#3b5998;outline:0;pointer-events:auto !important}.FormDis{width:expression(30vw - 2px);width:-webkit-calc(30vw - 2px);width:-moz-calc(30vw - 2px);width:-o-calc(30vw - 2px);width:calc(30vw - 2px);min-width:300px;max-width:400px;border-top-left-radius:6px;border-top-right-radius:6px;display:inline-block;text-align:center;background:white;-webkit-box-shadow:0 0 5px #000;-moz-box-shadow:0 0 5px #000;box-shadow:0 0 5px #000}.FormDisBilgi{width:expression(40vw - 2px);width:-webkit-calc(40vw - 2px);width:-moz-calc(40vw - 2px);width:-o-calc(40vw - 2px);width:calc(40vw - 2px);min-width:300px;max-width:400px}.FormBaslik{border-top-left-radius:6px;border-top-right-radius:6px;width:100%;text-align:center;background:#2989d8;background:-moz-linear-gradient(top,#2989d8 28%,#1e5799 100%,#7db9e8 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(28%,#2989d8),color-stop(100%,#1e5799),color-stop(100%,#7db9e8));background:-webkit-linear-gradient(top,#2989d8 28%,#1e5799 100%,#7db9e8 100%);background:-o-linear-gradient(top,#2989d8 28%,#1e5799 100%,#7db9e8 100%);background:-ms-linear-gradient(top,#2989d8 28%,#1e5799 100%,#7db9e8 100%);background:linear-gradient(to bottom,#2989d8 28%,#1e5799 100%,#7db9e8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8',endColorstr='#7db9e8',GradientType=0);padding-top:10px;padding-bottom:10px;color:white}.FormAlt{display:inline-block;width:100%;padding:10px}.FormIcerik{color:red;width:100%;padding-top:5px;padding-bottom:5px;text-align:center;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;text-overflow:ellipsis;overflow:hidden}.FormButonlar{display:inline-block;text-align:right;width:100%}.FormButonlar>.butonText,.FormButonlar>.butonIcon{margin-top:2px}.FormSatirY{width:100%;float:left}.FormSatirYKod{display:block;overflow:hidden}.FormSatirY25{width:25%;float:left}.FormSatirY25Mr{margin-left:2px;width:20%;width:expression(25% - 2px);width:-webkit-calc(25% - 2px);width:-moz-calc(25% - 2px);width:-o-calc(25% - 2px);width:calc(25% - 2px);float:left}.FormSatirY33{width:33%;float:left}.FormSatirY33Mr{margin-left:2px;width:30%;width:expression(33% - 2px);width:-webkit-calc(33% - 2px);width:-moz-calc(33% - 2px);width:-o-calc(33% - 2px);width:calc(33% - 2px);float:left}.FormSatirY34{width:34%;float:left}.FormSatirY34Mr{margin-left:2px;width:30%;width:expression(34% - 2px);width:-webkit-calc(34% - 2px);width:-moz-calc(34% - 2px);width:-o-calc(34% - 2px);width:calc(34% - 2px);float:left}.FormSatirY50{width:50%;float:left}.FormSatirY50Mr{margin-left:2px;width:45%;width:expression(50% - 2px);width:-webkit-calc(50% - 2px);width:-moz-calc(50% - 2px);width:-o-calc(50% - 2px);width:calc(50% - 2px);float:left}.FormSatirY67{width:67%;float:left}.FormSatirY67Mr{margin-left:2px;width:60%;width:expression(67% - 2px);width:-webkit-calc(67% - 2px);width:-moz-calc(67% - 2px);width:-o-calc(67% - 2px);width:calc(67% - 2px);float:left}.FormSatirY75{width:75%;float:left}.FormSatirY75Mr{margin-left:2px;width:70%;width:expression(75% - 2px);width:-webkit-calc(75% - 2px);width:-moz-calc(75% - 2px);width:-o-calc(75% - 2px);width:calc(75% - 2px);float:left}.FormSatirFr{float:right}.FormInput{color:#000;padding-left:5px;height:5vh;min-height:20px;max-height:35px;-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:2px solid #ebebeb;-webkit-box-shadow:inset 0 -2px #ebebeb;-moz-box-shadow:inset 0 -2px #ebebeb;box-shadow:inset 0 -2px #ebebeb}.FormInput:focus{color:#000;outline:0;-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;border:2px solid #9cbef5;-moz-box-shadow:inset 0 -2px #9cbef5;-webkit-box-shadow:inset 0 -2px #9cbef5;box-shadow:inset 0 -2px #9cbef5}.IconKodDegis{width:expression((10vh * 0.5 + 10vw * 0.5) / 2.0);width:-webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);width:-moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);width:-o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);width:calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:expression((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:calc((10vh * 0.5 + 10vw * 0.5) / 2.0);min-width:25px;min-height:25px;max-width:45px;max-height:45px}.IconKodImg{width:expression(10vh * 0.5 + 10vw * 0.5);width:-webkit-calc(10vh * 0.5 + 10vw * 0.5);width:-moz-calc(10vh * 0.5 + 10vw * 0.5);width:-o-calc(10vh * 0.5 + 10vw * 0.5);width:calc(10vh * 0.5 + 10vw * 0.5);height:expression((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:calc((10vh * 0.5 + 10vw * 0.5) / 2.0);min-width:50px;min-height:25px;max-width:90px;max-height:45px}.IconKodDivH{height:expression((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:-o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);height:calc((10vh * 0.5 + 10vw * 0.5) / 2.0);min-height:25px;max-height:45px}.FormYenileImgIcon{display:inline-block;float:left}.FormYenileButonIcon{display:inline-block;float:left;cursor:pointer;cursor:hand;background-size:100% 100%;background-repeat:no-repeat;background-position:center center}.FormGecisIcon{display:inline-block;float:unset;float:none}.FormInputText{overflow:hidden;white-space:nowrap;padding-right:10px;padding-top:10px}.DlgMisafirCls{margin-bottom:10px;text-align:center;color:black;font-weight:bold}.DlgMisafirCls>div,.DlgMisafirCls>label{display:inline-block}.DlgFaceSifreCls{text-align:left}.DlgFaceSifreCls>div,.DlgFaceSifreCls>label{display:inline-block}#DialogFaceSifre #DlgFaceSifreEksikStr{margin-bottom:10px;text-align:left}#PencereTarayiciGunc img{width:100%;height:100%}#PencereSplash #BaslikDiv{text-align:center;color:red;padding-top:5px}#PencereGecis{position:fixed;z-index:9999;top:0;left:0;height:100%;width:100%;background-color:rgba(0,0,0,0.8);background-image:none}#PencereGecis #BaslikDiv{color:red}#PencereKullGiris,#PencereKullGiris input{font-weight:bold}.FormDisOda{height:90%;width:90%;max-width:90%;max-height:90%;margin:0 auto;display:inline-block}.FormDisFaceNick{width:expression(50vw - 2px);width:-webkit-calc(50vw - 2px);width:-moz-calc(50vw - 2px);width:-o-calc(50vw - 2px);width:calc(50vw - 2px);min-width:300px;max-width:450px}#PencereFacebookNick .NickinizLabel{text-align:right}#PencereFacebookNick #IcerikDiv{margin-bottom:10px}#PencereFacebookNick .FormIcerik{white-space:unset}#PencereFacebookNick input{text-align:center}.FormBaslikOda{position:relative}#PencereOdaListesi #BaslikDiv{text-align:center;min-width:75vw}#PencereOdaListesi #IcerikDiv{color:red;margin-top:10px;text-align:center}#PencereOdaListesi .FormAlt{height:100%;display:block;overflow-x:hidden;overflow-y:visible;padding:0}#PencereOdaListesi #OdaListeDiv{min-width:75vw;height:100%;text-align:center;font-weight:bold}.FormSatirX{display:inline-block;width:100%}.FormSatirX>label{display:inline-block;float:left;padding-right:5px;margin-top:8px}.FormSatirX>.FormSatirXIc{display:block;overflow:hidden;white-space:nowrap}.FormSatirX>.FormSatirXIc>*{width:100%}.butonText{-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;cursor:pointer;cursor:hand;color:#fff;padding:5px 10px 5px 10px;display:inline-block;text-decoration:none;text-align:center;font-weight:bold}.butonText:hover{-ms-filter:"alpha(opacity=70)";filter:alpha(opacity=70);-moz-opacity:.7;-khtml-opacity:.7;opacity:.7}.butonText table{height:100%;margin-left:5px;margin-right:5px}.butonText table td{height:100%;vertical-align:middle;text-align:center}#GonderButonDiv table{width:100%;height:100%}#GonderButonDiv table td{vertical-align:middle}.butonIcon{-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;cursor:pointer;cursor:hand;color:#fff;display:inline-block;text-decoration:none;text-align:center}.butonIcon:hover{-ms-filter:"alpha(opacity=70)";filter:alpha(opacity=70);-moz-opacity:.7;-khtml-opacity:.7;opacity:.7}.butonIcon>div{padding:0;margin:0 auto}.butonYesil{background:#009545;background-image:-webkit-linear-gradient(top,#009545,#005527);background-image:-moz-linear-gradient(top,#009545,#005527);background-image:-ms-linear-gradient(top,#009545,#005527);background-image:-o-linear-gradient(top,#009545,#005527);background-image:linear-gradient(to bottom,#009545,#005527)}.butonYesil:hover{background:#009344;background-image:-webkit-linear-gradient(top,#009344,#006d32);background-image:-moz-linear-gradient(top,#009344,#006d32);background-image:-ms-linear-gradient(top,#009344,#006d32);background-image:-o-linear-gradient(top,#009344,#006d32);background-image:linear-gradient(to bottom,#009344,#006d32)}.butonYesil:active{background:#009043;background-image:-webkit-linear-gradient(top,#009043,#009043);background-image:-moz-linear-gradient(top,#009043,#009043);background-image:-ms-linear-gradient(top,#009043,#009043);background-image:-o-linear-gradient(top,#009043,#009043);background-image:linear-gradient(to bottom,#009043,#009043)}.butonYesilD,.butonYesilD:hover,.butonYesilD:active{background:#02b153;background-image:-webkit-linear-gradient(top,#02b153,#02b153);background-image:-moz-linear-gradient(top,#02b153,#02b153);background-image:-ms-linear-gradient(top,#02b153,#02b153);background-image:-o-linear-gradient(top,#02b153,#02b153);background-image:linear-gradient(to bottom,#02b153,#02b153)}.butonKirmizi{background:#d10000;background-image:-webkit-linear-gradient(top,#d10000,#890000);background-image:-moz-linear-gradient(top,#d10000,#890000);background-image:-ms-linear-gradient(top,#d10000,#890000);background-image:-o-linear-gradient(top,#d10000,#890000);background-image:linear-gradient(to bottom,#d10000,#890000)}.butonKirmizi:hover{background:#d00000;background-image:-webkit-linear-gradient(top,#d00000,#a50000);background-image:-moz-linear-gradient(top,#d00000,#a50000);background-image:-ms-linear-gradient(top,#d00000,#a50000);background-image:-o-linear-gradient(top,#d00000,#a50000);background-image:linear-gradient(to bottom,#d00000,#a50000)}.butonKirmizi:active{background:#cf0000;background-image:-webkit-linear-gradient(top,#cf0000,#cf0000);background-image:-moz-linear-gradient(top,#cf0000,#cf0000);background-image:-ms-linear-gradient(top,#cf0000,#cf0000);background-image:-o-linear-gradient(top,#cf0000,#cf0000);background-image:linear-gradient(to bottom,#cf0000,#cf0000)}.butonKirmiziD,.butonKirmiziD:hover,.butonKirmiziD:active{background:#e10000;background-image:-webkit-linear-gradient(top,#e10000,#e10000);background-image:-moz-linear-gradient(top,#e10000,#e10000);background-image:-ms-linear-gradient(top,#e10000,#e10000);background-image:-o-linear-gradient(top,#e10000,#e10000);background-image:linear-gradient(to bottom,#e10000,#e10000)}.butonSari{background:#fde500;background-image:-webkit-linear-gradient(top,#fde500,#b36200);background-image:-moz-linear-gradient(top,#fde500,#b36200);background-image:-ms-linear-gradient(top,#fde500,#b36200);background-image:-o-linear-gradient(top,#fde500,#b36200);background-image:linear-gradient(to bottom,#fde500,#b36200)}.butonSari:hover{background:#f9df00;background-image:-webkit-linear-gradient(top,#f9df00,#cd9000);background-image:-moz-linear-gradient(top,#f9df00,#cd9000);background-image:-ms-linear-gradient(top,#f9df00,#cd9000);background-image:-o-linear-gradient(top,#f9df00,#cd9000);background-image:linear-gradient(to bottom,#f9df00,#cd9000)}.butonSari:active{background:#ffe100;background-image:-webkit-linear-gradient(top,#ffe100,#ffe100);background-image:-moz-linear-gradient(top,#ffe100,#ffe100);background-image:-ms-linear-gradient(top,#ffe100,#ffe100);background-image:-o-linear-gradient(top,#ffe100,#ffe100);background-image:linear-gradient(to bottom,#ffe100,#ffe100)}.butonSariD,.butonSariD:hover,.butonSariD:active{background:#ffeb56;background-image:-webkit-linear-gradient(top,#ffeb56,#ffeb56);background-image:-moz-linear-gradient(top,#ffeb56,#ffeb56);background-image:-ms-linear-gradient(top,#ffeb56,#ffeb56);background-image:-o-linear-gradient(top,#ffeb56,#ffeb56);background-image:linear-gradient(to bottom,#ffeb56,#ffeb56)}.butonMavi{background:#009de0;background-image:-webkit-linear-gradient(top,#009de0,#005a81);background-image:-moz-linear-gradient(top,#009de0,#005a81);background-image:-ms-linear-gradient(top,#009de0,#005a81);background-image:-o-linear-gradient(top,#009de0,#005a81);background-image:linear-gradient(to bottom,#009de0,#005a81)}.butonMavi:hover{background:#04a7ec;background-image:-webkit-linear-gradient(top,#04a7ec,#047eb3);background-image:-moz-linear-gradient(top,#04a7ec,#047eb3);background-image:-ms-linear-gradient(top,#04a7ec,#047eb3);background-image:-o-linear-gradient(top,#04a7ec,#047eb3);background-image:linear-gradient(to bottom,#04a7ec,#047eb3)}.butonMavi:active{background:#00b3ff;background-image:-webkit-linear-gradient(top,#00b3ff,#00b3ff);background-image:-moz-linear-gradient(top,#00b3ff,#00b3ff);background-image:-ms-linear-gradient(top,#00b3ff,#00b3ff);background-image:-o-linear-gradient(top,#00b3ff,#00b3ff);background-image:linear-gradient(to bottom,#00b3ff,#00b3ff)}.butonMaviD,.butonMaviD:hover,.butonMaviD:active{background:#3bc5ff;background-image:-webkit-linear-gradient(top,#3bc5ff,#3bc5ff);background-image:-moz-linear-gradient(top,#3bc5ff,#3bc5ff);background-image:-ms-linear-gradient(top,#3bc5ff,#3bc5ff);background-image:-o-linear-gradient(top,#3bc5ff,#3bc5ff);background-image:linear-gradient(to bottom,#3bc5ff,#3bc5ff)}.butonSiyah{background:#585858;background-image:-webkit-linear-gradient(top,#585858,#000);background-image:-moz-linear-gradient(top,#585858,#000);background-image:-ms-linear-gradient(top,#585858,#000);background-image:-o-linear-gradient(top,#585858,#000);background-image:linear-gradient(to bottom,#585858,#000)}.butonSiyah:hover{background:#888787;background-image:-webkit-linear-gradient(top,#888787,#1d1d1d);background-image:-moz-linear-gradient(top,#888787,#1d1d1d);background-image:-ms-linear-gradient(top,#888787,#1d1d1d);background-image:-o-linear-gradient(top,#888787,#1d1d1d);background-image:linear-gradient(to bottom,#888787,#1d1d1d);opacity:.8}.butonSiyah:active{background:#565555;background-image:-webkit-linear-gradient(top,#565555,#3c3b3b);background-image:-moz-linear-gradient(top,#565555,#3c3b3b);background-image:-ms-linear-gradient(top,#565555,#3c3b3b);background-image:-o-linear-gradient(top,#565555,#3c3b3b);background-image:linear-gradient(to bottom,#565555,#3c3b3b)}.butonSiyahD,.butonSiyahD:hover,.butonSiyahD:active{background:#797f82;background-image:-webkit-linear-gradient(top,#797f82,#797f82);background-image:-moz-linear-gradient(top,#797f82,#797f82);background-image:-ms-linear-gradient(top,#797f82,#797f82);background-image:-o-linear-gradient(top,#797f82,#797f82);background-image:linear-gradient(to bottom,#797f82,#797f82)}.butonYesilD,.butonKirmiziD,.butonSariD,.butonMaviD,.butonSiyahD{-ms-filter:none !important;filter:none !important;-moz-opacity:unset !important;-khtml-opacity:unset !important;opacity:unset !important}.butonMasaFiltreOrtak,.butonAdminOrtak{margin-right:1px;float:left;height:100%;padding:2px 2px 2px 2px}.butonLobiUstPanel{float:left;margin-right:2px !important}.MasaPanelOrtaButon{display:inline-block}.butonMasaSag{position:relative;display:inline-block;float:right;margin-right:5px !important;margin-bottom:5px !important}.butonFormlar20{width:19%;float:left;margin-right:1%;margin-bottom:2px}.butonFormlar25{width:24%;float:left;margin-right:1%;margin-bottom:2px}.butonFormlar50{width:49%;float:left;margin-right:1%;margin-bottom:2px}.butonFormlar100{width:100%;float:left;margin-right:2px;margin-bottom:2px}#TemizleButonDiv{cursor:pointer !important;cursor:hand !important}.ButonElimiDizOrtak{color:#000}.MasaDivDigerIcerik{display:inline-block;float:right}.LobiOynaOrtak{margin:0;color:#000}.LobiSolAna{float:left;height:100%;width:75%;font-size:0}body .NLDaralt .LobiSolAna{width:100% !important}.LobiSagAna{height:100%;width:25%;float:left;font-size:0;background-color:#fff;padding-left:1px}body .NLDaralt .LobiSagAna{display:none !important}.LobiUstMenu{background-color:#ccc;width:100%;display:inline-block;text-align:right;border-top-left-radius:4px;border-top-right-radius:4px}.LobiMasaFiltreDiv,#LobiMasaFiltreInp{max-width:180px}.LobiOrtaKisim{width:100%}#LobiMasaContainer{position:relative;width:100%;height:40%;overflow-x:hidden;overflow-y:visible;border-bottom-left-radius:4px;border-bottom-right-radius:4px}#LobiMasalar{width:100%;height:100%}.YukleniyorOL{position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.6);background-image:none;text-align:center;padding-top:15px;color:white}.LobiMesajContainer{position:relative;width:100%;height:60%;background-color:white;font-size:0;padding:2px;background-color:#f6fcff !important;border:1px solid #969696 !important;-khtml-border-radius:5px !important;-webkit-border-radius:5px !important;-moz-border-radius:5px !important;border-radius:5px !important}.LobiArkaPanelYaziGorun{color:#232323;width:100%;height:100%}#LobiYukariButonDiv,#LobiAsagiButonDiv{float:left}.YukariImg{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAM0SURBVHjavJhdSBRRFMcHEbPawIcKitQ+YEv6stAMpLKo1rLEF2ufioIyo2ihHir6EqKMHvKhkB4Moy/QtC/7MPEhlV2tzSDN0KCSdLNV+2B2N123tofzH2Eu986MO5vz8nOZc8/9n3vOnHuvkmTqWZJELEwjVpQR25KJ3sfE/g3E9lvEKrw/cJOYWiGNzzPfSbwKAX8HieFwdFi2irjIHWXhe6qxktsFAvzgL3BYYDfM2Pn5dt/vEA+2mxR+ZkRH8AjzW1bbtZ0nukuZ8bKOH2a+4vAYhe8tN1cKffgWptYQJ3cQPy805/dwjd5H2UwMJjIOlBX6LVg5RXglcfl6vv85duLHUoF/PzOPoALS9wsCuP9GkGpRAErNfiFmXjOW4cXniD3vBKXJBsCUZp1SUhvBjGx0lVdjS+nXAggKRfaNzSshfkqMrKSyYuGo2CVYCZmfyp5GtLvW6HS5WauJXZcEpSXzM395DRw0ZBrrKj/aiCte/p99JgUbY6/LWNdyV2Ggp047Vd4rxGWx2gLs04k74vnvN68k7jqu7cfqIHa7tHUN9GOA3MhkABvO2wfEmbu1J1x7AuM6iWdrBe05pBawLUvbbwJK9EUOsxFCp3wDhr5pTAB/iPWntSfIsKALMf294DnfPocJIPSamP1Qe57KR2pdowGgMqQ+m3aqmmxqh8kBpLCIb7/PyRey1cu39y9Ff89T29/VKaFBJdNNRTobCgY8u0fsmCHoFmDhXH4AuVa+veKnG99izUTGv2ADbW2JoT+alRVjP9KQmjasUIqHeW/0ETUB+EnCDp4TEOhg/LT0IIDqKsZgEmjRmThWwDiBfbzOONFjYXQpJTYBAThh8LSaGehjVmAIDPAzNMqgQMiQzriAwM6ndtOAb6k+FKN+cRLnfWkBE7kUpVKJi9Afo+MobnpSnsDeETR37N1p5/td5zHn91TuGAO/MMXghYZhOe4D+bgH5GOHvmjTHie60JQcMnlGcSQQf77XCUg2uKKytmDfN5SKNcqHrdTZxOv10b3MK7x9DIfFLeP0X4o0HIOP4Ar6pJfY+QGHQJzzvRDWhaNA7SasMM5C6QORKvg3AFOuOrOEradXAAAAAElFTkSuQmCC');background-size:cover;cursor:pointer;cursor:hand}.AsagiImg{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAMaSURBVHjaYmCgCJi+gdAVDhB6pyeEvvUXQr+qhNKyEPrmbQi97SmELlkAoU3sGOgDzHwg9DKow/7/py69cC+ENlCgssMr1CD0l5c4HPAVSn8m0sGf0fShyX+4DqELBCh0+IR8Ag7+jZ3udofQoWJQ+hqEXjAXvz5cHurkJdHhdX6UJQWnZ9jNjY+gzNyCXwQcbjkPhwGwEPpOXAz4GWA3P1ONyBj4jiYOc4c6hDZmgZnIBKU3QKgObzQbv5CZ9nCF1B8yzYO54waEal4Jk4D6xBlK24mhaeRB47MQaSEHDnE2AubgEkdzh2cQhLb6AtUQ8hNNwzco/Q+HRwiF6A8CMfOHSA/8QTMPlmK4IFRQMFTAXAaHwWgGboVqfLSHQIiRmlSg5lyXglaIG9DMx+ExCyso/+1O/Ll/zXG0GjgAQn/Vx67e9xV2d2Ycw67+TSOElv+Gqv6IO353vYDKM3yeipbroU2B1ZvxB5zHJmiAnEU12BtHDKTvQlX3ThuaAnjw27O3HtVdMHd+EYWlKT7sUSQ2A0ILnMNu8A5ofRFVjCoujcMhslCHM9yCUMGBEPokjtJOKglCixphT5r/10EZb17jj6qH0CSkVoA/pBKrILSXBXb5OGjpFCGG3xxDaJp/NRW/u57thmo4sxZHhYLWtnkK9YimHI0ai6cg9PvLBNpOUHcesoZqnGJPoHGGViPe6ofQMlRqButAk+iTwzhaADgafx2wwsWBhby2yX1oO195AnkO14Wm6efppNn77zQ083vATHKDULtxNXtxtYWg6p5chTqojTiHW0PbXO8e44j57zhiAKpuw3lcPawsMhtzUHX3pkNoxQjs5hu5QMvv1TjMJ9CY+wWNcb0TBEKoeAtlzd4H0PKdG9oPEIGa92IuZeamLSAxjXb8J7JDg6PUOgONkcvtxJUquDo0Db8pLCVyr0DT7HICHvoIpX/iUPcTTR0OB78Oh9Cp66hcTuucgdBzbanbmf/3FkLPlIfQ6sfoNEphsApC5yyB0GuhDriyFBqSrtAadSs0KUHlV0HzQqYJNFOSXTECBgDGUiN+rkJS4QAAAABJRU5ErkJggg==');background-size:cover;cursor:pointer;cursor:hand}.LobiScrollIslev{float:right;display:inline-block}.LobiYaziIslev{float:right;display:inline-block}.LobiOdaTopicSabit{color:#ec1515;float:left;display:inline-block;cursor:pointer;cursor:hand;padding-top:2px}.LobiOdaTopicSabit div{font-weight:bold;display:inline-block}#LobiOdaTopic{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#ec1515;text-align:left;cursor:pointer;cursor:hand}#LobiOdaTopic img{vertical-align:bottom}#LobiOdaLogosu{display:block;width:20%;max-width:100%;height:auto;position:absolute;bottom:0;right:0;opacity:.2;max-width:150px;max-height:150px}#LobiYaziTahtasi{width:100%}.YaziKutusuGenel{display:inline-block;width:100%;position:relative;font-size:0;background-color:white}.YaziKutusuGenel .butonIcon{float:right;margin-left:2px}#LobiNickContainer{position:relative;float:left;overflow:hidden;border:1px solid #969696 !important;-khtml-border-radius:4px !important;-webkit-border-radius:4px !important;-moz-border-radius:4px !important;border-radius:4px !important;width:100%}#LobiNicklerSagButonDiv{position:absolute;right:0;bottom:3px;z-index:2}#LobiNicklerSolButonDiv{z-index:2;margin-left:2px}#LobiNicklerSagButonDiv{opacity:.5}#LobiNickler{vertical-align:top;height:100%;overflow-x:hidden;overflow-y:scroll;box-shadow:0 0 10px #000,inset 0 0 8px #ccc}#LobiFiltreSfrButonDiv{cursor:pointer !important;cursor:hand !important}.LobiNickListeTekil{max-height:7vw;min-height:38px;cursor:pointer;cursor:hand;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;overflow:hidden;width:100%;min-width:105px;border:1px solid #ddd;-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;-webkit-box-shadow:0 0 10px #000,inset 0 0 8px #ccc;-moz-box-shadow:0 0 10px #000,inset 0 0 8px #ccc;-o-box-shadow:0 0 10px #000,inset 0 0 8px #ccc;box-shadow:0 0 10px #000,inset 0 0 8px #ccc;background-color:#ccc}.LobiNickListeAna{height:100%;float:left;table-layout:fixed;text-align:left;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;font-weight:bold}.LobiNickListeAnaSec{background-color:rgba(0,0,0,0.2);-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.LobiNickListeAvatar{height:6vw;width:6vw;min-width:18px;min-height:18px;max-width:64px;max-height:64px;display:inline-block;float:left;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;border:2px outset #f5f5f5;-khtml-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}.LobiNickListeText{height:6vw;min-height:18px;max-height:64px;width:20%;overflow:visible;float:left;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}.LobiNickListeText tr{height:50%}.LobiNickListeText .NSatir1{vertical-align:bottom;text-align:left;height:auto}.LobiNickListeText .NSatir2{vertical-align:top;text-align:left;height:auto}.LobiNickListeText .NSatir2>div,.LobiNickListeText .NSatir1>div{vertical-align:middle}#LobiNickListeImg{width:100% !important;height:100% !important;-khtml-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}.LobiNickListeBilgi{height:40px;float:left;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}#LobiNickListeIconDiv{display:inline-block;vertical-align:middle;margin-left:5px;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}.LobiNickListeIconOrtak{min-width:12px;min-height:12px;width:2vw;height:2vw;float:left}.LobiNickListeNickStr{color:black;display:inline-block;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;overflow:hidden;text-overflow:ellipsis;vertical-align:middle}#LobiNickListeSusDiv{display:inline-block;margin-right:2px;margin-left:5px}#LobiNickListePlatDiv{display:inline-block;margin-right:2px}#LobiNickListeIzleDiv{display:inline-block;margin-right:2px}#LobiNickListePuanDiv{display:inline-block;margin-right:2px;margin-left:4px}#LobiNickListePuanStr{display:inline-block}#LobiNickListeMasaDiv{display:inline-block;margin-right:2px;margin-left:4px}#LobiNickListeMasaStr{display:inline-block}.LobiMasaListeTekil{float:left;min-width:220px;vertical-align:middle;padding-left:1px;padding-right:1px;margin-bottom:1px}.LobiMasaListe1{position:relative;padding:5px;-webkit-border-top-left-radius:12px;-moz-border-top-left-radius:12px;border-top-left-radius:12px;-webkit-border-bottom-left-radius:12px;-moz-border-bottom-left-radius:12px;border-bottom-left-radius:12px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;width:60%;height:100%;float:left;background-repeat:repeat}.LobiMasaListe2{padding:5px;-webkit-border-top-right-radius:12px;-moz-border-top-right-radius:12px;border-top-right-radius:12px;-webkit-border-bottom-right-radius:12px;-moz-border-bottom-right-radius:12px;border-bottom-right-radius:12px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;padding-top:2px;padding-left:12px;font-size:0;color:white;width:40%;height:100%;float:left;background-repeat:no-repeat}.LobiMasaListeNick{width:100%;text-overflow:ellipsis;overflow:hidden;text-align:center;color:white;cursor:pointer;cursor:hand}.LobiMasaListeOrtaDiv{width:100%;height:34%;table-layout:fixed}.LobiMasaListeIzleDiv{width:20%;text-align:center}.LobiMasaListeOrtaDiv td{vertical-align:middle;text-align:center}#LobiMasaListeIzleButon{margin:0 auto;cursor:pointer;cursor:hand}#LobiMasaListeBilgiMasaNoStr,#LobiMasaListeBilgiOzelIcon{float:left;display:inline-block;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;text-overflow:ellipsis;overflow:hidden;margin-top:2px;text-align:left;    position: absolute;}.LobiMasaListeBilgiDiv{display:inline-block}.LobiMasaListeBilgi{float:left;display:inline-block;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;text-overflow:ellipsis;overflow:hidden;text-align:left}#LobiMasaUstNick,#LobiMasaSolNick,#LobiMasaSagNick,#LobiMasaAltNick{display:inline-block}#LobiMasaUstNickID,#LobiMasaSolNickID,#LobiMasaSagNickID,#LobiMasaAltNickID{white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;max-width:100%;width:100%;text-overflow:ellipsis;overflow:hidden}#LobiMasaUstNickImg,#LobiMasaSolNickImg,#LobiMasaSagNickImg,#LobiMasaAltNickImg{display:inline-block;margin:0 auto}#LobiMasaUstDiv{width:100%;height:33%;table-layout:fixed;text-align:center;cursor:pointer;cursor:hand}#LobiMasaSolDiv{width:40%;text-align:center}#LobiMasaSagDiv{width:40%;text-align:center}#LobiMasaAltDiv{width:100%;height:33%;table-layout:fixed;cursor:pointer;cursor:hand;text-align:center}#LobiMasaUstDiv td,#LobiMasaAltDiv td{vertical-align:middle;text-align:center}.OzelSolAna{height:100%;width:70%;float:left;font-size:0}.OzelSagAna{height:100%;width:30%;float:left;font-size:0;background-color:#fff}.OzelArkaPanelYaziGorun{position:relative;width:100%;height:100%}.OzelMesajContainer{background-color:#f6fcff !important;height:100%;width:100%}.YaziAlaniOzel{width:100%;float:left;height:100%}#YaziKutusuOzel{display:inline-block;font-size:0}#OzelYaziTahtasi{background-repeat:no-repeat;background-position:right top;left:10px;top:10px;width:100%;height:100%;overflow-x:hidden;overflow-y:visible;border:0;padding:5px;border:1px solid #969696 !important;-khtml-border-radius:5px !important;-webkit-border-radius:5px !important;-moz-border-radius:5px !important;border-radius:5px !important}.profilSagTD{float:left;text-align:left;max-height:15px;overflow:hidden;width:100px;text-overflow:ellipsis;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}.OzelProfil{text-align:center;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQYV2P8+O7d/w/v3jEICAkxwGjGh3fu/GdAA4yUqQQAGp0kmgX5B1QAAAAASUVORK5CYII=) repeat !important;border:4px solid #c8b1a6 !important;-khtml-border-radius:12px !important;-webkit-border-radius:12px !important;-moz-border-radius:12px !important;border-radius:12px !important;width:100%;height:100%;padding:5px;float:left;overflow:hidden}.OzelProfil table tr{border-bottom:1px solid #626262}.OzelProfil table tr td{padding:1px 5px 9px 5px !important;vertical-align:top;color:#303030}.OzelProfil table tr td div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-bottom:2px;float:left}#OzelAvatarDiv{table-layout:fixed}.OzelAvatarImgDiv{-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;width:14vw;height:14vw;text-align:center;padding:0;margin:0 auto;margin-top:5px;margin-bottom:10px;cursor:pointer;cursor:hand}#OzelAvatarImg{width:100%;height:100%;border:2px double #f6fcff;-khtml-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}#MasaIcerikDiv{font-size:0;position:relative;width:100%;height:100%}.MasaStickerPanel #MasaButonMobilInfo,.MasaStickerPanel #MasaButonSikayet{float:left;margin-left:2px}.MasaStickerPanel #MasaButonOyunBitir{position:absolute;left:100%;margin-left:2px;top:0}.MasaStickerPanelBtn{position:absolute;z-index:191;top:5px;right:0;white-space:nowrap;display:inline-block;color:white}.MasaStickerPanelInfo{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;display:inline-block;white-space:nowrap;word-wrap:break-word;float:left;color:#fff;background:#be1d2d;margin-right:2px;padding:5px}.MasaStickerPanelAlt{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;display:inline-block;word-wrap:break-word;white-space:nowrap;color:#fff}.SkyMobilButonGoster{display:inline-block}#MasaAyarlarDiv{float:left}#MasaAyarlarDiv2{float:left}.MasaNickOrtak{display:inline-block;margin:0 auto;overflow:hidden}.MasaNickOrtak #MasaResimDiv{float:left}.MasaNickOrtak #MasaResimDiv #MasaResimImg{-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;vertical-align:middle;border:2px solid #f5f5f5;height:4vw;width:4vw;min-width:25px;min-height:25px;max-width:64px;max-height:64px}.MasaNickOrtak #MasaNickDiv{overflow:hidden;text-align:left;color:#fff;word-break:break-all;white-space:nowrap}.MasaNickOrtak #MasaButonBotArti,.MasaNickOrtak #MasaButonBotEksi{color:#000;overflow:hidden;white-space:nowrap}.MasaNickOrtak .MasaNickDivTable{width:100%;height:100%}.MasaNickOrtak .MasaNickStrDis,.MasaNickOrtak .MasaBotButonStrDis{display:inline-block;width:100%}.MasaNickOrtak .MasaBotButonBg{display:inline-block;-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.MasaNickYatay .MasaNickClear1,body.SkyEkranYatay .MasaNickDikey .MasaNickClear1,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickClear1{display:none}.MasaNickYatay .MasaNickClear2,body.SkyEkranYatay .MasaNickDikey .MasaNickClear2,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickClear2{clear:both}.MasaNickYatay,body.SkyEkranYatay .MasaNickDikey,body:not(.SkyGenelWH500) .MasaNickDikey{padding:4px;padding-left:5px}.MasaNickYatay #MasaNickDiv,body.SkyEkranYatay .MasaNickDikey #MasaNickDiv,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickStrDis,body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonStrDis{float:left;width:100%;padding-left:5px}.MasaNickYatay .MasaNickStrDis,body.SkyEkranYatay .MasaNickDikey .MasaNickStrDis,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickStrDis,.MasaNickYatay .MasaBotButonStrDis,body.SkyEkranYatay .MasaNickDikey .MasaBotButonStrDis,body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonStrDis,.MasaNickYatay .MasaBotButonBg,body.SkyEkranYatay .MasaNickDikey .MasaBotButonBg,body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonBg{text-align:left}.MasaNickYatay #MasaButonBotArti,.MasaNickYatay #MasaButonBotEksi,body.SkyEkranYatay .MasaNickDikey #MasaButonBotArti,body.SkyEkranYatay .MasaNickDikey #MasaButonBotEksi,body:not(.SkyGenelWH500) .MasaNickDikey #MasaButonBotArti,body:not(.SkyGenelWH500) .MasaNickDikey #MasaButonBotEksi,.butonBotYatay{padding:1px 6px 4px 6px}.MasaNickYatay .MasaBotButonBg,body.SkyEkranYatay .MasaNickDikey .MasaBotButonBg,body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonBg{margin-left:5px}.MasaNickYatay .MasaNickDivDis,body.SkyEkranYatay .MasaNickDikey .MasaNickDivDis,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivDis{height:4vw;min-height:25px;max-height:64px;overflow:hidden}.MasaNickYatay .MasaNickDivTd,body.SkyEkranYatay .MasaNickDikey .MasaNickDivTd,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivTd{vertical-align:middle}.MasaNickYatay .MasaNickDivTable,body.SkyEkranYatay .MasaNickDikey .MasaNickDivTable,body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivTable{table-layout:fixed}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey{padding:4px}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaNickDiv{display:inline-block;padding-top:5px;padding-bottom:5px;-ms-writing-mode:tb-rl;-khtml-writing-mode:tb-rl;-webkit-writing-mode:tb-rl;-moz-writing-mode:tb-rl;writing-mode:tb-rl}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickStrDis,body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonStrDis,body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonBg{text-align:center;max-width:64px;width:100%}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotArti,body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotEksi,body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaNickDiv{display:inline-block;margin:0 auto}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotArti,body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotEksi{-ms-writing-mode:tb-rl;-khtml-writing-mode:tb-rl;-webkit-writing-mode:tb-rl;-moz-writing-mode:tb-rl;writing-mode:tb-rl;padding:6px 2px 4px 2px}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonStrDis{margin-top:5px;margin-bottom:5px}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaResimDiv{width:100%;text-align:center}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickClear1{clear:both}body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickClear2{display:none}.MasaNickSagDis,.MasaNickSolDis,.MasaNickUstDis,.MasaNickAltDis{display:inline-block;position:relative}.MasaNickSagDis .MasaMobilSohbet{right:0;top:0}.MasaNickSolDis .MasaMobilSohbet{left:0;top:0}.MasaNickUstDis .MasaMobilSohbet,.MasaNickAltDis .MasaMobilSohbet{left:0;top:50%}#MasaNickAlt{margin-top:10px}.MasaMobilSohbet{border-radius:4px;padding:4px;display:inline-block;position:absolute;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background-color:white;max-width:120px;background-size:20px 20px;background-repeat:no-repeat;background-position:left 2px center;padding-left:24px;font-weight:bold;vertical-align:middle;color:black}.MasaMobilSohbet>img{margin-bottom:-3px}.MasaMobilSohbetIzl{right:0;left:auto;max-width:140px;text-align:right}#MasaDivZamanliMesajDis{visibility:hidden;display:inline-block;max-width:100%;position:absolute;z-index:192;top:0;left:50%;transform:translateX(-50%);text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer;cursor:hand}#MasaDivZamanliMesaj{display:inline-block;background-color:rgba(0,0,0,0.7);color:#fff;font-weight:bold;padding-top:5px;padding-bottom:5px;padding-left:10px;padding-right:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;min-width:40%;-khtml-border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.MasaMesajContainer{width:75%;height:100%;float:left;position:relative;background-color:#f6fcff !important}.MasaArkaPanelYaziGorun{width:100%;height:100%;position:relative}#MasaYaziTahtasi{padding:5px;border:1px solid #969696 !important;-khtml-border-radius:5px !important;-webkit-border-radius:5px !important;-moz-border-radius:5px !important;border-radius:5px !important}.MasaNickContainer{width:25%;height:100%;float:left;padding:3px;overflow-x:hidden;overflow-y:visible;border:4px solid #c8b1a6 !important;-khtml-border-radius:12px !important;-webkit-border-radius:12px !important;-moz-border-radius:12px !important;border-radius:12px !important}#MasaNickler{width:100%;vertical-align:top;overflow:hidden}.Yazilar{width:100%;display:inline-block;word-wrap:break-word !important;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;padding:0}.Yazilar .yaziic{word-break:break-all;word-wrap:break-word;font-weight:bold}.YazilarNck,.YazilarNckGirisi,.YazilarNckMasa{cursor:pointer;cursor:hand}.Yazilar .yaziic.YazilarNckGirisi,.Yazilar .yaziic.YazilarNckMasa{font-weight:normal}.YazilarIsmarlaHnd{cursor:pointer;cursor:hand}.Yazilar img{vertical-align:baseline;border:0 solid transparent;margin-bottom:-3px}.adminDis{text-align:left;display:inline-block;float:left;width:50%}.adminDisX{width:100%}.iw-contextMenu li.FontMenuHdr.iw-mDisable{opacity:.6;font-weight:bold}.iw-contextMenu li.FontMenuHdr.iw-mDisable .iw-mOverlay{opacity:.2}#textnickrenk *,#textnickrenkx1 *,#textnickrenkx2 *,#textnickrenky0 *,#textnickrenky1 *,#textyazirenk *,#textyazirenkx1 *,#textyazirenkx2 *,#textyazirenky0 *,#textyazirenky1 *{animation:auto !important;-webkit-animation:auto !important;-moz-animation:auto !important;-ms-animation:auto !important;-o-animation:auto !important;animation:none !important;-webkit-animation:none !important;-moz-animation:none !important;-ms-animation:none !important;-o-animation:none !important}.IsmarlaYazi{display:inline-block;float:left;width:100%}.IsmarlaYazi>img{float:left;height:6vw;width:6vw;min-width:20px;min-height:20px;max-width:54px;max-height:54px;display:inline-block;float:left;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}.IsmarlaYazi div{display:inline-block;float:left;height:auto}.tabSiradanVeri #TabBaslik{color:#33a8f2 !important}.tabYeniVeri #TabBaslik{color:#f00 !important}.tabBizimVeri #TabBaslik{color:#0f0 !important}.tabAktif{background:#5b5b5b}.tabButon{background:#0b0b0b}.tabButon #TabBaslik{display:inline-block;float:left;margin-left:5px;padding-top:5px;padding-bottom:5px}.tabButon .TabBaslikDis{table-layout:fixed}.tabButon .TabBaslikDis,.tabButon .TabBaslikDis td,.tabButon .TabBaslikDis tr{height:100%}.tabButon .TabBaslikDis td{vertical-align:middle}.tabButon:hover{background:#434242}.tabAktif,.tabButon:active{background:#5b5b5b}.tabButonOrtak{-webkit-border-top-left-radius:10px;-moz-border-top-left-radius:10px;border-top-left-radius:10px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;cursor:pointer;cursor:hand;position:relative;color:#fff;display:inline-block;margin-right:1px;white-space:nowrap;text-decoration:none;height:100%}.tabButonOrtakNC{padding-right:6px}.tabKapat{cursor:pointer;cursor:hand;margin-left:5px;float:right;padding-top:5px;padding-bottom:5px}.tabKapat:hover{cursor:pointer;cursor:hand;color:#000}.tabKapat td{vertical-align:middle}.tabButonEksi>div{text-align:center}.tabButonEksi{background:#0b0b0b;float:left;-webkit-border-top-left-radius:10px;-moz-border-top-left-radius:10px;border-top-left-radius:10px}.tabButonEksi:hover{background:#434242}.tabButonEksi:active{background:#5b5b5b}.tabButonOrtakAE{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;cursor:pointer;cursor:hand;color:#fff;width:20px;height:100%;display:inline-block;margin-right:1px;text-decoration:none;padding-top:5px;padding-bottom:5px}.tabButonArti>div{text-align:center}.tabButonArti{background:#0b0b0b;float:right;-webkit-border-top-right-radius:10px;-moz-border-top-right-radius:10px;border-top-right-radius:10px}.tabButonArti:hover{background:#434242}.tabButonArti:active{background:#5b5b5b}.SDlgYalitim{position:absolute;top:0;bottom:0;left:0;right:0;background:#aaa;opacity:.4}.SDlgOrtak{position:absolute;width:100%;height:100%;max-height:100%;overflow:auto;top:0;left:0}.SDlgOrtak>table{width:100%;height:100%;table-layout:fixed}.SDlgOrtak td{width:100%;height:100%;vertical-align:middle;text-align:center}.SDlgOrtakIc{border-radius:4px;width:45vw;min-width:310px;max-width:500px;word-break:break-word;display:inline-block;padding:5px;-webkit-box-shadow:rgba(0,0,0,0.75) 5px 5px 5px 0px;-moz-box-shadow:rgba(0,0,0,0.75) 5px 5px 5px 0px;box-shadow:rgba(0,0,0,0.75) 5px 5px 5px 0px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-khtml-border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;vertical-align:top}.SDlgOrtak #DlgButonKapat{float:right;display:inline-block}.SDlgOrtak #DlgButonYardim{float:right;display:inline-block;margin-right:4px}.SDlgOrtak #DlgBaslikKapla{float:left;display:inline-block;width:100%}.SDlgOrtak #DlgIcerikDiv{width:100%;padding-top:5px;padding-left:4px;padding-right:5px;display:inline-block;float:left;word-wrap:break-word;color:#fff}.SDlgOrtak #DlgBaslikStr{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;text-align:left;padding-left:10px;width:auto;font-weight:bold}.SDlgOrtak #DlgButonlarDiv{display:inline-block;padding-bottom:10px;padding-right:10px;float:right;width:auto;padding-top:10px}.SDlgOrtak2{position:absolute;display:inline-block;width:auto;height:auto}.SDlgOrtak2>table{width:auto;height:auto}.SDlgOrtak .FormAyarLbl{margin-bottom:5px}.SDlgYesil{background-color:#55bc00 !important}.SDlgKirmizi{background-color:#ba0000 !important}.SDlgMavi{background-color:#008ddf !important}.SDlgBeyaz #DlgIcerikDiv{color:#000}.SDlgBeyaz{color:#000;background-color:#fff !important}#DialogHakkinda #DlgBaslikStr{color:white}#DialogHakkinda #DlgIcerikDiv{color:white}#DialogHakkinda table td{text-align:center}#DialogHakkinda a,#DialogHakkinda a:hover,#DialogHakkinda a:active{text-decoration:none;color:blue;outline:0;pointer-events:auto !important}#DialogHakkinda .ozel{color:black}#DialogHakkinda .version{color:darkgreen}#DialogAdminYardim iframe{width:100%;height:50vh;max-height:410px;min-height:240px;border:none !important}#DialogAdminYardim #DlgBaslikStr{color:white}#DialogAdminYardim #DlgIcerikDiv{color:white}#DialogAdminYardim table td{text-align:center}#DialogProfilim #DlgIcerikDiv{color:#000}#DialogInput .SDlgOrtakIc,#DialogOnay .SDlgOrtakIc,#DialogExtra .SDlgOrtakIc,#DialogUyari .SDlgOrtakIc,#DialogInputSureli #DlgIcerikDiv,#DialogOnay #DlgIcerikDiv{text-align:left}#DialogInput #DlgIcerikDiv,#DialogOnay #DlgIcerikDiv,#DialogUyari #DlgIcerikDiv,#DialogInputSureli #DlgIcerikDiv,#DialogOnay #DlgIcerikDiv,#DialogGoldYetki #DlgIcerikDiv,#DialogGoldYetkiSureli #DlgIcerikDiv{padding:10px}#DialogInput #DlgIcerikDiv #DlgInputDiv{padding-bottom:6px}#DialogExtra .SDlgOrtakIc{overflow:hidden}#DialogExtra iframe{width:100%;height:50vh;max-height:410px;min-height:240px;border:none !important}#DialogExtra #OzelAvatarImg{width:200px;height:200px;-khtml-border-radius:unset;-khtml-border-radius:0;-webkit-border-radius:unset;-webkit-border-radius:0;-moz-border-radius:unset;-moz-border-radius:0;border-radius:unset;border-radius:0}#DialogExtra #DlgIcerikDiv{text-align:center}#DialogProfilim .SDlgOrtakIc{min-width:350px}#DialogProfilim .menuDiv{border:1px solid #62d900;padding:10px 4px}#DialogProfilim #DlgSayfaAvatarIslem img{outline:0;pointer-events:auto !important}#DialogProfilim #DlgSayfaKisiselBilgiler,#DialogProfilim #DlgSayfaSifreIslem,#DialogProfilim #DlgSayfaAvatarIslem{border:1px solid #62d900;display:inline-block;padding:4px;width:100%}#DialogProfilim #DlgSayfaAvatarIslem{text-align:center;padding:10px}.mevcutSifreDiv{border:1px solid #62d900;padding:4px}#MasaBanNickContainer #ozellikler,#EngelNickContainer #ozellikler{cursor:pointer;cursor:hand;padding:5px}#MasaBanNickContainer #Nickler,#EngelNickContainer #Nickler{width:100%;height:100%;vertical-align:top;overflow:hidden}#MasaBanNickContainer,#EngelNickContainer,#DavetNickContainer{width:100%;height:50vh;min-height:130px;max-height:310px;overflow-x:hidden;overflow-y:visible;-khtml-border-radius:8px !important;-webkit-border-radius:8px !important;-moz-border-radius:8px !important;border-radius:8px !important;background-color:#049dd4;display:inline-block;border:4px solid #8c1111 !important}#MasaBanNickContainer{border:4px solid #117fb1 !important}#EngelNickContainer{border:4px solid #8c1111 !important;background-color:#da3232}#EngelFiltreTemizleButon{display:inline-block;float:right;margin-left:2px}#DavetNickContainer{border:4px solid #c8b1a6 !important;background-color:#fff}#DialogMasaBan .SDlgOrtakIc{text-align:left}#DialogMasaBan .SeciliNick{background-color:#0739a0;color:#fff}#DialogMasaBan .SeciliNick:hover{background-color:#1b5fec;color:#fff}#DialogMasaBan .SeciliNick .LobiNickListeNickStr{color:#fff !important}#DialogEngeller .SDlgOrtakIc{text-align:left}#DialogEngeller .SeciliNick{background-color:#901111;color:#fff}#DialogEngeller .SeciliNick:hover{background-color:#ff0909;color:#fff}#DialogEngeller .SeciliNick .LobiNickListeNickStr{color:#fff !important}#DialogAyarlarim #DlgIcerikDiv{color:#000}#DialogAyarlarim .SDlgOrtakIc{max-width:350px;text-align:left}#DialogAyarlarim label{font-weight:bold}#DialogIsmarlaNick #DlgIcerikStr2>div{display:inline-block;margin-top:5px}#DialogIsmarlaNick .SDlgOrtakIc{display:inline-block;width:auto;width:unset;min-width:220px;max-width:100%;padding-left:20px;padding-right:20px}#DialogIsmarlaNick .SDlgOrtakIc #DlgButonlarDiv{padding-right:0}#DialogIsmarlaNick .SDlgOrtakIc #DlgBaslikStr{padding-right:10px}#DialogNickLobiTekTik .SDlgOrtakIc #DlgIcerikStr .butonText,#DialogNickMasaTekTik .SDlgOrtakIc #DlgIcerikStr .butonText{width:100%;padding:10px;margin-bottom:3px}#DialogGenelYardim iframe{width:100%;height:50vh;max-height:410px;min-height:240px;border:none !important}#DialogGenelYardim #DlgBaslikStr{color:white}#DialogGenelYardim #DlgIcerikDiv{color:white}#DialogGenelYardim table td{text-align:center}#PencereAna{float:left;width:100%;height:100%;overflow:hidden;position:relative}.AnaUstPanel{width:100%;float:left;overflow:hidden;background-color:#000;background-color:-o-linear-gradient(top,#000 0%,#000 40%,#333 100%);background-color:-moz-linear-gradient(top,#000 0%,#000 40%,#333 100%);background-color:-webkit-linear-gradient(top,#000 0%,#000 40%,#333 100%);background-color:linear-gradient(to bottom,#000 0%,#000 40%,#333 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#333333',GradientType=0)}.AnaUstPanelHG{height:100%;text-align:center;overflow:hidden;display:inline-block;float:left;font-weight:bold}.AnaUstHGExt{height:100%;text-align:center;overflow:hidden;display:inline-block;margin-left:4px;padding-right:4px;float:left;font-weight:bold}.AnaAvatarDivAsagiOk{display:none;width:10px;height:10px;position:absolute;bottom:0;right:0}.AnaAvatarDiv{text-align:left;float:left;position:relative;display:inline-block;padding:2px}#AnaAvatarImg{text-align:left;width:100%;height:100%;-khtml-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;overflow:hidden}.AnaUstYazi{height:100%;text-overflow:ellipsis;overflow:hidden;table-layout:fixed;float:left;text-align:left}.AnaUstYazi td{vertical-align:middle}.AnaHosGldDiv,#AnaNickDiv,#AnaPingDiv{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;word-break:break-word;color:#fff;float:left;max-width:100px}.AnaUstPanelButonDis{height:100%;float:left}.AnaUstPanelButonDis td,.AnaUstPanelButonDis tr{height:100%}.AnaUstPanelButonDis td{vertical-align:middle;text-align:center}.AnaKullSayisi{height:100%;margin-left:5px;margin-right:5px;float:left;color:white}.AnaKullSayisi td,.AnaKullSayisi tr{height:100%}.AnaKullSayisi td{vertical-align:middle;text-align:center}#AnaToplamDiv{padding-top:5px;padding-bottom:5px;padding-left:15px;padding-right:15px;float:left;text-align:center;background:#ef7f1a;color:white;-khtml-border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}.AnaUstPanelExt{display:inline-block;float:right;overflow:hidden;white-space:nowrap;padding-right:5px;height:100%;color:white}.AnaUstPanelExtPos{z-index:201;background-color:black;padding:10px;position:absolute;height:auto;right:0}.AnaUstPanelExtPos>div{clear:both;margin-bottom:10px;margin-right:0 !important}.AnaUstPanelExtPos>div:last-child{margin-bottom:0}#AnaUstPanelExtButon{position:relative}.AnaUstPanelButonOkAlt{display:none;position:absolute;bottom:0;margin-left:-8px !important;left:50%;width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:8px solid white}.SkyPanelAktifButon>.AnaUstPanelButonOkAlt{display:block}.AnaTabPanel{white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;float:left;background:#272727;display:inline-block;width:100%;overflow:hidden}.AnaTabPanel>.tabEksi{height:100%;display:inline-block;float:left}.AnaTabPanel>.tabArti{height:100%;display:inline-block;float:right}.AnaTabPanel>.tabAna{height:100%;padding-left:1px;padding-right:2px;display:block;overflow:hidden;white-space:nowrap}.AnaTablarGrup{font-size:0;height:100%;text-align:left;vertical-align:top;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap;display:inline-block}#AnaTablarScroll{height:100%;overflow:hidden}.AnaAltPanel{width:100%;float:left;overflow:hidden;min-width:250px}#AnaTabIcerikDiv{width:100%;height:100%;float:left;background:#f9f9f9}.OdaTekil{cursor:pointer;cursor:hand;width:100%;float:left;padding:5px;border:2px solid #bdc1c0}.OdaTekil:hover,.OdaTekil:active{background-color:yellow}.OdaBaslik{width:100%;float:left;padding:2px;background-color:#fff;border:0;color:#7390ec}.AdminPencere{width:100%;height:100%;font-size:0}#AdminUstKisim,.AdminUstKisim{width:100%;display:inline-block;overflow:hidden;font-size:0}#AdminAltKisim{width:100%;display:inline-block;font-size:0;overflow:hidden;overflow-y:auto}.AdminLogPencere{width:100%;height:100%;font-size:0}#AdminLogUstKisim,.AdminLogUstYaziKisim{width:100%;overflow:hidden;font-size:0}.AdminLogUstYaziKisim #adminLogBaslik{width:100%;display:inline-block}#AdminLogAltKisim,.AdminLogAltYaziKisim{width:100%;overflow:hidden;font-size:0;padding:5px}.AdminLogAltYaziKisim{display:inline-block;overflow-x:hidden;overflow-y:scroll;float:left;padding:0}.AdminLogBtn{height:100%;overflow:hidden;white-space:nowrap}.OkeySkorMax{width:100%;height:100%;overflow-y:auto;overflow-x:hidden}.OkeySkorTablo{text-align:center;width:100%;table-layout:fixed;height:auto !important}.OkeySkorTablo tr{text-align:center;width:100%}.OkeySkorTablo td{text-align:center;border:1px solid #dcdcdc;width:50px;max-width:50px;overflow:hidden;white-space:nowrap;padding:2px 0}body.BaseOkey #MasaIcerikDiv{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAL0lEQVQYV2NksVL+z4AE/vz4wcCILAgSYOHgQAjCBECawCqRBcCCDEbS/0FakAEAdKcS0pX5YUkAAAAASUVORK5CYII=) repeat}body.BaseOkey .AnaUstPanelHG{background:#063}.OkeyTaslar{-webkit-tap-highlight-color:rgba(0,0,0,0);padding:0;cursor:pointer;cursor:hand}.OkeyTasAlaniCerceve{-webkit-tap-highlight-color:rgba(0,0,0,0);cursor:pointer;cursor:hand;float:left}.OkeyTasBoyutu{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.OkeyTaslarBos{cursor:pointer;cursor:hand;padding:0;background:rgba(0,0,0,0.0)}.OkeyTaslarCerceve{-webkit-tap-highlight-color:rgba(0,0,0,0);display:inline-block;padding:0;margin:3px 0 0 0;background:rgba(0,0,0,0)}.OkeySeciliTas{-webkit-box-shadow:#ff0 0px 0px 4px 2px inset;-moz-box-shadow:#ff0 0px 0px 4px 2px inset;box-shadow:#ff0 0px 0px 4px 2px inset;border-radius:4px}.OkeyTekTikSecili{-webkit-box-shadow:#f00 0px 0px 4px 2px inset;-moz-box-shadow:#f00 0px 0px 4px 2px inset;box-shadow:#f00 0px 0px 4px 2px inset;border-radius:4px}#OkeyTasAlaniAl{display:inline-block;padding:0;cursor:pointer;cursor:hand;margin:0;background:rgba(0,0,0,0);float:left}.OkeyTasAlaniIc{text-align:center;width:100%;height:100%}.OkeyOrtaTaslar{position:relative;padding:6px;-khtml-border-radius:12px !important;-webkit-border-radius:12px !important;-moz-border-radius:12px !important;border-radius:12px !important;display:inline-block;margin:0 auto}#OkeyTasAlaniGosterge{display:inline-block;padding:0;cursor:pointer;cursor:hand;background:rgba(0,0,0,0);float:left}#OkeyTasAlaniCek{display:inline-block;padding:0;cursor:pointer;cursor:hand;background:rgba(0,0,0,0);float:left}#OkeyTasAlaniCek #OkeyTasSay{color:red}#OkeyTasAlaniCek table,#OkeyTasAlaniCek td{width:100%;height:100%}#OkeyTasAlaniCek td{text-align:center;vertical-align:middle}#OkeyTasAlaniAt{display:inline-block;padding:1px;cursor:pointer;cursor:hand;background:rgba(0,0,0,0);float:left}.OkeyTasAlaniAl1Dis,.OkeyTasAlaniAl2Dis,.OkeyTasAlaniAlDis,.OkeyTasAlaniAtDis{display:inline-block;float:unset;float:none}#OkeyIstakaDiv{display:inline-block;margin:0 auto}#OkeyIstakaDiv #OkeyIstakaYaziStr{position:absolute;top:0;left:0;right:0;bottom:0;color:#043a23;text-align:center;font-weight:bold}#OkeyIstakaDiv #OkeyIstakaYaziStr #YaziStr{display:inline-block}#OkeyIstakaDiv #OkeyIstakaYaziStr table{width:100%;height:100%}#OkeyIstakaDiv #OkeyIstakaYaziStr table tr{width:100%;height:50%}#OkeyIstakaDiv #OkeyIstakaYaziStr table td{width:100%;vertical-align:middle;text-align:center}#OkeyIstakaOrtaDiv{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);table-layout:fixed;display:inline-block;padding:0;margin:0;float:left;cursor:pointer;cursor:hand}#OkeyIstakaSolDiv{width:13px;min-width:13px;max-width:13px;height:100%;padding:0;cursor:pointer;cursor:hand}#OkeyIstakaOrtaKisim{position:relative;float:left;display:inline-block}#OkeyIstakaOrtaKisim>#OkeyIstakaUstSira{float:left;display:inline-block;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}#OkeyIstakaOrtaKisim>#OkeyIstakaAltSira{float:left;display:inline-block;white-space:nowrap;white-space:-moz-nowrap;white-space:-nowrap;white-space:-o-nowrap}#OkeyIstakaAltDiv{width:100%;height:10px;min-height:10px;max-height:10px;padding:0;margin:0;float:left;cursor:pointer;cursor:hand;clear:both}#OkeyIstakaSagDiv{width:13px;min-width:13px;max-width:13px;height:100%;padding:0;margin:0;cursor:pointer;cursor:hand}.MasaOkeyUst{height:45%}.MasaOkeyOrta{height:25%}.MasaOkeyAlt{height:30%;background:white;border-top-right-radius:12px;border-top-left-radius:12px}body.BaseOkey .MasaNickContainer{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQYV2P8+O7d/w/v3jEICAkxwGjGh3fu/GdAA4yUqQQAGp0kmgX5B1QAAAAASUVORK5CYII=) repeat !important}.MasaOkeyNickClass{width:20vw;max-width:250px;min-width:90px;display:inline-block;padding:4px;margin:0 auto}.MasaOkeyNickClass #MasaNickDiv{float:left;text-overflow:ellipsis;overflow:hidden;text-align:left;width:100%;margin-left:3px;color:#fff;padding-left:3px}.MasaOkeyNickClass #MasaResimDiv{position:relative;float:left}.MasaOkeyNickClass #MasaResimDiv #MasaResimImg{-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;vertical-align:middle;border:2px solid #f5f5f5;height:4vw;width:4vw;min-width:20px;min-height:20px;max-width:64px;max-height:64px}body.BaseOkey #MasaButonTasGeriBirak{display:inline-block;position:absolute;top:0;right:100%;margin-top:6px;margin-right:2px}body.BaseOkey #MasaDivZamanliMesaj{-webkit-box-shadow:inset 0 0 0 2px red;-moz-box-shadow:inset 0 0 0 2px red;box-shadow:inset 0 0 0 2px red}body.BaseOkey #MasaGeriSayimDiv{display:inline-block;position:absolute;top:0;left:100%;padding-top:6px;padding-left:6px}body.BaseOkey .MasaGeriSayimDivIc{display:inline-block;background:#2196f3;border:3px solid #101b54;-khtml-border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px}body.BaseOkey #MasaGeriSayimCnv{display:block}body.BaseOkey .MasaStickerPanel{position:absolute;z-index:191;top:5px;left:5px;white-space:nowrap;display:inline-block;color:white}body.BaseOkey .MasaStickerPanelAlt{position:absolute;bottom:0;left:100%;width:auto;margin-top:3px}body.BaseOkey .LobiMasaListe1{border-top:4px solid #00361b;border-bottom:4px solid #00361b;border-left:4px solid #00361b;border-right:thick double #00361b;background:#063}body.BaseOkey .LobiMasaListe2{border-top:4px solid #00361b;border-bottom:4px solid #00361b;border-left:0;border-right:4px solid #00361b;background:#063}body.BaseOkey #DialogGenelYardim iframe{height:20vh;max-height:410px;min-height:230px}#DialogOkeyAcilanEl #DlgIcerikDiv{text-align:center;padding:10px}#DialogOkeyAcilanEl #DlgAcilanStr{padding-bottom:5px;float:left}#DialogOkeyAcilanEl .SDlgOrtakIc{max-width:90%;width:auto}#DialogOkeySkor .SDlgOrtakIc{height:60vh;max-height:400px;min-height:200px;overflow:hidden}#DialogOkeySkor #DlgBaslikKapla{padding-bottom:4px}#DialogOkeySkor #DlgSkorAna{display:inline-block;width:100%;height:100%}#DialogOkeySkor #DlgIcerikDiv{width:100%;height:100%;padding:0;overflow:hidden}#DialogOkeyMasaAyar .SDlgOrtakIc{min-width:250px;max-width:300px;text-align:left}#DialogOkeyMasaFiltre #DlgIcerikDiv{color:#000}#DialogOkeyMasaFiltre .SDlgOrtakIc{max-width:350px;text-align:left}#DialogOkeyMasaFiltre label{font-weight:bold}#DialogOkeyYeniMasa #DlgIcerikDiv{color:#000}#DialogOkeyYeniMasa label{font-weight:bold}#DialogOkeyYeniMasa .SDlgOrtakIc{min-width:250px;max-width:300px;text-align:left}#DialogOkeyMasaFiltre #DlgIcerikDiv{color:#000}#DialogOkeyYeniMasa label,#DialogOkeyMasaFiltre label{font-weight:bold}.OkeyMasaButonBot{padding:1px 6px 4px 6px;margin-left:5px;color:#000}.OkeyMasaButonIslev{display:inline-block;float:left;margin-right:5px !important}.SkyHand{cursor:pointer;cursor:hand;display:inline-block;font-weight:bold}.SkyHand>select,.SkyHand>input{cursor:pointer;cursor:hand}.SkyHand img{border:2px solid #f5f5f5;-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.zIndex10{z-index:110}.zIndex11{z-index:111}.zIndex20{z-index:120}.zIndex30{z-index:130}.zIndex40{z-index:140}.zIndex50{z-index:150}.zIndex60{z-index:160}.zIndex70{z-index:170}.zIndex80{z-index:180}.zIndex90{z-index:190}.zIndex100{z-index:200}.DivFltL{float:left}.DivFltR{float:right}.SabitSagUst{position:absolute;right:2px;top:2px;opacity:.5}.SabitSolUst5x5{position:absolute;top:5px;left:5px}.SabitSagAlt{position:absolute;bottom:100%;right:0}.Gizli{display:none !important}.LobiNickListYukari{height:100% !important}.Tiklanabilir{pointer-events:auto !important}.Secilebilir,.Secilebilir *{-webkit-touch-callout:default;-webkit-user-select:text !important;-khtml-user-select:text !important;-moz-user-select:text !important;-ms-user-select:text !important;-o-user-select:text !important;-user-select:text !important}.SeciliNick{background-color:#076161;color:#fff;-khtml-border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.SeciliNick:hover{background-color:#036;color:#fff}.SeciliNick .LobiNickListeNickStr{color:#fff !important}.SmileyClassIc{display:inline-block;cursor:pointer;cursor:hand;border:1px solid #e9ecf3;float:left}.IsmarlaClassIc{display:inline-block;cursor:pointer;cursor:hand;border:1px solid #e9ecf3;float:left}#IsmarlaMenu{width:100%}.SmileyClassBoyut{width:25px;height:25px;cursor:pointer;cursor:hand}.SmileyClass{background-color:white !important;border:1px solid #cecbcb !important;display:inline-block;overflow:hidden;overflow-y:auto;z-index:190}.SmileyClass img{cursor:pointer;cursor:hand;display:block;width:100%;height:100%;padding:2px;margin:0;background-color:#FFF}.FontHG,.FontK,.FontO,.FontB,.FontOto{-webkit-text-size-adjust:none}.RenkOyunTeknik{color:#b10c32}.RenkOyunYapimci{color:#b10c32}.RenkAdminKayitAktifLog{background-color:#faebd7;color:#228b22;text-shadow:0 0 0 #000,0px 0px 0px #000}.RenkAdminAvatarAktifLog{background-color:#faebd7;color:#228b22;text-shadow:0 0 0 #000,0px 0px 0px #000}.RenkAdminSuresiGecenHdr{background-color:#faebd7;color:#ec1515;text-shadow:0 0 0 #000,0px 0px 0px #000}.RenkAdminSuresiGecenStr{background-color:#faebd7;color:#943535;text-shadow:0 0 0 #000,0px 0px 0px #000}body.SkyGenelWH500 .MasaOkeyUst{height:65%}body.SkyGenelWH500 .MasaOkeyOrta{height:35%}body.SkyIlkPC.SkyGenelWH500 .MasaOkeyAlt{position:absolute;height:auto;bottom:0;left:0;z-index:200}body.SkyIlkMobil.SkyGenelWH500 .MasaOkeyAlt{width:0;height:0}body.SkyGenelH800 .MasaOkeyNickClass #MasaResimDiv{margin:0}body.SkyGenelH400 .MasaOkeyNickClass #MasaResimDiv{margin:0}@media screen and (max-width:200px),screen and (max-height:200px){body.SkyIlkPC .MasaOkeyAlt{position:static !important}}input[type="text"],input[type="password"],button,select{height:34px !important;margin-bottom:1px}body.SkyGenelH800 input[type="text"],body.SkyGenelH800 input[type="password"],body.SkyGenelH800 button,body.SkyGenelH800 select{height:29px !important}body.SkyGenelH400 input[type="text"],body.SkyGenelH400 input[type="password"],body.SkyGenelH400 button,body.SkyGenelH400 select{height:24px !important}input.YaziNesnesi[type="text"],input.YaziNesnesi[type="password"]{height:33px !important;margin-top:1px;margin-bottom:1px}body.SkyGenelH800 input.YaziNesnesi[type="text"],body.SkyGenelH800 input.YaziNesnesi[type="password"]{height:28px !important}body.SkyGenelH400 input.YaziNesnesi[type="text"],body.SkyGenelH400 input.YaziNesnesi[type="password"]{height:23px !important}input.InpFiltrele[type="text"],input.InpFiltrele[type="password"]{height:35px !important;margin:0}body.SkyGenelH800 input.InpFiltrele[type="text"],body.SkyGenelH800 input.InpFiltrele[type="password"]{height:30px !important}body.SkyGenelH400 input.InpFiltrele[type="text"],body.SkyGenelH400 input.InpFiltrele[type="password"]{height:25px !important}body.SkyIlkMobil.SkyEkranYatay.SkyGenelWH500 #PencereAna.SkyMasaGorunur .AnaUstPanel{height:0 !important}.IconYazi{width:35px;height:35px}.IconYaziW{width:35px}.IconYaziH{height:35px}.IconTopic{width:25px;height:25px}.IconTopicH,select.IconTopicH{height:25px;margin-top:0;margin-bottom:0;padding-top:1px}.IconTopicH img,select.IconTopicH img{height:23px;width:23px}body.SkyGenelW1050 .IconTopic{width:23px;height:23px}body.SkyGenelW1050 .IconTopicH,body.SkyGenelW1050 select.IconTopicH{height:23px}body.SkyGenelW1050 .IconTopicH img,body.SkyGenelW1050 select.IconTopicH img{height:21px;width:21px}body.SkyGenelH800 .IconYazi{width:30px;height:30px}body.SkyGenelH800 .IconYaziW{width:30px}body.SkyGenelH800 .IconYaziH{height:30px}body.SkyGenelH800 .IconTopic{width:22px;height:22px}body.SkyGenelH800 .IconTopicH,body.SkyGenelH800 select.IconTopicH{height:22px;padding-top:0}body.SkyGenelH800 .IconTopicH img,body.SkyGenelH800 select.IconTopicH img{height:20px;width:20px;padding-top:0}body.SkyGenelH400 .IconYazi{width:25px;height:25px}body.SkyGenelH400 .IconYaziW{width:25px}body.SkyGenelH400 .IconYaziH{height:25px}body.SkyGenelH400 .IconTopic{width:22px;height:22px}body.SkyGenelH400 .IconTopicH,body.SkyGenelH400 select.IconTopicH{height:22px;padding-top:0}body.SkyGenelH400 .IconTopicH img,body.SkyGenelH400 select.IconTopicH img{height:20px;width:20px;padding-top:0}body.SkyIlkMobil.SkyGenelWH500 .MasaMesajContainer{position:absolute;bottom:0;left:0;width:auto;z-index:200}body.SkyIlkMobil.SkyEkranDikey.SkyGenelWH500 .MasaMesajContainer{height:auto;width:auto}body.SkyIlkMobil.SkyGenelWH500 .MasaNickContainer{position:absolute;bottom:0;left:0;height:auto;width:auto;z-index:200}body.SkyIlkMobil.SkyEkranDikey.SkyGenelWH500 .MasaNickContainer{bottom:0;height:auto;width:auto}body.SkyPCWideScreen .MasaNickOrtak #MasaResimDiv #MasaResimImg{height:2vw;width:2vw}body.SkyPCWideScreen .MasaNickYatay .MasaNickDivDis,body.SkyPCWideScreen .MasaNickDikey .MasaNickDivDis{height:2vw}body.SkyGenelH800 .FormSatirX>label{margin-top:7px}body.SkyGenelH800 #DialogHakkinda #HakkindaMarquee{height:65px !important}body.SkyGenelH400 .FormSatirX>label{margin-top:6px}body.SkyGenelH400 #DialogHakkinda #HakkindaMarquee{height:65px !important}body.SkyIlkMobil.SkyGenelWH500 .MasaDivDigerIcerik{position:absolute;width:100%;z-index:200}body.SkyIlkMobil.SkyEkranYatay.SkyGenelWH500 .MasaDivDigerIcerik>div{margin-right:0 !important}body.SkyEkranDikey.SkyGenelWH500 .MasaDivDigerIcerik>div{margin-bottom:0 !important}body:not(.SkyGenelWH500) .SkyMobilButonGoster,body.SkyIlkPC .SkyMobilButonGoster{display:none !important}@media screen and (min-width:200px) and (min-height:200px){body.SkyIlkMobil.SkyGenelWH500 #MasaMesajContainer.SkyMobilGizle{display:none !important}}body.SkyGenelW450 .AnaUstHGExt.SkyMobilGizle{display:none !important}body.SkyGenelW450 .AnaUstHGExt{z-index:201;position:absolute;height:auto;left:0;margin:0;padding:10px}body.SkyGenelW450 .AnaAvatarDivAsagiOk{display:inline-block !important}body.SkyGenelW450 #AnaUstHGExt{background-color:black}body.SkyIlkMobil.SkyGenelWH500 .MasaNickContainer.SkyMobilGizle{display:none !important}body.SkyGenelWH500 .SkyMobilGizle:not(.MasaNickContainer):not(#MasaMesajContainer):not(#MasaDivDigerIcerik):not(#MasaButonKalk):not(#AnaUstPanelExt):not(#AnaUstHGExt){display:none !important}body.SkyIlkMobil.SkyGenelWH500 #MasaDivDigerIcerik.SkyMobilGizle{display:none !important}body.SkyIlkMobil.SkyGenelWH500 #MasaButonKalk.SkyMobilGizle{display:none !important}body.SkyGenelWH500 .IconB{width:32px;height:32px;min-width:32px;min-height:32px;max-width:32px;max-height:32px}body.SkyGenelWH500 .SkyMobilAktifButon{position:relative}body.SkyGenelWH500 .MobilButonOkSol{display:none;position:absolute;top:50%;margin-top:-8px !important;left:-8px;width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-right:8px solid white}body.SkyGenelWH500 .MobilButonOkSag{display:none;position:absolute;top:50%;margin-top:-8px !important;right:-8px;width:0;height:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:8px solid white}body.SkyGenelWH500 .MobilButonOkAlt{display:none;position:absolute;left:50%;margin-left:-8px !important;bottom:-8px;width:0;height:0;border-top:8px solid white;border-right:8px solid transparent;border-left:8px solid transparent}body.SkyScrollSifir #AnaTablarScroll{overflow-y:hidden;overflow-x:auto}body.SkyGenelWH500 .tabButonOrtakAE,body.SkyGenelWH500 .tabKapat,body.SkyGenelWH500 .tabButon #TabBaslik{padding-top:4px;padding-bottom:4px}body.SkyEkranYatay.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkSol{display:block}body.SkyEkranYatay.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkSag{display:block}body.SkyEkranDikey.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkAlt{display:block}body.SkyGenelWH500 .OzelProfil{position:relative}body.SkyGenelWH500 .GizliMobil{display:none !important}body.SkyEkranDikey.SkyGenelWH500 .GizliMobilD{display:none !important}body.SkyEkranDikey.SkyGenelWH500 .GizliMobilD2,body.SkyIlkPC.SkyGenelWH500 .GizliMobilD2{display:none !important}body.SkyEkranYatay.SkyGenelWH500 .GizliMobilY{display:none !important}body:not(.SkyGenelWH500) .GizliPC{display:none !important}body.SkyGenelH400 .OzelProfil table tr td div{padding-bottom:0 !important}body.SkyGenelH400 #OzelAvatarDiv{margin-top:0 !important}body.SkyGenelH400 #DialogProfilim .menuDiv{padding:2px 4px}body.SkyGenelH400 .SDlgOrtak #DlgButonlarDiv{padding-bottom:2px;padding-top:2px}body.SkyGenelW350 #LobiNickListeIconDiv{margin-left:0}body.SkyGenelW350 #LobiNickListeSusDiv{margin-left:0;margin-right:0}body.SkyGenelW350 #DialogExtra .SDlgOrtakIc{min-width:290px}body.SkyGenelW600 .adminDis{width:100%}.LobiMasaListeTekil{width:33%}body.SkyGenelW1050 .LobiMasaListeTekil{width:50%}body.SkyGenelW700 .LobiMasaListeTekil{width:100%}body.SkyGenelW1050 .LobiSolAna{width:70%}body.SkyGenelW1050 .LobiSagAna{width:30%}.butonMobilGonder{display:none}@media screen and (max-width:200px),screen and (max-height:200px){body .IconYaziTp{top:25px !important}body.SkyIlkMobil .MasaMesajContainer,body.SkyIlkPC .MasaMesajContainer,body.SkyIlkMobil .MasaArkaPanelYaziGorun,body.SkyIlkPC .MasaArkaPanelYaziGorun,body.SkyIlkMobil .OzelArkaPanelYaziGorun,body.SkyIlkPC .OzelArkaPanelYaziGorun,.YaziKutusuGenel{position:static !important}body .AnaTabPanel{position:absolute !important;width:auto !important;min-width:0 !important;min-height:0 !important;max-width:none !important;max-height:none !important;top:0;left:0;right:0;z-index:1000}body .SkyJsFocusIc .butonMobilGonder{position:absolute !important;display:inline-block !important;width:75px !important;height:100% !important;top:0;right:0}body .SkyJsFocusIc{position:absolute !important;width:auto !important;height:auto !important;min-width:0 !important;min-height:0 !important;max-width:none !important;max-height:none !important;background-color:white;left:0;right:0;bottom:0;z-index:1000}body .SkyJsFocusIc{z-index:1010}body .SkyJsFocusIc input[type="text"]:focus,body .SkyJsFocusIc input[type="password"]:focus{position:static !important;width:100% !important;height:100% !important;min-width:0 !important;min-height:0 !important;max-width:none !important;max-height:none !important;margin-top:0 !important;margin-bottom:0 !important;padding-right:76px !important;z-index:1001}body .SkyJsFocusIc input:focus{margin-top:0 !important;margin-bottom:0 !important;z-index:1011}body .AnaUstPanel{display:none !important}body .AnaAltPanel{height:1% !important}body #MasaIcerikDiv{position:static !important}body #LobiNicklerSagButonDiv{display:none !important}body #PencereAna{position:static !important;height:33% !important}}
-#LobiMasaListeBilgiOzelIcon{position:absolute;background-size:100% 100%;background-repeat:no-repeat;background-position:center center;top:5px;right:3px;margin:0}
-#LobiMasaListeBilgiIconDiv{position:absolute;top:2px;right:2px;margin:0;color:#f1cb65;font-weight:bold}
+html,
+body {
+    height: 100%;
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+    font-family: 'Roboto Slab', Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal
+}
+
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+table td,
+table th {
+    vertical-align: top;
+    padding: 0;
+    text-align: left;
+    margin: 0
+}
+
+table {
+    border: 0;
+    border-spacing: 0
+}
+
+img,
+a {
+    border: 0;
+    outline: 0;
+    -webkit-touch-callout: none;
+    pointer-events: none
+}
+
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+*:not(input):not(textarea) {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+input,
+select {
+    vertical-align: middle
+}
+
+textarea {
+    resize: none;
+    white-space: nowrap
+}
+
+fieldset {
+    margin: 0
+}
+
+.brX {
+    clear: both
+}
+
+#SkyToolTip {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 999999;
+    background-color: #555;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px;
+    white-space: nowrap
+}
+
+.YaziTahtasi {
+    overflow-x: hidden;
+    overflow-y: visible;
+    height: 100%;
+    width: 100%
+}
+
+.YaziNesnesi:focus {
+    outline: 0
+}
+
+.YaziNesnesi {
+    width: 100%;
+    min-width: 50px;
+    outline: 0;
+    text-align: left;
+    resize: none;
+    background-color: inherit;
+    font-weight: bold
+}
+
+.YaziYazmaAlaniArka {
+    background-color: #f6fcff !important;
+    border: 1px solid #9a9a9a !important;
+    -khtml-border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important
+}
+
+body.BaseOkey {
+    background-image: url('../res/okey/bg.jpg')
+}
+
+body.BaseOkey .MasaNickArka {
+    border: 4px solid #780e19 !important;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important
+}
+
+body.BaseOkey .MasaRenkAktif {
+    border: 4px solid white !important
+}
+
+body.BaseOkey #LobiMasaContainer {
+    background-color: #ccc
+}
+
+body.BaseBatak {
+    background-image: url('../res/batak/bgbatak.jpg')
+}
+
+body.BaseBatak .MasaNickArka {
+    border: 4px solid #780e19 !important;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important
+}
+
+body.BaseBatak .MasaRenkAktif {
+    border: 4px solid white !important
+}
+
+body.BaseBatak #LobiMasaContainer {
+    background-color: #ccc
+}
+
+.BatakSkorMax {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.BatakSkorTablo {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    height: auto !important
+}
+
+.BatakSkorTablo tr {
+    text-align: center;
+    width: 100%
+}
+
+.BatakSkorTablo td {
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    width: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 2px 0
+}
+
+body.BaseBatak #MasaIcerikDiv {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAAzSURBVHjaYmQQsfvPgAz+fWFgRBH894WBgYkHSRAqwMDAABVEEoAIChn9RxZgYGBgAAwAapAOjdc9jx8AAAAASUVORK5CYII=) repeat
+}
+
+body.BaseBatak .AnaUstPanelHG {
+    background: #003661
+}
+
+#BatakAltKartDis,
+#BatakUstKartDis {
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%
+}
+
+.BatakKartGenel {
+    display: inline-block;
+    z-index: 15
+}
+
+.BatakKartKapla {
+    position: relative;
+    cursor: pointer;
+    cursor: hand
+}
+
+.BatakDlgElKacAlirIc,
+.BatakDlgIhaleyeGirIc,
+.BatakDlgIhaleKozSecIc {
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 4px;
+    word-break: break-word;
+    padding: 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    position: relative;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    vertical-align: top
+}
+
+#BatakDlgElKacAlir,
+#BatakDlgIhaleyeGir,
+#BatakDlgIhaleKozSec {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto
+}
+
+#BatakDlgElKacAlir .butonBatakSecim,
+#BatakDlgIhaleyeGir .butonBatakSecim,
+#BatakDlgIhaleKozSec .butonBatakSecim {
+    margin-right: 2px
+}
+
+#BatakDlgElKacAlir .butonBatakSecim,
+#BatakDlgIhaleyeGir .butonBatakSecim,
+#BatakDlgIhaleKozSec .butonBatakSecim {
+    margin-bottom: 2px
+}
+
+#BatakDlgElKacAlir .butonBatakNm1,
+#BatakDlgIhaleyeGir .butonBatakNm1,
+#BatakDlgIhaleKozSec .butonBatakNm1 {
+    margin-right: 0
+}
+
+#BatakDlgElKacAlir .butonBatakNm2,
+#BatakDlgIhaleyeGir .butonBatakNm2 {
+    margin-bottom: 0
+}
+
+#BatakDlgIhaleKozSec .butonBatakSecim {
+    margin-top: 2px
+}
+
+#BatakDlgElKacAlir #BatakSecimButonlar,
+#BatakDlgIhaleyeGir #BatakSecimButonlar,
+#BatakDlgIhaleKozSec #BatakSecimButonlar {
+    display: inline-block;
+    word-break: break-word;
+    white-space: nowrap
+}
+
+#BatakDlgIhaleyeGirSkor,
+#BatakDlgElKacAlirSkor {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: 1px
+}
+
+.BatakOrtaKartlarDis {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.BatakOrtaKartlar {
+    display: inline-block;
+    position: relative;
+    padding: 6px;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important;
+    margin: 0 auto
+}
+
+#BatakCerceveUstDiv {
+    position: relative;
+    display: inline-block;
+    width: 100%
+}
+
+#BatakCerceveSolDiv,
+#BatakCerceveSagDiv {
+    position: relative;
+    display: inline-block
+}
+
+.BatakKartSayDis {
+    text-align: center;
+    display: inline-block
+}
+
+.BatakKartSayUstDis {
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0
+}
+
+.BatakKartSayUstDis td {
+    text-align: center;
+    vertical-align: middle
+}
+
+#BatakUstKartSay,
+#BatakSagKartSay,
+#BatakAltKartSay,
+#BatakSolKartSay {
+    display: inline-block;
+    color: #fff
+}
+
+#BatakAltKartSay {
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    border: 2px solid #780e19 !important;
+    border-radius: 4px !important;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+body.SkyEkranYatay .BatakKartSayDis {
+    width: 100%
+}
+
+#BatakSagKartSay,
+#BatakSolKartSay {
+    border-bottom: 2px solid #780e19 !important;
+    border-left: 2px solid #780e19 !important;
+    border-right: 2px solid #780e19 !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+#BatakUstKartSay {
+    border-top: 2px solid #780e19 !important;
+    border-right: 2px solid #780e19 !important;
+    border-bottom: 2px solid #780e19 !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+#BatakOrtaKartUstDis,
+#BatakOrtaKartSagDis,
+#BatakOrtaKartAltDis,
+#BatakOrtaKartSolDis {
+    display: inline-block;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+#BatakOrtaKartUst,
+#BatakOrtaKartSag,
+#BatakOrtaKartAlt,
+#BatakOrtaKartSol {
+    display: inline-block;
+    position: relative;
+    float: left
+}
+
+.BatakKartAlaniIc {
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 100%
+}
+
+#BatakCerceveAltDiv {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 100%
+}
+
+.MasaBatakUst {
+    height: 70%;
+    overflow: hidden;
+    position: relative
+}
+
+.MasaBatakAlt {
+    height: 30%;
+    background: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px
+}
+
+body.BaseBatak .MasaNickContainer {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQYV2P8+O7d/w/v3jEICAkxwGjGh3fu/GdAA4yUqQQAGp0kmgX5B1QAAAAASUVORK5CYII=) repeat !important
+}
+
+body.BaseBatak #MasaDivZamanliMesaj {
+    -webkit-box-shadow: inset 0 0 0 2px red;
+    -moz-box-shadow: inset 0 0 0 2px red;
+    box-shadow: inset 0 0 0 2px red
+}
+
+body.BaseBatak #MasaGeriSayimDiv {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px
+}
+
+body.BaseBatak .MasaGeriSayimDivIc {
+    display: inline-block;
+    background: #2196f3;
+    border: 3px solid #101b54;
+    -khtml-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+body.BaseBatak #MasaGeriSayimCnv {
+    display: block
+}
+
+body.BaseBatak #SecilenKozDivDis {
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin: 5px;
+    background-color: #7d92af;
+    border: 1px solid #7b0d0d;
+    border-radius: 4px;
+    padding: 2px
+}
+
+body.BaseBatak #SecilenKozDiv {
+    display: inline-block
+}
+
+body.BaseBatak #BatakSiraSizdeDiv {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #fff;
+    white-space: nowrap;
+    margin-bottom: 2px;
+    border-radius: 4px !important
+}
+
+body.BaseBatak .MasaStickerPanel {
+    position: absolute;
+    z-index: 191;
+    top: 5px;
+    left: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    color: white
+}
+
+body.BaseBatak .MasaStickerPanelAlt {
+    position: absolute;
+    bottom: 105%;
+    left: 0;
+    width: auto;
+    margin-top: 3px
+}
+
+body.BaseBatak .LobiMasaListe1 {
+    border-top: 4px solid #001a2f;
+    border-bottom: 4px solid #001a2f;
+    border-left: 4px solid #001a2f;
+    border-right: thick double #001a2f;
+    background: #003661
+}
+
+body.BaseBatak .LobiMasaListe2 {
+    border-top: 4px solid #001a2f;
+    border-bottom: 4px solid #001a2f;
+    border-left: 0;
+    border-right: 4px solid #001a2f;
+    background: #003661
+}
+
+body.BaseBatak #DialogGenelYardim iframe {
+    height: 20vh;
+    max-height: 410px;
+    min-height: 230px
+}
+
+.BatakMasaButonIslev {
+    display: inline-block;
+    float: left;
+    margin-right: 5px !important
+}
+
+#DialogBatakAcilanEl #DlgIcerikDiv {
+    text-align: left
+}
+
+#DialogBatakAcilanEl #DlgIcerikDiv {
+    padding: 10px
+}
+
+#DialogBatakAcilanEl #DlgAcilanStr {
+    padding-bottom: 5px
+}
+
+#DialogBatakAcilanEl .SDlgOrtakIc {
+    max-width: 90%;
+    width: auto
+}
+
+#DialogBatakSkor .SDlgOrtakIc {
+    height: 60vh;
+    max-height: 400px;
+    min-height: 200px;
+    overflow: hidden
+}
+
+#DialogBatakSkor #DlgBaslikKapla {
+    padding-bottom: 4px
+}
+
+#DialogBatakSkor #DlgSkorAna {
+    display: inline-block;
+    width: 100%;
+    height: 100%
+}
+
+#DialogBatakSkor #DlgIcerikDiv {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden
+}
+
+#DialogBatakMasaAyar .SDlgOrtakIc {
+    min-width: 250px;
+    max-width: 300px;
+    text-align: left
+}
+
+#DialogBatakIhaleKozSec table,
+#DialogBatakIhaleyeGir table,
+#DialogBatakElKacAlir table {
+    width: 100%
+}
+
+#DialogBatakIhaleKozSec #DlgIcerikDiv,
+#DialogBatakIhaleyeGir #DlgIcerikDiv,
+#DialogBatakElKacAlir #DlgIcerikDiv {
+    padding-top: 0
+}
+
+#DialogBatakIhaleKozSec .SDlgOrtakIc,
+#DialogBatakIhaleyeGir .SDlgOrtakIc,
+#DialogBatakElKacAlir .SDlgOrtakIc {
+    padding-bottom: 6px;
+    background-color: #55bc00 !important
+}
+
+#DialogBatakIhaleKozSec .SDlgOrtakIc .butonBatakSecim,
+#DialogBatakIhaleyeGir .SDlgOrtakIc .butonBatakSecim,
+#DialogBatakElKacAlir .SDlgOrtakIc .butonBatakSecim {
+    margin-top: 2px
+}
+
+#DialogBatakIhaleyeGir .SDlgOrtakIc {
+    min-width: 200px
+}
+
+#DialogBatakElKacAlir .SDlgOrtakIc {
+    min-width: 250px
+}
+
+#DialogBatakMasaFiltre #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogBatakMasaFiltre .SDlgOrtakIc {
+    max-width: 350px;
+    text-align: left
+}
+
+#DialogBatakMasaFiltre label {
+    font-weight: bold
+}
+
+#DialogBatakYeniMasa #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogBatakYeniMasa label {
+    font-weight: bold
+}
+
+#DialogBatakYeniMasa .SDlgOrtakIc {
+    min-width: 250px;
+    max-width: 300px;
+    text-align: left
+}
+
+#DialogBatakMasaFiltre #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogBatakYeniMasa label,
+#DialogBatakMasaFiltre label {
+    font-weight: bold
+}
+
+
+body.SkyGenelH300 #DialogBatakIhaleKozSec .SDlgOrtakIc,
+body.SkyGenelH300 #DialogBatakIhaleyeGir .SDlgOrtakIc,
+body.SkyGenelH300 #DialogBatakElKacAlir .SDlgOrtakIc {
+    background-color: rgba(85, 188, 0, 0.4) !important
+}
+
+body.SkyGenelWH500 .MasaBatakUst {
+    height: 100%
+}
+
+body.SkyIlkPC.SkyGenelWH500 .MasaBatakAlt {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 200
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaBatakAlt {
+    width: 0;
+    height: 0
+}
+
+body.SkyGenelH800 .MasaBatakNickClass #MasaResimDiv {
+    margin: 0
+}
+
+body.SkyGenelH400 .MasaBatakNickClass #MasaResimDiv {
+    margin: 0
+}
+
+@media screen and (max-width:200px),
+screen and (max-height:200px) {
+    body.SkyIlkPC .MasaBatakAlt {
+        position: static !important
+    }
+}
+
+.AnaFormlar {
+    height: 100%;
+    width: 100%;
+    text-align: center
+}
+
+.AnaFormlar .FormTbl {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center
+}
+
+.AnaFormlar .FormTblTd {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center
+}
+
+.AnaFormlar a,
+.AnaFormlar a:hover,
+.AnaFormlar a:active {
+    text-decoration: none;
+    color: #3b5998;
+    outline: 0;
+    pointer-events: auto !important
+}
+
+
+
+.FormDis {
+    width: expression(30vw - 2px);
+    width: -webkit-calc(30vw - 2px);
+    width: -moz-calc(30vw - 2px);
+    width: -o-calc(30vw - 2px);
+    width: calc(30vw - 2px);
+    min-width: 300px;
+    max-width: 400px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000
+}
+
+.FormDisBilgi {
+    width: expression(40vw - 2px);
+    width: -webkit-calc(40vw - 2px);
+    width: -moz-calc(40vw - 2px);
+    width: -o-calc(40vw - 2px);
+    width: calc(40vw - 2px);
+    min-width: 300px;
+    max-width: 400px
+}
+
+.FormBaslik {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+    text-align: center;
+    background: #2989d8;
+    background: -moz-linear-gradient(top, #2989d8 28%, #1e5799 100%, #7db9e8 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(28%, #2989d8), color-stop(100%, #1e5799), color-stop(100%, #7db9e8));
+    background: -webkit-linear-gradient(top, #2989d8 28%, #1e5799 100%, #7db9e8 100%);
+    background: -o-linear-gradient(top, #2989d8 28%, #1e5799 100%, #7db9e8 100%);
+    background: -ms-linear-gradient(top, #2989d8 28%, #1e5799 100%, #7db9e8 100%);
+    background: linear-gradient(to bottom, #2989d8 28%, #1e5799 100%, #7db9e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2989d8', endColorstr='#7db9e8', GradientType=0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white
+}
+
+.FormAlt {
+    display: inline-block;
+    width: 100%;
+    padding: 10px
+}
+
+.FormIcerik {
+    color: red;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.FormButonlar {
+    display: inline-block;
+    text-align: right;
+    width: 100%
+}
+
+.FormButonlar>.butonText,
+.FormButonlar>.butonIcon {
+    margin-top: 2px
+}
+
+.FormSatirY {
+    width: 100%;
+    float: left
+}
+
+.FormSatirYKod {
+    display: block;
+    overflow: hidden
+}
+
+.FormSatirY25 {
+    width: 25%;
+    float: left
+}
+
+.FormSatirY25Mr {
+    margin-left: 2px;
+    width: 20%;
+    width: expression(25% - 2px);
+    width: -webkit-calc(25% - 2px);
+    width: -moz-calc(25% - 2px);
+    width: -o-calc(25% - 2px);
+    width: calc(25% - 2px);
+    float: left
+}
+
+.FormSatirY33 {
+    width: 33%;
+    float: left
+}
+
+.FormSatirY33Mr {
+    margin-left: 2px;
+    width: 30%;
+    width: expression(33% - 2px);
+    width: -webkit-calc(33% - 2px);
+    width: -moz-calc(33% - 2px);
+    width: -o-calc(33% - 2px);
+    width: calc(33% - 2px);
+    float: left
+}
+
+.FormSatirY34 {
+    width: 34%;
+    float: left
+}
+
+.FormSatirY34Mr {
+    margin-left: 2px;
+    width: 30%;
+    width: expression(34% - 2px);
+    width: -webkit-calc(34% - 2px);
+    width: -moz-calc(34% - 2px);
+    width: -o-calc(34% - 2px);
+    width: calc(34% - 2px);
+    float: left
+}
+
+.FormSatirY50 {
+    width: 50%;
+    float: left
+}
+
+.FormSatirY50Mr {
+    margin-left: 2px;
+    width: 45%;
+    width: expression(50% - 2px);
+    width: -webkit-calc(50% - 2px);
+    width: -moz-calc(50% - 2px);
+    width: -o-calc(50% - 2px);
+    width: calc(50% - 2px);
+    float: left
+}
+
+.FormSatirY67 {
+    width: 67%;
+    float: left
+}
+
+.FormSatirY67Mr {
+    margin-left: 2px;
+    width: 60%;
+    width: expression(67% - 2px);
+    width: -webkit-calc(67% - 2px);
+    width: -moz-calc(67% - 2px);
+    width: -o-calc(67% - 2px);
+    width: calc(67% - 2px);
+    float: left
+}
+
+.FormSatirY75 {
+    width: 75%;
+    float: left
+}
+
+.FormSatirY75Mr {
+    margin-left: 2px;
+    width: 70%;
+    width: expression(75% - 2px);
+    width: -webkit-calc(75% - 2px);
+    width: -moz-calc(75% - 2px);
+    width: -o-calc(75% - 2px);
+    width: calc(75% - 2px);
+    float: left
+}
+
+.FormSatirFr {
+    float: right
+}
+
+.FormInput {
+    color: #000;
+    padding-left: 5px;
+    height: 5vh;
+    min-height: 20px;
+    max-height: 35px;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #ebebeb;
+    -webkit-box-shadow: inset 0 -2px #ebebeb;
+    -moz-box-shadow: inset 0 -2px #ebebeb;
+    box-shadow: inset 0 -2px #ebebeb
+}
+
+.FormInput:focus {
+    color: #000;
+    outline: 0;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #9cbef5;
+    -moz-box-shadow: inset 0 -2px #9cbef5;
+    -webkit-box-shadow: inset 0 -2px #9cbef5;
+    box-shadow: inset 0 -2px #9cbef5
+}
+
+.IconKodDegis {
+    width: expression((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    width: -webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    width: -moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    width: -o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    width: calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: expression((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 45px;
+    max-height: 45px
+}
+
+.IconKodImg {
+    width: expression(10vh * 0.5 + 10vw * 0.5);
+    width: -webkit-calc(10vh * 0.5 + 10vw * 0.5);
+    width: -moz-calc(10vh * 0.5 + 10vw * 0.5);
+    width: -o-calc(10vh * 0.5 + 10vw * 0.5);
+    width: calc(10vh * 0.5 + 10vw * 0.5);
+    height: expression((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    min-width: 50px;
+    min-height: 25px;
+    max-width: 90px;
+    max-height: 45px
+}
+
+.IconKodDivH {
+    height: expression((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -webkit-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -moz-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: -o-calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    height: calc((10vh * 0.5 + 10vw * 0.5) / 2.0);
+    min-height: 25px;
+    max-height: 45px
+}
+
+.FormYenileImgIcon {
+    display: inline-block;
+    float: left
+}
+
+.FormYenileButonIcon {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    cursor: hand;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.FormGecisIcon {
+    display: inline-block;
+    float: unset;
+    float: none
+}
+
+.FormInputText {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 10px;
+    padding-top: 10px
+}
+
+.DlgMisafirCls {
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold
+}
+
+.DlgMisafirCls>div,
+.DlgMisafirCls>label {
+    display: inline-block
+}
+
+.DlgFaceSifreCls {
+    text-align: left
+}
+
+.DlgFaceSifreCls>div,
+.DlgFaceSifreCls>label {
+    display: inline-block
+}
+
+#DialogFaceSifre #DlgFaceSifreEksikStr {
+    margin-bottom: 10px;
+    text-align: left
+}
+
+#PencereTarayiciGunc img {
+    width: 100%;
+    height: 100%
+}
+
+#PencereSplash #BaslikDiv {
+    text-align: center;
+    color: red;
+    padding-top: 5px
+}
+
+#PencereGecis {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: none
+}
+
+#PencereGecis #BaslikDiv {
+    color: red
+}
+
+#PencereKullGiris,
+#PencereKullGiris input {
+    font-weight: bold
+}
+
+.FormDisOda {
+    height: 90%;
+    width: 90%;
+    max-width: 90%;
+    max-height: 90%;
+    margin: 0 auto;
+    display: inline-block
+}
+
+.FormDisFaceNick {
+    width: expression(50vw - 2px);
+    width: -webkit-calc(50vw - 2px);
+    width: -moz-calc(50vw - 2px);
+    width: -o-calc(50vw - 2px);
+    width: calc(50vw - 2px);
+    min-width: 300px;
+    max-width: 450px
+}
+
+#PencereFacebookNick .NickinizLabel {
+    text-align: right
+}
+
+#PencereFacebookNick #IcerikDiv {
+    margin-bottom: 10px
+}
+
+#PencereFacebookNick .FormIcerik {
+    white-space: unset
+}
+
+#PencereFacebookNick input {
+    text-align: center
+}
+
+.FormBaslikOda {
+    position: relative
+}
+
+#PencereOdaListesi #BaslikDiv {
+    text-align: center;
+    min-width: 75vw
+}
+
+#PencereOdaListesi #IcerikDiv {
+    color: red;
+    margin-top: 10px;
+    text-align: center
+}
+
+#PencereOdaListesi .FormAlt {
+    height: 100%;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: visible;
+    padding: 0
+}
+
+#PencereOdaListesi #OdaListeDiv {
+    min-width: 75vw;
+    height: 100%;
+    text-align: center;
+    font-weight: bold
+}
+
+.FormSatirX {
+    display: inline-block;
+    width: 100%
+}
+
+.FormSatirX>label {
+    display: inline-block;
+    float: left;
+    padding-right: 5px;
+    margin-top: 8px
+}
+
+.FormSatirX>.FormSatirXIc {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.FormSatirX>.FormSatirXIc>* {
+    width: 100%
+}
+
+.butonText {
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    cursor: hand;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold
+}
+
+.butonText:hover {
+    -ms-filter: "alpha(opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: .7;
+    -khtml-opacity: .7;
+    opacity: .7
+}
+
+.butonText table {
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.butonText table td {
+    height: 100%;
+    vertical-align: middle;
+    text-align: center
+}
+
+#GonderButonDiv table {
+    width: 100%;
+    height: 100%
+}
+
+#GonderButonDiv table td {
+    vertical-align: middle
+}
+
+.butonIcon {
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    cursor: hand;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center
+}
+
+.butonIcon:hover {
+    -ms-filter: "alpha(opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: .7;
+    -khtml-opacity: .7;
+    opacity: .7
+}
+
+.butonIcon>div {
+    padding: 0;
+    margin: 0 auto
+}
+
+.butonYesil {
+    background: #009545;
+    background-image: -webkit-linear-gradient(top, #009545, #005527);
+    background-image: -moz-linear-gradient(top, #009545, #005527);
+    background-image: -ms-linear-gradient(top, #009545, #005527);
+    background-image: -o-linear-gradient(top, #009545, #005527);
+    background-image: linear-gradient(to bottom, #009545, #005527)
+}
+
+.butonYesil:hover {
+    background: #009344;
+    background-image: -webkit-linear-gradient(top, #009344, #006d32);
+    background-image: -moz-linear-gradient(top, #009344, #006d32);
+    background-image: -ms-linear-gradient(top, #009344, #006d32);
+    background-image: -o-linear-gradient(top, #009344, #006d32);
+    background-image: linear-gradient(to bottom, #009344, #006d32)
+}
+
+.butonYesil:active {
+    background: #009043;
+    background-image: -webkit-linear-gradient(top, #009043, #009043);
+    background-image: -moz-linear-gradient(top, #009043, #009043);
+    background-image: -ms-linear-gradient(top, #009043, #009043);
+    background-image: -o-linear-gradient(top, #009043, #009043);
+    background-image: linear-gradient(to bottom, #009043, #009043)
+}
+
+.butonYesilD,
+.butonYesilD:hover,
+.butonYesilD:active {
+    background: #02b153;
+    background-image: -webkit-linear-gradient(top, #02b153, #02b153);
+    background-image: -moz-linear-gradient(top, #02b153, #02b153);
+    background-image: -ms-linear-gradient(top, #02b153, #02b153);
+    background-image: -o-linear-gradient(top, #02b153, #02b153);
+    background-image: linear-gradient(to bottom, #02b153, #02b153)
+}
+
+.butonKirmizi {
+    background: #d10000;
+    background-image: -webkit-linear-gradient(top, #d10000, #890000);
+    background-image: -moz-linear-gradient(top, #d10000, #890000);
+    background-image: -ms-linear-gradient(top, #d10000, #890000);
+    background-image: -o-linear-gradient(top, #d10000, #890000);
+    background-image: linear-gradient(to bottom, #d10000, #890000)
+}
+
+.butonKirmizi:hover {
+    background: #d00000;
+    background-image: -webkit-linear-gradient(top, #d00000, #a50000);
+    background-image: -moz-linear-gradient(top, #d00000, #a50000);
+    background-image: -ms-linear-gradient(top, #d00000, #a50000);
+    background-image: -o-linear-gradient(top, #d00000, #a50000);
+    background-image: linear-gradient(to bottom, #d00000, #a50000)
+}
+
+.butonKirmizi:active {
+    background: #cf0000;
+    background-image: -webkit-linear-gradient(top, #cf0000, #cf0000);
+    background-image: -moz-linear-gradient(top, #cf0000, #cf0000);
+    background-image: -ms-linear-gradient(top, #cf0000, #cf0000);
+    background-image: -o-linear-gradient(top, #cf0000, #cf0000);
+    background-image: linear-gradient(to bottom, #cf0000, #cf0000)
+}
+
+.butonKirmiziD,
+.butonKirmiziD:hover,
+.butonKirmiziD:active {
+    background: #e10000;
+    background-image: -webkit-linear-gradient(top, #e10000, #e10000);
+    background-image: -moz-linear-gradient(top, #e10000, #e10000);
+    background-image: -ms-linear-gradient(top, #e10000, #e10000);
+    background-image: -o-linear-gradient(top, #e10000, #e10000);
+    background-image: linear-gradient(to bottom, #e10000, #e10000)
+}
+
+.butonSari {
+    background: #fde500;
+    background-image: -webkit-linear-gradient(top, #fde500, #b36200);
+    background-image: -moz-linear-gradient(top, #fde500, #b36200);
+    background-image: -ms-linear-gradient(top, #fde500, #b36200);
+    background-image: -o-linear-gradient(top, #fde500, #b36200);
+    background-image: linear-gradient(to bottom, #fde500, #b36200)
+}
+
+.butonSari:hover {
+    background: #f9df00;
+    background-image: -webkit-linear-gradient(top, #f9df00, #cd9000);
+    background-image: -moz-linear-gradient(top, #f9df00, #cd9000);
+    background-image: -ms-linear-gradient(top, #f9df00, #cd9000);
+    background-image: -o-linear-gradient(top, #f9df00, #cd9000);
+    background-image: linear-gradient(to bottom, #f9df00, #cd9000)
+}
+
+.butonSari:active {
+    background: #ffe100;
+    background-image: -webkit-linear-gradient(top, #ffe100, #ffe100);
+    background-image: -moz-linear-gradient(top, #ffe100, #ffe100);
+    background-image: -ms-linear-gradient(top, #ffe100, #ffe100);
+    background-image: -o-linear-gradient(top, #ffe100, #ffe100);
+    background-image: linear-gradient(to bottom, #ffe100, #ffe100)
+}
+
+.butonSariD,
+.butonSariD:hover,
+.butonSariD:active {
+    background: #ffeb56;
+    background-image: -webkit-linear-gradient(top, #ffeb56, #ffeb56);
+    background-image: -moz-linear-gradient(top, #ffeb56, #ffeb56);
+    background-image: -ms-linear-gradient(top, #ffeb56, #ffeb56);
+    background-image: -o-linear-gradient(top, #ffeb56, #ffeb56);
+    background-image: linear-gradient(to bottom, #ffeb56, #ffeb56)
+}
+
+.butonMavi {
+    background: #009de0;
+    background-image: -webkit-linear-gradient(top, #009de0, #005a81);
+    background-image: -moz-linear-gradient(top, #009de0, #005a81);
+    background-image: -ms-linear-gradient(top, #009de0, #005a81);
+    background-image: -o-linear-gradient(top, #009de0, #005a81);
+    background-image: linear-gradient(to bottom, #009de0, #005a81)
+}
+
+.butonMavi:hover {
+    background: #04a7ec;
+    background-image: -webkit-linear-gradient(top, #04a7ec, #047eb3);
+    background-image: -moz-linear-gradient(top, #04a7ec, #047eb3);
+    background-image: -ms-linear-gradient(top, #04a7ec, #047eb3);
+    background-image: -o-linear-gradient(top, #04a7ec, #047eb3);
+    background-image: linear-gradient(to bottom, #04a7ec, #047eb3)
+}
+
+.butonMavi:active {
+    background: #00b3ff;
+    background-image: -webkit-linear-gradient(top, #00b3ff, #00b3ff);
+    background-image: -moz-linear-gradient(top, #00b3ff, #00b3ff);
+    background-image: -ms-linear-gradient(top, #00b3ff, #00b3ff);
+    background-image: -o-linear-gradient(top, #00b3ff, #00b3ff);
+    background-image: linear-gradient(to bottom, #00b3ff, #00b3ff)
+}
+
+.butonMaviD,
+.butonMaviD:hover,
+.butonMaviD:active {
+    background: #3bc5ff;
+    background-image: -webkit-linear-gradient(top, #3bc5ff, #3bc5ff);
+    background-image: -moz-linear-gradient(top, #3bc5ff, #3bc5ff);
+    background-image: -ms-linear-gradient(top, #3bc5ff, #3bc5ff);
+    background-image: -o-linear-gradient(top, #3bc5ff, #3bc5ff);
+    background-image: linear-gradient(to bottom, #3bc5ff, #3bc5ff)
+}
+
+.butonSiyah {
+    background: #585858;
+    background-image: -webkit-linear-gradient(top, #585858, #000);
+    background-image: -moz-linear-gradient(top, #585858, #000);
+    background-image: -ms-linear-gradient(top, #585858, #000);
+    background-image: -o-linear-gradient(top, #585858, #000);
+    background-image: linear-gradient(to bottom, #585858, #000)
+}
+
+.butonSiyah:hover {
+    background: #888787;
+    background-image: -webkit-linear-gradient(top, #888787, #1d1d1d);
+    background-image: -moz-linear-gradient(top, #888787, #1d1d1d);
+    background-image: -ms-linear-gradient(top, #888787, #1d1d1d);
+    background-image: -o-linear-gradient(top, #888787, #1d1d1d);
+    background-image: linear-gradient(to bottom, #888787, #1d1d1d);
+    opacity: .8
+}
+
+.butonSiyah:active {
+    background: #565555;
+    background-image: -webkit-linear-gradient(top, #565555, #3c3b3b);
+    background-image: -moz-linear-gradient(top, #565555, #3c3b3b);
+    background-image: -ms-linear-gradient(top, #565555, #3c3b3b);
+    background-image: -o-linear-gradient(top, #565555, #3c3b3b);
+    background-image: linear-gradient(to bottom, #565555, #3c3b3b)
+}
+
+.butonSiyahD,
+.butonSiyahD:hover,
+.butonSiyahD:active {
+    background: #797f82;
+    background-image: -webkit-linear-gradient(top, #797f82, #797f82);
+    background-image: -moz-linear-gradient(top, #797f82, #797f82);
+    background-image: -ms-linear-gradient(top, #797f82, #797f82);
+    background-image: -o-linear-gradient(top, #797f82, #797f82);
+    background-image: linear-gradient(to bottom, #797f82, #797f82)
+}
+
+.butonYesilD,
+.butonKirmiziD,
+.butonSariD,
+.butonMaviD,
+.butonSiyahD {
+    -ms-filter: none !important;
+    filter: none !important;
+    -moz-opacity: unset !important;
+    -khtml-opacity: unset !important;
+    opacity: unset !important
+}
+
+.butonMasaFiltreOrtak,
+.butonAdminOrtak {
+    margin-right: 1px;
+    float: left;
+    height: 100%;
+    padding: 2px 2px 2px 2px
+}
+
+.butonLobiUstPanel {
+    float: left;
+    margin-right: 2px !important
+}
+
+.MasaPanelOrtaButon {
+    display: inline-block
+}
+
+.butonMasaSag {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important
+}
+
+.butonFormlar20 {
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2px
+}
+
+.butonFormlar25 {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2px
+}
+
+.butonFormlar50 {
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2px
+}
+
+.butonFormlar100 {
+    width: 100%;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px
+}
+
+#TemizleButonDiv {
+    cursor: pointer !important;
+    cursor: hand !important
+}
+
+.ButonElimiDizOrtak {
+    color: #000
+}
+
+.MasaDivDigerIcerik {
+    display: inline-block;
+    float: right
+}
+
+.LobiOynaOrtak {
+    margin: 0;
+    color: #000
+}
+
+.LobiSolAna {
+    float: left;
+    height: 100%;
+    width: 75%;
+    font-size: 0
+}
+
+body .NLDaralt .LobiSolAna {
+    width: 100% !important
+}
+
+.LobiSagAna {
+    height: 100%;
+    width: 25%;
+    float: left;
+    font-size: 0;
+    background-color: #fff;
+    padding-left: 1px
+}
+
+body .NLDaralt .LobiSagAna {
+    display: none !important
+}
+
+.LobiUstMenu {
+    background-color: #ccc;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px
+}
+
+.LobiMasaFiltreDiv,
+#LobiMasaFiltreInp {
+    max-width: 180px
+}
+
+.LobiOrtaKisim {
+    width: 100%
+}
+
+#LobiMasaContainer {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px
+}
+
+#LobiMasalar {
+    width: 100%;
+    height: 100%
+}
+
+.YukleniyorOL {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: none;
+    text-align: center;
+    padding-top: 15px;
+    color: white
+}
+
+.LobiMesajContainer {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    font-size: 0;
+    padding: 2px;
+    background-color: #f6fcff !important;
+    border: 1px solid #969696 !important;
+    -khtml-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important
+}
+
+.LobiArkaPanelYaziGorun {
+    color: #232323;
+    width: 100%;
+    height: 100%
+}
+
+#LobiYukariButonDiv,
+#LobiAsagiButonDiv {
+    float: left
+}
+
+.YukariImg {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAM0SURBVHjavJhdSBRRFMcHEbPawIcKitQ+YEv6stAMpLKo1rLEF2ufioIyo2ihHir6EqKMHvKhkB4Moy/QtC/7MPEhlV2tzSDN0KCSdLNV+2B2N123tofzH2Eu986MO5vz8nOZc8/9n3vOnHuvkmTqWZJELEwjVpQR25KJ3sfE/g3E9lvEKrw/cJOYWiGNzzPfSbwKAX8HieFwdFi2irjIHWXhe6qxktsFAvzgL3BYYDfM2Pn5dt/vEA+2mxR+ZkRH8AjzW1bbtZ0nukuZ8bKOH2a+4vAYhe8tN1cKffgWptYQJ3cQPy805/dwjd5H2UwMJjIOlBX6LVg5RXglcfl6vv85duLHUoF/PzOPoALS9wsCuP9GkGpRAErNfiFmXjOW4cXniD3vBKXJBsCUZp1SUhvBjGx0lVdjS+nXAggKRfaNzSshfkqMrKSyYuGo2CVYCZmfyp5GtLvW6HS5WauJXZcEpSXzM395DRw0ZBrrKj/aiCte/p99JgUbY6/LWNdyV2Ggp047Vd4rxGWx2gLs04k74vnvN68k7jqu7cfqIHa7tHUN9GOA3MhkABvO2wfEmbu1J1x7AuM6iWdrBe05pBawLUvbbwJK9EUOsxFCp3wDhr5pTAB/iPWntSfIsKALMf294DnfPocJIPSamP1Qe57KR2pdowGgMqQ+m3aqmmxqh8kBpLCIb7/PyRey1cu39y9Ff89T29/VKaFBJdNNRTobCgY8u0fsmCHoFmDhXH4AuVa+veKnG99izUTGv2ADbW2JoT+alRVjP9KQmjasUIqHeW/0ETUB+EnCDp4TEOhg/LT0IIDqKsZgEmjRmThWwDiBfbzOONFjYXQpJTYBAThh8LSaGehjVmAIDPAzNMqgQMiQzriAwM6ndtOAb6k+FKN+cRLnfWkBE7kUpVKJi9Afo+MobnpSnsDeETR37N1p5/td5zHn91TuGAO/MMXghYZhOe4D+bgH5GOHvmjTHie60JQcMnlGcSQQf77XCUg2uKKytmDfN5SKNcqHrdTZxOv10b3MK7x9DIfFLeP0X4o0HIOP4Ar6pJfY+QGHQJzzvRDWhaNA7SasMM5C6QORKvg3AFOuOrOEradXAAAAAElFTkSuQmCC');
+    background-size: cover;
+    cursor: pointer;
+    cursor: hand
+}
+
+.AsagiImg {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYEAYAAACw5+G7AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAMaSURBVHjaYmCgCJi+gdAVDhB6pyeEvvUXQr+qhNKyEPrmbQi97SmELlkAoU3sGOgDzHwg9DKow/7/py69cC+ENlCgssMr1CD0l5c4HPAVSn8m0sGf0fShyX+4DqELBCh0+IR8Ag7+jZ3udofQoWJQ+hqEXjAXvz5cHurkJdHhdX6UJQWnZ9jNjY+gzNyCXwQcbjkPhwGwEPpOXAz4GWA3P1ONyBj4jiYOc4c6hDZmgZnIBKU3QKgObzQbv5CZ9nCF1B8yzYO54waEal4Jk4D6xBlK24mhaeRB47MQaSEHDnE2AubgEkdzh2cQhLb6AtUQ8hNNwzco/Q+HRwiF6A8CMfOHSA/8QTMPlmK4IFRQMFTAXAaHwWgGboVqfLSHQIiRmlSg5lyXglaIG9DMx+ExCyso/+1O/Ll/zXG0GjgAQn/Vx67e9xV2d2Ycw67+TSOElv+Gqv6IO353vYDKM3yeipbroU2B1ZvxB5zHJmiAnEU12BtHDKTvQlX3ThuaAnjw27O3HtVdMHd+EYWlKT7sUSQ2A0ILnMNu8A5ofRFVjCoujcMhslCHM9yCUMGBEPokjtJOKglCixphT5r/10EZb17jj6qH0CSkVoA/pBKrILSXBXb5OGjpFCGG3xxDaJp/NRW/u57thmo4sxZHhYLWtnkK9YimHI0ai6cg9PvLBNpOUHcesoZqnGJPoHGGViPe6ofQMlRqButAk+iTwzhaADgafx2wwsWBhby2yX1oO195AnkO14Wm6efppNn77zQ083vATHKDULtxNXtxtYWg6p5chTqojTiHW0PbXO8e44j57zhiAKpuw3lcPawsMhtzUHX3pkNoxQjs5hu5QMvv1TjMJ9CY+wWNcb0TBEKoeAtlzd4H0PKdG9oPEIGa92IuZeamLSAxjXb8J7JDg6PUOgONkcvtxJUquDo0Db8pLCVyr0DT7HICHvoIpX/iUPcTTR0OB78Oh9Cp66hcTuucgdBzbanbmf/3FkLPlIfQ6sfoNEphsApC5yyB0GuhDriyFBqSrtAadSs0KUHlV0HzQqYJNFOSXTECBgDGUiN+rkJS4QAAAABJRU5ErkJggg==');
+    background-size: cover;
+    cursor: pointer;
+    cursor: hand
+}
+
+.LobiScrollIslev {
+    float: right;
+    display: inline-block
+}
+
+.LobiYaziIslev {
+    float: right;
+    display: inline-block
+}
+
+.LobiOdaTopicSabit {
+    color: #ec1515;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;
+    padding-top: 2px
+}
+
+.LobiOdaTopicSabit div {
+    font-weight: bold;
+    display: inline-block
+}
+
+#LobiOdaTopic {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ec1515;
+    text-align: left;
+    cursor: pointer;
+    cursor: hand
+}
+
+#LobiOdaTopic img {
+    vertical-align: bottom
+}
+
+#LobiOdaLogosu {
+    display: block;
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: .2;
+    max-width: 150px;
+    max-height: 150px
+}
+
+#LobiYaziTahtasi {
+    width: 100%
+}
+
+.YaziKutusuGenel {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    font-size: 0;
+    background-color: white
+}
+
+.YaziKutusuGenel .butonIcon {
+    float: right;
+    margin-left: 2px
+}
+
+#LobiNickContainer {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #969696 !important;
+    -khtml-border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+    width: 100%
+}
+
+#LobiNicklerSagButonDiv {
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    z-index: 2
+}
+
+#LobiNicklerSolButonDiv {
+    z-index: 2;
+    margin-left: 2px
+}
+
+#LobiNicklerSagButonDiv {
+    opacity: .5
+}
+
+#LobiNickler {
+    vertical-align: top;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px #000, inset 0 0 8px #ccc
+}
+
+#LobiFiltreSfrButonDiv {
+    cursor: pointer !important;
+    cursor: hand !important
+}
+
+.LobiNickListeTekil {
+    max-height: 7vw;
+    min-height: 38px;
+    cursor: pointer;
+    cursor: hand;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    overflow: hidden;
+    width: 100%;
+    min-width: 105px;
+    border: 1px solid #ddd;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0 10px #000, inset 0 0 8px #ccc;
+    -moz-box-shadow: 0 0 10px #000, inset 0 0 8px #ccc;
+    -o-box-shadow: 0 0 10px #000, inset 0 0 8px #ccc;
+    box-shadow: 0 0 10px #000, inset 0 0 8px #ccc;
+    background-color: #ccc
+}
+
+.LobiNickListeAna {
+    height: 100%;
+    float: left;
+    table-layout: fixed;
+    text-align: left;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    font-weight: bold
+}
+
+.LobiNickListeAnaSec {
+    background-color: rgba(0, 0, 0, 0.2);
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.LobiNickListeAvatar {
+    height: 6vw;
+    width: 6vw;
+    min-width: 18px;
+    min-height: 18px;
+    max-width: 64px;
+    max-height: 64px;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    border: 2px outset #f5f5f5;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%
+}
+
+.LobiNickListeText {
+    height: 6vw;
+    min-height: 18px;
+    max-height: 64px;
+    width: 20%;
+    overflow: visible;
+    float: left;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+.LobiNickListeText tr {
+    height: 50%
+}
+
+.LobiNickListeText .NSatir1 {
+    vertical-align: bottom;
+    text-align: left;
+    height: auto
+}
+
+.LobiNickListeText .NSatir2 {
+    vertical-align: top;
+    text-align: left;
+    height: auto
+}
+
+.LobiNickListeText .NSatir2>div,
+.LobiNickListeText .NSatir1>div {
+    vertical-align: middle
+}
+
+#LobiNickListeImg {
+    width: 100% !important;
+    height: 100% !important;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%
+}
+
+.LobiNickListeBilgi {
+    height: 40px;
+    float: left;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+#LobiNickListeIconDiv {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+.LobiNickListeIconOrtak {
+    min-width: 12px;
+    min-height: 12px;
+    width: 2vw;
+    height: 2vw;
+    float: left
+}
+
+.LobiNickListeNickStr {
+    color: black;
+    display: inline-block;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle
+}
+
+#LobiNickListeSusDiv {
+    display: inline-block;
+    margin-right: 2px;
+    margin-left: 5px
+}
+
+#LobiNickListePlatDiv {
+    display: inline-block;
+    margin-right: 2px
+}
+
+#LobiNickListeIzleDiv {
+    display: inline-block;
+    margin-right: 2px
+}
+
+#LobiNickListePuanDiv {
+    display: inline-block;
+    margin-right: 2px;
+    margin-left: 4px
+}
+
+#LobiNickListePuanStr {
+    display: inline-block
+}
+
+#LobiNickListeMasaDiv {
+    display: inline-block;
+    margin-right: 2px;
+    margin-left: 4px
+}
+
+#LobiNickListeMasaStr {
+    display: inline-block
+}
+
+.LobiMasaListeTekil {
+    float: left;
+    min-width: 220px;
+    vertical-align: middle;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-bottom: 1px
+}
+
+.LobiMasaListe1 {
+    position: relative;
+    padding: 5px;
+    -webkit-border-top-left-radius: 12px;
+    -moz-border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+    -webkit-border-bottom-left-radius: 12px;
+    -moz-border-bottom-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-repeat: repeat
+}
+
+.LobiMasaListe2 {
+    padding: 5px;
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-top-right-radius: 12px;
+    border-top-right-radius: 12px;
+    -webkit-border-bottom-right-radius: 12px;
+    -moz-border-bottom-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding-top: 2px;
+    padding-left: 12px;
+    font-size: 0;
+    color: white;
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat
+}
+
+.LobiMasaListeNick {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    cursor: hand
+}
+
+.LobiMasaListeOrtaDiv {
+    width: 100%;
+    height: 34%;
+    table-layout: fixed
+}
+
+.LobiMasaListeIzleDiv {
+    width: 20%;
+    text-align: center
+}
+
+.LobiMasaListeOrtaDiv td {
+    vertical-align: middle;
+    text-align: center
+}
+
+#LobiMasaListeIzleButon {
+    margin: 0 auto;
+    cursor: pointer;
+    cursor: hand
+}
+
+#LobiMasaListeBilgiMasaNoStr,
+#LobiMasaListeBilgiOzelIcon {
+    float: left;
+    display: inline-block;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 2px;
+    text-align: left;
+    position: absolute;
+}
+
+.LobiMasaListeBilgiDiv {
+    display: inline-block
+}
+
+.LobiMasaListeBilgi {
+    float: left;
+    display: inline-block;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left
+}
+
+#LobiMasaUstNick,
+#LobiMasaSolNick,
+#LobiMasaSagNick,
+#LobiMasaAltNick {
+    display: inline-block
+}
+
+#LobiMasaUstNickID,
+#LobiMasaSolNickID,
+#LobiMasaSagNickID,
+#LobiMasaAltNickID {
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    max-width: 100%;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+#LobiMasaUstNickImg,
+#LobiMasaSolNickImg,
+#LobiMasaSagNickImg,
+#LobiMasaAltNickImg {
+    display: inline-block;
+    margin: 0 auto
+}
+
+#LobiMasaUstDiv {
+    width: 100%;
+    height: 33%;
+    table-layout: fixed;
+    text-align: center;
+    cursor: pointer;
+    cursor: hand
+}
+
+#LobiMasaSolDiv {
+    width: 40%;
+    text-align: center
+}
+
+#LobiMasaSagDiv {
+    width: 40%;
+    text-align: center
+}
+
+#LobiMasaAltDiv {
+    width: 100%;
+    height: 33%;
+    table-layout: fixed;
+    cursor: pointer;
+    cursor: hand;
+    text-align: center
+}
+
+#LobiMasaUstDiv td,
+#LobiMasaAltDiv td {
+    vertical-align: middle;
+    text-align: center
+}
+
+.OzelSolAna {
+    height: 100%;
+    width: 70%;
+    float: left;
+    font-size: 0
+}
+
+.OzelSagAna {
+    height: 100%;
+    width: 30%;
+    float: left;
+    font-size: 0;
+    background-color: #fff
+}
+
+.OzelArkaPanelYaziGorun {
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.OzelMesajContainer {
+    background-color: #f6fcff !important;
+    height: 100%;
+    width: 100%
+}
+
+.YaziAlaniOzel {
+    width: 100%;
+    float: left;
+    height: 100%
+}
+
+#YaziKutusuOzel {
+    display: inline-block;
+    font-size: 0
+}
+
+#OzelYaziTahtasi {
+    background-repeat: no-repeat;
+    background-position: right top;
+    left: 10px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border: 0;
+    padding: 5px;
+    border: 1px solid #969696 !important;
+    -khtml-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important
+}
+
+.profilSagTD {
+    float: left;
+    text-align: left;
+    max-height: 15px;
+    overflow: hidden;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+.OzelProfil {
+    text-align: center;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQYV2P8+O7d/w/v3jEICAkxwGjGh3fu/GdAA4yUqQQAGp0kmgX5B1QAAAAASUVORK5CYII=) repeat !important;
+    border: 4px solid #c8b1a6 !important;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    overflow: hidden
+}
+
+.OzelProfil table tr {
+    border-bottom: 1px solid #626262
+}
+
+.OzelProfil table tr td {
+    padding: 1px 5px 9px 5px !important;
+    vertical-align: top;
+    color: #303030
+}
+
+.OzelProfil table tr td div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 2px;
+    float: left
+}
+
+#OzelAvatarDiv {
+    table-layout: fixed
+}
+
+.OzelAvatarImgDiv {
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    width: 14vw;
+    height: 14vw;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    cursor: hand
+}
+
+#OzelAvatarImg {
+    width: 100%;
+    height: 100%;
+    border: 2px double #f6fcff;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%
+}
+
+#MasaIcerikDiv {
+    font-size: 0;
+    position: relative;
+    width: 100%;
+    height: 100%
+}
+
+.MasaStickerPanel #MasaButonMobilInfo,
+.MasaStickerPanel #MasaButonSikayet {
+    float: left;
+    margin-left: 2px
+}
+
+.MasaStickerPanel #MasaButonOyunBitir {
+    position: absolute;
+    left: 100%;
+    margin-left: 2px;
+    top: 0
+}
+
+.MasaStickerPanelBtn {
+    position: absolute;
+    z-index: 191;
+    top: 5px;
+    right: 0;
+    white-space: nowrap;
+    display: inline-block;
+    color: white
+}
+
+.MasaStickerPanelInfo {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: break-word;
+    float: left;
+    color: #fff;
+    background: #be1d2d;
+    margin-right: 2px;
+    padding: 5px
+}
+
+.MasaStickerPanelAlt {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    display: inline-block;
+    word-wrap: break-word;
+    white-space: nowrap;
+    color: #fff
+}
+
+.SkyMobilButonGoster {
+    display: inline-block
+}
+
+#MasaAyarlarDiv {
+    float: left
+}
+
+#MasaAyarlarDiv2 {
+    float: left
+}
+
+.MasaNickOrtak {
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.MasaNickOrtak #MasaResimDiv {
+    float: left
+}
+
+.MasaNickOrtak #MasaResimDiv #MasaResimImg {
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    vertical-align: middle;
+    border: 2px solid #f5f5f5;
+    height: 4vw;
+    width: 4vw;
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 64px;
+    max-height: 64px
+}
+
+.MasaNickOrtak #MasaNickDiv {
+    overflow: hidden;
+    text-align: left;
+    color: #fff;
+    word-break: break-all;
+    white-space: nowrap
+}
+
+.MasaNickOrtak #MasaButonBotArti,
+.MasaNickOrtak #MasaButonBotEksi {
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.MasaNickOrtak .MasaNickDivTable {
+    width: 100%;
+    height: 100%
+}
+
+.MasaNickOrtak .MasaNickStrDis,
+.MasaNickOrtak .MasaBotButonStrDis {
+    display: inline-block;
+    width: 100%
+}
+
+.MasaNickOrtak .MasaBotButonBg {
+    display: inline-block;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.MasaNickYatay .MasaNickClear1,
+body.SkyEkranYatay .MasaNickDikey .MasaNickClear1,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickClear1 {
+    display: none
+}
+
+.MasaNickYatay .MasaNickClear2,
+body.SkyEkranYatay .MasaNickDikey .MasaNickClear2,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickClear2 {
+    clear: both
+}
+
+.MasaNickYatay,
+body.SkyEkranYatay .MasaNickDikey,
+body:not(.SkyGenelWH500) .MasaNickDikey {
+    padding: 4px;
+    padding-left: 5px
+}
+
+.MasaNickYatay #MasaNickDiv,
+body.SkyEkranYatay .MasaNickDikey #MasaNickDiv,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickStrDis,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonStrDis {
+    float: left;
+    width: 100%;
+    padding-left: 5px
+}
+
+.MasaNickYatay .MasaNickStrDis,
+body.SkyEkranYatay .MasaNickDikey .MasaNickStrDis,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickStrDis,
+.MasaNickYatay .MasaBotButonStrDis,
+body.SkyEkranYatay .MasaNickDikey .MasaBotButonStrDis,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonStrDis,
+.MasaNickYatay .MasaBotButonBg,
+body.SkyEkranYatay .MasaNickDikey .MasaBotButonBg,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonBg {
+    text-align: left
+}
+
+.MasaNickYatay #MasaButonBotArti,
+.MasaNickYatay #MasaButonBotEksi,
+body.SkyEkranYatay .MasaNickDikey #MasaButonBotArti,
+body.SkyEkranYatay .MasaNickDikey #MasaButonBotEksi,
+body:not(.SkyGenelWH500) .MasaNickDikey #MasaButonBotArti,
+body:not(.SkyGenelWH500) .MasaNickDikey #MasaButonBotEksi,
+.butonBotYatay {
+    padding: 1px 6px 4px 6px
+}
+
+.MasaNickYatay .MasaBotButonBg,
+body.SkyEkranYatay .MasaNickDikey .MasaBotButonBg,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaBotButonBg {
+    margin-left: 5px
+}
+
+.MasaNickYatay .MasaNickDivDis,
+body.SkyEkranYatay .MasaNickDikey .MasaNickDivDis,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivDis {
+    height: 4vw;
+    min-height: 25px;
+    max-height: 64px;
+    overflow: hidden
+}
+
+.MasaNickYatay .MasaNickDivTd,
+body.SkyEkranYatay .MasaNickDikey .MasaNickDivTd,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivTd {
+    vertical-align: middle
+}
+
+.MasaNickYatay .MasaNickDivTable,
+body.SkyEkranYatay .MasaNickDikey .MasaNickDivTable,
+body:not(.SkyGenelWH500) .MasaNickDikey .MasaNickDivTable {
+    table-layout: fixed
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey {
+    padding: 4px
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaNickDiv {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -ms-writing-mode: tb-rl;
+    -khtml-writing-mode: tb-rl;
+    -webkit-writing-mode: tb-rl;
+    -moz-writing-mode: tb-rl;
+    writing-mode: tb-rl
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickStrDis,
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonStrDis,
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonBg {
+    text-align: center;
+    max-width: 64px;
+    width: 100%
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotArti,
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotEksi,
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaNickDiv {
+    display: inline-block;
+    margin: 0 auto
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotArti,
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaButonBotEksi {
+    -ms-writing-mode: tb-rl;
+    -khtml-writing-mode: tb-rl;
+    -webkit-writing-mode: tb-rl;
+    -moz-writing-mode: tb-rl;
+    writing-mode: tb-rl;
+    padding: 6px 2px 4px 2px
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaBotButonStrDis {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey #MasaResimDiv {
+    width: 100%;
+    text-align: center
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickClear1 {
+    clear: both
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaNickDikey .MasaNickClear2 {
+    display: none
+}
+
+.MasaNickSagDis,
+.MasaNickSolDis,
+.MasaNickUstDis,
+.MasaNickAltDis {
+    display: inline-block;
+    position: relative
+}
+
+.MasaNickSagDis .MasaMobilSohbet {
+    right: 0;
+    top: 0
+}
+
+.MasaNickSolDis .MasaMobilSohbet {
+    left: 0;
+    top: 0
+}
+
+.MasaNickUstDis .MasaMobilSohbet,
+.MasaNickAltDis .MasaMobilSohbet {
+    left: 0;
+    top: 50%
+}
+
+#MasaNickAlt {
+    margin-top: 10px
+}
+
+.MasaMobilSohbet {
+    border-radius: 4px;
+    padding: 4px;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: white;
+    max-width: 120px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left 2px center;
+    padding-left: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+    color: black
+}
+
+.MasaMobilSohbet>img {
+    margin-bottom: -3px
+}
+
+.MasaMobilSohbetIzl {
+    right: 0;
+    left: auto;
+    max-width: 140px;
+    text-align: right
+}
+
+#MasaDivZamanliMesajDis {
+    visibility: hidden;
+    display: inline-block;
+    max-width: 100%;
+    position: absolute;
+    z-index: 192;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    cursor: hand
+}
+
+#MasaDivZamanliMesaj {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    min-width: 40%;
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px
+}
+
+.MasaMesajContainer {
+    width: 75%;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: #f6fcff !important
+}
+
+.MasaArkaPanelYaziGorun {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+#MasaYaziTahtasi {
+    padding: 5px;
+    border: 1px solid #969696 !important;
+    -khtml-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important
+}
+
+.MasaNickContainer {
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding: 3px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    border: 4px solid #c8b1a6 !important;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important
+}
+
+#MasaNickler {
+    width: 100%;
+    vertical-align: top;
+    overflow: hidden
+}
+
+.Yazilar {
+    width: 100%;
+    display: inline-block;
+    word-wrap: break-word !important;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    padding: 0
+}
+
+.Yazilar .yaziic {
+    word-break: break-all;
+    word-wrap: break-word;
+    font-weight: bold
+}
+
+.YazilarNck,
+.YazilarNckGirisi,
+.YazilarNckMasa {
+    cursor: pointer;
+    cursor: hand
+}
+
+.Yazilar .yaziic.YazilarNckGirisi,
+.Yazilar .yaziic.YazilarNckMasa {
+    font-weight: normal
+}
+
+.YazilarIsmarlaHnd {
+    cursor: pointer;
+    cursor: hand
+}
+
+.Yazilar img {
+    vertical-align: baseline;
+    border: 0 solid transparent;
+    margin-bottom: -3px
+}
+
+.adminDis {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 50%
+}
+
+.adminDisX {
+    width: 100%
+}
+
+.iw-contextMenu li.FontMenuHdr.iw-mDisable {
+    opacity: .6;
+    font-weight: bold
+}
+
+.iw-contextMenu li.FontMenuHdr.iw-mDisable .iw-mOverlay {
+    opacity: .2
+}
+
+#textnickrenk *,
+#textnickrenkx1 *,
+#textnickrenkx2 *,
+#textnickrenky0 *,
+#textnickrenky1 *,
+#textyazirenk *,
+#textyazirenkx1 *,
+#textyazirenkx2 *,
+#textyazirenky0 *,
+#textyazirenky1 * {
+    animation: auto !important;
+    -webkit-animation: auto !important;
+    -moz-animation: auto !important;
+    -ms-animation: auto !important;
+    -o-animation: auto !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -ms-animation: none !important;
+    -o-animation: none !important
+}
+
+.IsmarlaYazi {
+    display: inline-block;
+    float: left;
+    width: 100%
+}
+
+.IsmarlaYazi>img {
+    float: left;
+    height: 6vw;
+    width: 6vw;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 54px;
+    max-height: 54px;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+.IsmarlaYazi div {
+    display: inline-block;
+    float: left;
+    height: auto
+}
+
+.tabSiradanVeri #TabBaslik {
+    color: #33a8f2 !important
+}
+
+.tabYeniVeri #TabBaslik {
+    color: #f00 !important
+}
+
+.tabBizimVeri #TabBaslik {
+    color: #0f0 !important
+}
+
+.tabAktif {
+    background: #5b5b5b
+}
+
+.tabButon {
+    background: #0b0b0b
+}
+
+.tabButon #TabBaslik {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.tabButon .TabBaslikDis {
+    table-layout: fixed
+}
+
+.tabButon .TabBaslikDis,
+.tabButon .TabBaslikDis td,
+.tabButon .TabBaslikDis tr {
+    height: 100%
+}
+
+.tabButon .TabBaslikDis td {
+    vertical-align: middle
+}
+
+.tabButon:hover {
+    background: #434242
+}
+
+.tabAktif,
+.tabButon:active {
+    background: #5b5b5b
+}
+
+.tabButonOrtak {
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    cursor: hand;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    margin-right: 1px;
+    white-space: nowrap;
+    text-decoration: none;
+    height: 100%
+}
+
+.tabButonOrtakNC {
+    padding-right: 6px
+}
+
+.tabKapat {
+    cursor: pointer;
+    cursor: hand;
+    margin-left: 5px;
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.tabKapat:hover {
+    cursor: pointer;
+    cursor: hand;
+    color: #000
+}
+
+.tabKapat td {
+    vertical-align: middle
+}
+
+.tabButonEksi>div {
+    text-align: center
+}
+
+.tabButonEksi {
+    background: #0b0b0b;
+    float: left;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px
+}
+
+.tabButonEksi:hover {
+    background: #434242
+}
+
+.tabButonEksi:active {
+    background: #5b5b5b
+}
+
+.tabButonOrtakAE {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    cursor: hand;
+    color: #fff;
+    width: 20px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 1px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.tabButonArti>div {
+    text-align: center
+}
+
+.tabButonArti {
+    background: #0b0b0b;
+    float: right;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    border-top-right-radius: 10px
+}
+
+.tabButonArti:hover {
+    background: #434242
+}
+
+.tabButonArti:active {
+    background: #5b5b5b
+}
+
+.SDlgYalitim {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #aaa;
+    opacity: .4
+}
+
+.SDlgOrtak {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    top: 0;
+    left: 0
+}
+
+.SDlgOrtak>table {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed
+}
+
+.SDlgOrtak td {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center
+}
+
+.SDlgOrtakIc {
+    border-radius: 4px;
+    width: 45vw;
+    min-width: 310px;
+    max-width: 500px;
+    word-break: break-word;
+    display: inline-block;
+    padding: 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 5px 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    vertical-align: top
+}
+
+.SDlgOrtak #DlgButonKapat {
+    float: right;
+    display: inline-block
+}
+
+.SDlgOrtak #DlgButonYardim {
+    float: right;
+    display: inline-block;
+    margin-right: 4px
+}
+
+.SDlgOrtak #DlgBaslikKapla {
+    float: left;
+    display: inline-block;
+    width: 100%
+}
+
+.SDlgOrtak #DlgIcerikDiv {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 5px;
+    display: inline-block;
+    float: left;
+    word-wrap: break-word;
+    color: #fff
+}
+
+.SDlgOrtak #DlgBaslikStr {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    padding-left: 10px;
+    width: auto;
+    font-weight: bold
+}
+
+.SDlgOrtak #DlgButonlarDiv {
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: right;
+    width: auto;
+    padding-top: 10px
+}
+
+.SDlgOrtak2 {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    height: auto
+}
+
+.SDlgOrtak2>table {
+    width: auto;
+    height: auto
+}
+
+.SDlgOrtak .FormAyarLbl {
+    margin-bottom: 5px
+}
+
+.SDlgYesil {
+    background-color: #55bc00 !important
+}
+
+.SDlgKirmizi {
+    background-color: #ba0000 !important
+}
+
+.SDlgMavi {
+    background-color: #008ddf !important
+}
+
+.SDlgBeyaz #DlgIcerikDiv {
+    color: #000
+}
+
+.SDlgBeyaz {
+    color: #000;
+    background-color: #fff !important
+}
+
+#DialogHakkinda #DlgBaslikStr {
+    color: white
+}
+
+#DialogHakkinda #DlgIcerikDiv {
+    color: white
+}
+
+#DialogHakkinda table td {
+    text-align: center
+}
+
+#DialogHakkinda a,
+#DialogHakkinda a:hover,
+#DialogHakkinda a:active {
+    text-decoration: none;
+    color: blue;
+    outline: 0;
+    pointer-events: auto !important
+}
+
+#DialogHakkinda .ozel {
+    color: black
+}
+
+#DialogHakkinda .version {
+    color: darkgreen
+}
+
+#DialogAdminYardim iframe {
+    width: 100%;
+    height: 50vh;
+    max-height: 410px;
+    min-height: 240px;
+    border: none !important
+}
+
+#DialogAdminYardim #DlgBaslikStr {
+    color: white
+}
+
+#DialogAdminYardim #DlgIcerikDiv {
+    color: white
+}
+
+#DialogAdminYardim table td {
+    text-align: center
+}
+
+#DialogProfilim #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogInput .SDlgOrtakIc,
+#DialogOnay .SDlgOrtakIc,
+#DialogExtra .SDlgOrtakIc,
+#DialogUyari .SDlgOrtakIc,
+#DialogInputSureli #DlgIcerikDiv,
+#DialogOnay #DlgIcerikDiv {
+    text-align: left
+}
+
+#DialogInput #DlgIcerikDiv,
+#DialogOnay #DlgIcerikDiv,
+#DialogUyari #DlgIcerikDiv,
+#DialogInputSureli #DlgIcerikDiv,
+#DialogOnay #DlgIcerikDiv,
+#DialogGoldYetki #DlgIcerikDiv,
+#DialogGoldYetkiSureli #DlgIcerikDiv {
+    padding: 10px
+}
+
+#DialogInput #DlgIcerikDiv #DlgInputDiv {
+    padding-bottom: 6px
+}
+
+#DialogExtra .SDlgOrtakIc {
+    overflow: hidden
+}
+
+#DialogExtra iframe {
+    width: 100%;
+    height: 50vh;
+    max-height: 410px;
+    min-height: 240px;
+    border: none !important
+}
+
+#DialogExtra #OzelAvatarImg {
+    width: 200px;
+    height: 200px;
+    -khtml-border-radius: unset;
+    -khtml-border-radius: 0;
+    -webkit-border-radius: unset;
+    -webkit-border-radius: 0;
+    -moz-border-radius: unset;
+    -moz-border-radius: 0;
+    border-radius: unset;
+    border-radius: 0
+}
+
+#DialogExtra #DlgIcerikDiv {
+    text-align: center
+}
+
+#DialogProfilim .SDlgOrtakIc {
+    min-width: 350px
+}
+
+#DialogProfilim .menuDiv {
+    border: 1px solid #62d900;
+    padding: 10px 4px
+}
+
+#DialogProfilim #DlgSayfaAvatarIslem img {
+    outline: 0;
+    pointer-events: auto !important
+}
+
+#DialogProfilim #DlgSayfaKisiselBilgiler,
+#DialogProfilim #DlgSayfaSifreIslem,
+#DialogProfilim #DlgSayfaAvatarIslem {
+    border: 1px solid #62d900;
+    display: inline-block;
+    padding: 4px;
+    width: 100%
+}
+
+#DialogProfilim #DlgSayfaAvatarIslem {
+    text-align: center;
+    padding: 10px
+}
+
+.mevcutSifreDiv {
+    border: 1px solid #62d900;
+    padding: 4px
+}
+
+#MasaBanNickContainer #ozellikler,
+#EngelNickContainer #ozellikler {
+    cursor: pointer;
+    cursor: hand;
+    padding: 5px
+}
+
+#MasaBanNickContainer #Nickler,
+#EngelNickContainer #Nickler {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    overflow: hidden
+}
+
+#MasaBanNickContainer,
+#EngelNickContainer,
+#DavetNickContainer {
+    width: 100%;
+    height: 50vh;
+    min-height: 130px;
+    max-height: 310px;
+    overflow-x: hidden;
+    overflow-y: visible;
+    -khtml-border-radius: 8px !important;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    border-radius: 8px !important;
+    background-color: #049dd4;
+    display: inline-block;
+    border: 4px solid #8c1111 !important
+}
+
+#MasaBanNickContainer {
+    border: 4px solid #117fb1 !important
+}
+
+#EngelNickContainer {
+    border: 4px solid #8c1111 !important;
+    background-color: #da3232
+}
+
+#EngelFiltreTemizleButon {
+    display: inline-block;
+    float: right;
+    margin-left: 2px
+}
+
+#DavetNickContainer {
+    border: 4px solid #c8b1a6 !important;
+    background-color: #fff
+}
+
+#DialogMasaBan .SDlgOrtakIc {
+    text-align: left
+}
+
+#DialogMasaBan .SeciliNick {
+    background-color: #0739a0;
+    color: #fff
+}
+
+#DialogMasaBan .SeciliNick:hover {
+    background-color: #1b5fec;
+    color: #fff
+}
+
+#DialogMasaBan .SeciliNick .LobiNickListeNickStr {
+    color: #fff !important
+}
+
+#DialogEngeller .SDlgOrtakIc {
+    text-align: left
+}
+
+#DialogEngeller .SeciliNick {
+    background-color: #901111;
+    color: #fff
+}
+
+#DialogEngeller .SeciliNick:hover {
+    background-color: #ff0909;
+    color: #fff
+}
+
+#DialogEngeller .SeciliNick .LobiNickListeNickStr {
+    color: #fff !important
+}
+
+#DialogAyarlarim #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogAyarlarim .SDlgOrtakIc {
+    max-width: 350px;
+    text-align: left
+}
+
+#DialogAyarlarim label {
+    font-weight: bold
+}
+
+#DialogIsmarlaNick #DlgIcerikStr2>div {
+    display: inline-block;
+    margin-top: 5px
+}
+
+
+
+#DialogIsmarlaNick .SDlgOrtakIc {
+    display: inline-block;
+    width: auto;
+    width: unset;
+    min-width: 220px;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+#DialogIsmarlaNick .SDlgOrtakIc #DlgButonlarDiv {
+    padding-right: 0
+}
+
+#DialogIsmarlaNick .SDlgOrtakIc #DlgBaslikStr {
+    padding-right: 10px
+}
+
+#DialogNickLobiTekTik .SDlgOrtakIc #DlgIcerikStr .butonText,
+#DialogNickMasaTekTik .SDlgOrtakIc #DlgIcerikStr .butonText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 3px
+}
+
+#DialogGenelYardim iframe {
+    width: 100%;
+    height: 50vh;
+    max-height: 410px;
+    min-height: 240px;
+    border: none !important
+}
+
+#DialogGenelYardim #DlgBaslikStr {
+    color: white
+}
+
+#DialogGenelYardim #DlgIcerikDiv {
+    color: white
+}
+
+#DialogGenelYardim table td {
+    text-align: center
+}
+
+#PencereAna {
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.AnaUstPanel {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background-color: #000;
+    background-color: -o-linear-gradient(top, #000 0%, #000 40%, #333 100%);
+    background-color: -moz-linear-gradient(top, #000 0%, #000 40%, #333 100%);
+    background-color: -webkit-linear-gradient(top, #000 0%, #000 40%, #333 100%);
+    background-color: linear-gradient(to bottom, #000 0%, #000 40%, #333 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#333333', GradientType=0)
+}
+
+.AnaUstPanelHG {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    font-weight: bold
+}
+
+.AnaUstHGExt {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 4px;
+    padding-right: 4px;
+    float: left;
+    font-weight: bold
+}
+
+.AnaAvatarDivAsagiOk {
+    display: none;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.AnaAvatarDiv {
+    text-align: left;
+    float: left;
+    position: relative;
+    display: inline-block;
+    padding: 2px
+}
+
+#AnaAvatarImg {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.AnaUstYazi {
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    table-layout: fixed;
+    float: left;
+    text-align: left
+}
+
+.AnaUstYazi td {
+    vertical-align: middle
+}
+
+.AnaHosGldDiv,
+#AnaNickDiv,
+#AnaPingDiv {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: break-word;
+    color: #fff;
+    float: left;
+    max-width: 100px
+}
+
+.AnaUstPanelButonDis {
+    height: 100%;
+    float: left
+}
+
+.AnaUstPanelButonDis td,
+.AnaUstPanelButonDis tr {
+    height: 100%
+}
+
+.AnaUstPanelButonDis td {
+    vertical-align: middle;
+    text-align: center
+}
+
+.AnaKullSayisi {
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    color: white
+}
+
+.AnaKullSayisi td,
+.AnaKullSayisi tr {
+    height: 100%
+}
+
+.AnaKullSayisi td {
+    vertical-align: middle;
+    text-align: center
+}
+
+#AnaToplamDiv {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    text-align: center;
+    background: #ef7f1a;
+    color: white;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none
+}
+
+.AnaUstPanelExt {
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-right: 5px;
+    height: 100%;
+    color: white
+}
+
+.AnaUstPanelExtPos {
+    z-index: 201;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+    height: auto;
+    right: 0
+}
+
+.AnaUstPanelExtPos>div {
+    clear: both;
+    margin-bottom: 10px;
+    margin-right: 0 !important
+}
+
+.AnaUstPanelExtPos>div:last-child {
+    margin-bottom: 0
+}
+
+#AnaUstPanelExtButon {
+    position: relative
+}
+
+.AnaUstPanelButonOkAlt {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    margin-left: -8px !important;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid white
+}
+
+.SkyPanelAktifButon>.AnaUstPanelButonOkAlt {
+    display: block
+}
+
+.AnaTabPanel {
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    float: left;
+    background: #272727;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden
+}
+
+.AnaTabPanel>.tabEksi {
+    height: 100%;
+    display: inline-block;
+    float: left
+}
+
+.AnaTabPanel>.tabArti {
+    height: 100%;
+    display: inline-block;
+    float: right
+}
+
+.AnaTabPanel>.tabAna {
+    height: 100%;
+    padding-left: 1px;
+    padding-right: 2px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.AnaTablarGrup {
+    font-size: 0;
+    height: 100%;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap;
+    display: inline-block
+}
+
+#AnaTablarScroll {
+    height: 100%;
+    overflow: hidden
+}
+
+.AnaAltPanel {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    min-width: 250px
+}
+
+#AnaTabIcerikDiv {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: #f9f9f9
+}
+
+.OdaTekil {
+    cursor: pointer;
+    cursor: hand;
+    width: 100%;
+    float: left;
+    padding: 5px;
+    border: 2px solid #bdc1c0
+}
+
+.OdaTekil:hover,
+.OdaTekil:active {
+    background-color: yellow
+}
+
+.OdaBaslik {
+    width: 100%;
+    float: left;
+    padding: 2px;
+    background-color: #fff;
+    border: 0;
+    color: #7390ec
+}
+
+.AdminPencere {
+    width: 100%;
+    height: 100%;
+    font-size: 0
+}
+
+#AdminUstKisim,
+.AdminUstKisim {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 0
+}
+
+#AdminAltKisim {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    overflow: hidden;
+    overflow-y: auto
+}
+
+.AdminLogPencere {
+    width: 100%;
+    height: 100%;
+    font-size: 0
+}
+
+#AdminLogUstKisim,
+.AdminLogUstYaziKisim {
+    width: 100%;
+    overflow: hidden;
+    font-size: 0
+}
+
+.AdminLogUstYaziKisim #adminLogBaslik {
+    width: 100%;
+    display: inline-block
+}
+
+#AdminLogAltKisim,
+.AdminLogAltYaziKisim {
+    width: 100%;
+    overflow: hidden;
+    font-size: 0;
+    padding: 5px
+}
+
+.AdminLogAltYaziKisim {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    float: left;
+    padding: 0
+}
+
+.AdminLogBtn {
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.OkeySkorMax {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.OkeySkorTablo {
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+    height: auto !important
+}
+
+.OkeySkorTablo tr {
+    text-align: center;
+    width: 100%
+}
+
+.OkeySkorTablo td {
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    width: 50px;
+    max-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 2px 0
+}
+
+body.BaseOkey #MasaIcerikDiv {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAL0lEQVQYV2NksVL+z4AE/vz4wcCILAgSYOHgQAjCBECawCqRBcCCDEbS/0FakAEAdKcS0pX5YUkAAAAASUVORK5CYII=) repeat
+}
+
+body.BaseOkey .AnaUstPanelHG {
+    background: #063
+}
+
+.OkeyTaslar {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    cursor: pointer;
+    cursor: hand
+}
+
+.OkeyTasAlaniCerceve {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    cursor: hand;
+    float: left
+}
+
+.OkeyTasBoyutu {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.OkeyTaslarBos {
+    cursor: pointer;
+    cursor: hand;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.0)
+}
+
+.OkeyTaslarCerceve {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    padding: 0;
+    margin: 3px 0 0 0;
+    background: rgba(0, 0, 0, 0)
+}
+
+.OkeySeciliTas {
+    -webkit-box-shadow: #ff0 0px 0px 4px 2px inset;
+    -moz-box-shadow: #ff0 0px 0px 4px 2px inset;
+    box-shadow: #ff0 0px 0px 4px 2px inset;
+    border-radius: 4px
+}
+
+.OkeyTekTikSecili {
+    -webkit-box-shadow: #f00 0px 0px 4px 2px inset;
+    -moz-box-shadow: #f00 0px 0px 4px 2px inset;
+    box-shadow: #f00 0px 0px 4px 2px inset;
+    border-radius: 4px
+}
+
+#OkeyTasAlaniAl {
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+    cursor: hand;
+    margin: 0;
+    background: rgba(0, 0, 0, 0);
+    float: left
+}
+
+.OkeyTasAlaniIc {
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+
+.OkeyOrtaTaslar {
+    position: relative;
+    padding: 6px;
+    -khtml-border-radius: 12px !important;
+    -webkit-border-radius: 12px !important;
+    -moz-border-radius: 12px !important;
+    border-radius: 12px !important;
+    display: inline-block;
+    margin: 0 auto
+}
+
+#OkeyTasAlaniGosterge {
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+    cursor: hand;
+    background: rgba(0, 0, 0, 0);
+    float: left
+}
+
+#OkeyTasAlaniCek {
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+    cursor: hand;
+    background: rgba(0, 0, 0, 0);
+    float: left
+}
+
+#OkeyTasAlaniCek #OkeyTasSay {
+    color: red
+}
+
+#OkeyTasAlaniCek table,
+#OkeyTasAlaniCek td {
+    width: 100%;
+    height: 100%
+}
+
+#OkeyTasAlaniCek td {
+    text-align: center;
+    vertical-align: middle
+}
+
+#OkeyTasAlaniAt {
+    display: inline-block;
+    padding: 1px;
+    cursor: pointer;
+    cursor: hand;
+    background: rgba(0, 0, 0, 0);
+    float: left
+}
+
+.OkeyTasAlaniAl1Dis,
+.OkeyTasAlaniAl2Dis,
+.OkeyTasAlaniAlDis,
+.OkeyTasAlaniAtDis {
+    display: inline-block;
+    float: unset;
+    float: none
+}
+
+#OkeyIstakaDiv {
+    display: inline-block;
+    margin: 0 auto
+}
+
+#OkeyIstakaDiv #OkeyIstakaYaziStr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #043a23;
+    text-align: center;
+    font-weight: bold
+}
+
+#OkeyIstakaDiv #OkeyIstakaYaziStr #YaziStr {
+    display: inline-block
+}
+
+#OkeyIstakaDiv #OkeyIstakaYaziStr table {
+    width: 100%;
+    height: 100%
+}
+
+#OkeyIstakaDiv #OkeyIstakaYaziStr table tr {
+    width: 100%;
+    height: 50%
+}
+
+#OkeyIstakaDiv #OkeyIstakaYaziStr table td {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center
+}
+
+#OkeyIstakaOrtaDiv {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    table-layout: fixed;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    cursor: hand
+}
+
+#OkeyIstakaSolDiv {
+    width: 13px;
+    min-width: 13px;
+    max-width: 13px;
+    height: 100%;
+    padding: 0;
+    cursor: pointer;
+    cursor: hand
+}
+
+#OkeyIstakaOrtaKisim {
+    position: relative;
+    float: left;
+    display: inline-block
+}
+
+#OkeyIstakaOrtaKisim>#OkeyIstakaUstSira {
+    float: left;
+    display: inline-block;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+#OkeyIstakaOrtaKisim>#OkeyIstakaAltSira {
+    float: left;
+    display: inline-block;
+    white-space: nowrap;
+    white-space: -moz-nowrap;
+    white-space: -nowrap;
+    white-space: -o-nowrap
+}
+
+#OkeyIstakaAltDiv {
+    width: 100%;
+    height: 10px;
+    min-height: 10px;
+    max-height: 10px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    cursor: hand;
+    clear: both
+}
+
+#OkeyIstakaSagDiv {
+    width: 13px;
+    min-width: 13px;
+    max-width: 13px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    cursor: hand
+}
+
+.MasaOkeyUst {
+    height: 45%
+}
+
+.MasaOkeyOrta {
+    height: 25%
+}
+
+.MasaOkeyAlt {
+    height: 30%;
+    background: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px
+}
+
+body.BaseOkey .MasaNickContainer {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQYV2P8+O7d/w/v3jEICAkxwGjGh3fu/GdAA4yUqQQAGp0kmgX5B1QAAAAASUVORK5CYII=) repeat !important
+}
+
+.MasaOkeyNickClass {
+    width: 20vw;
+    max-width: 250px;
+    min-width: 90px;
+    display: inline-block;
+    padding: 4px;
+    margin: 0 auto
+}
+
+.MasaOkeyNickClass #MasaNickDiv {
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+    margin-left: 3px;
+    color: #fff;
+    padding-left: 3px
+}
+
+.MasaOkeyNickClass #MasaResimDiv {
+    position: relative;
+    float: left
+}
+
+.MasaOkeyNickClass #MasaResimDiv #MasaResimImg {
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    vertical-align: middle;
+    border: 2px solid #f5f5f5;
+    height: 4vw;
+    width: 4vw;
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 64px;
+    max-height: 64px
+}
+
+body.BaseOkey #MasaButonTasGeriBirak {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    margin-top: 6px;
+    margin-right: 2px
+}
+
+body.BaseOkey #MasaDivZamanliMesaj {
+    -webkit-box-shadow: inset 0 0 0 2px red;
+    -moz-box-shadow: inset 0 0 0 2px red;
+    box-shadow: inset 0 0 0 2px red
+}
+
+body.BaseOkey #MasaGeriSayimDiv {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding-top: 6px;
+    padding-left: 6px
+}
+
+body.BaseOkey .MasaGeriSayimDivIc {
+    display: inline-block;
+    background: #2196f3;
+    border: 3px solid #101b54;
+    -khtml-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px
+}
+
+body.BaseOkey #MasaGeriSayimCnv {
+    display: block
+}
+
+body.BaseOkey .MasaStickerPanel {
+    position: absolute;
+    z-index: 191;
+    top: 5px;
+    left: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    color: white
+}
+
+body.BaseOkey .MasaStickerPanelAlt {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    width: auto;
+    margin-top: 3px
+}
+
+body.BaseOkey .LobiMasaListe1 {
+    border-top: 4px solid #00361b;
+    border-bottom: 4px solid #00361b;
+    border-left: 4px solid #00361b;
+    border-right: thick double #00361b;
+    background: #063
+}
+
+body.BaseOkey .LobiMasaListe2 {
+    border-top: 4px solid #00361b;
+    border-bottom: 4px solid #00361b;
+    border-left: 0;
+    border-right: 4px solid #00361b;
+    background: #063
+}
+
+body.BaseOkey #DialogGenelYardim iframe {
+    height: 20vh;
+    max-height: 410px;
+    min-height: 230px
+}
+
+#DialogOkeyAcilanEl #DlgIcerikDiv {
+    text-align: center;
+    padding: 10px
+}
+
+#DialogOkeyAcilanEl #DlgAcilanStr {
+    padding-bottom: 5px;
+    float: left
+}
+
+#DialogOkeyAcilanEl .SDlgOrtakIc {
+    max-width: 90%;
+    width: auto
+}
+
+#DialogOkeySkor .SDlgOrtakIc {
+    height: 60vh;
+    max-height: 400px;
+    min-height: 200px;
+    overflow: hidden
+}
+
+#DialogOkeySkor #DlgBaslikKapla {
+    padding-bottom: 4px
+}
+
+#DialogOkeySkor #DlgSkorAna {
+    display: inline-block;
+    width: 100%;
+    height: 100%
+}
+
+#DialogOkeySkor #DlgIcerikDiv {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden
+}
+
+#DialogOkeyMasaAyar .SDlgOrtakIc {
+    min-width: 250px;
+    max-width: 300px;
+    text-align: left
+}
+
+#DialogOkeyMasaFiltre #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogOkeyMasaFiltre .SDlgOrtakIc {
+    max-width: 350px;
+    text-align: left
+}
+
+#DialogOkeyMasaFiltre label {
+    font-weight: bold
+}
+
+#DialogOkeyYeniMasa #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogOkeyYeniMasa label {
+    font-weight: bold
+}
+
+#DialogOkeyYeniMasa .SDlgOrtakIc {
+    min-width: 250px;
+    max-width: 300px;
+    text-align: left
+}
+
+#DialogOkeyMasaFiltre #DlgIcerikDiv {
+    color: #000
+}
+
+#DialogOkeyYeniMasa label,
+#DialogOkeyMasaFiltre label {
+    font-weight: bold
+}
+
+.OkeyMasaButonBot {
+    padding: 1px 6px 4px 6px;
+    margin-left: 5px;
+    color: #000
+}
+
+.OkeyMasaButonIslev {
+    display: inline-block;
+    float: left;
+    margin-right: 5px !important
+}
+
+.SkyHand {
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-weight: bold
+}
+
+.SkyHand>select,
+.SkyHand>input {
+    cursor: pointer;
+    cursor: hand
+}
+
+.SkyHand img {
+    border: 2px solid #f5f5f5;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px
+}
+
+.zIndex10 {
+    z-index: 110
+}
+
+.zIndex11 {
+    z-index: 111
+}
+
+.zIndex20 {
+    z-index: 120
+}
+
+.zIndex30 {
+    z-index: 130
+}
+
+.zIndex40 {
+    z-index: 140
+}
+
+.zIndex50 {
+    z-index: 150
+}
+
+.zIndex60 {
+    z-index: 160
+}
+
+.zIndex70 {
+    z-index: 170
+}
+
+.zIndex80 {
+    z-index: 180
+}
+
+.zIndex90 {
+    z-index: 190
+}
+
+.zIndex100 {
+    z-index: 200
+}
+
+.DivFltL {
+    float: left
+}
+
+.DivFltR {
+    float: right
+}
+
+.SabitSagUst {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    opacity: .5
+}
+
+.SabitSolUst5x5 {
+    position: absolute;
+    top: 5px;
+    left: 5px
+}
+
+.SabitSagAlt {
+    position: absolute;
+    bottom: 100%;
+    right: 0
+}
+
+.Gizli {
+    display: none !important
+}
+
+.LobiNickListYukari {
+    height: 100% !important
+}
+
+.Tiklanabilir {
+    pointer-events: auto !important
+}
+
+.Secilebilir,
+.Secilebilir * {
+    -webkit-touch-callout: default;
+    -webkit-user-select: text !important;
+    -khtml-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+    -o-user-select: text !important;
+    -user-select: text !important
+}
+
+.SeciliNick {
+    background-color: #076161;
+    color: #fff;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px
+}
+
+.SeciliNick:hover {
+    background-color: #036;
+    color: #fff
+}
+
+.SeciliNick .LobiNickListeNickStr {
+    color: #fff !important
+}
+
+.SmileyClassIc {
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid #e9ecf3;
+    float: left
+}
+
+.IsmarlaClassIc {
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;
+    border: 1px solid #e9ecf3;
+    float: left
+}
+
+#IsmarlaMenu {
+    width: 100%
+}
+
+.SmileyClassBoyut {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    cursor: hand
+}
+
+.SmileyClass {
+    background-color: white !important;
+    border: 1px solid #cecbcb !important;
+    display: inline-block;
+    overflow: hidden;
+    overflow-y: auto;
+    z-index: 190
+}
+
+.SmileyClass img {
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    margin: 0;
+    background-color: #FFF
+}
+
+.FontHG,
+.FontK,
+.FontO,
+.FontB,
+.FontOto {
+    -webkit-text-size-adjust: none
+}
+
+.RenkOyunTeknik {
+    color: #b10c32
+}
+
+.RenkOyunYapimci {
+    color: #b10c32
+}
+
+.RenkAdminKayitAktifLog {
+    background-color: #faebd7;
+    color: #228b22;
+    text-shadow: 0 0 0 #000, 0px 0px 0px #000
+}
+
+.RenkAdminAvatarAktifLog {
+    background-color: #faebd7;
+    color: #228b22;
+    text-shadow: 0 0 0 #000, 0px 0px 0px #000
+}
+
+.RenkAdminSuresiGecenHdr {
+    background-color: #faebd7;
+    color: #ec1515;
+    text-shadow: 0 0 0 #000, 0px 0px 0px #000
+}
+
+.RenkAdminSuresiGecenStr {
+    background-color: #faebd7;
+    color: #943535;
+    text-shadow: 0 0 0 #000, 0px 0px 0px #000
+}
+
+body.SkyGenelWH500 .MasaOkeyUst {
+    height: 65%
+}
+
+body.SkyGenelWH500 .MasaOkeyOrta {
+    height: 35%
+}
+
+body.SkyIlkPC.SkyGenelWH500 .MasaOkeyAlt {
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 200
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaOkeyAlt {
+    width: 0;
+    height: 0
+}
+
+body.SkyGenelH800 .MasaOkeyNickClass #MasaResimDiv {
+    margin: 0
+}
+
+body.SkyGenelH400 .MasaOkeyNickClass #MasaResimDiv {
+    margin: 0
+}
+
+@media screen and (max-width:200px),
+screen and (max-height:200px) {
+    body.SkyIlkPC .MasaOkeyAlt {
+        position: static !important
+    }
+}
+
+input[type="text"],
+input[type="password"],
+button,
+select {
+    height: 34px !important;
+    margin-bottom: 1px
+}
+
+body.SkyGenelH800 input[type="text"],
+body.SkyGenelH800 input[type="password"],
+body.SkyGenelH800 button,
+body.SkyGenelH800 select {
+    height: 29px !important
+}
+
+body.SkyGenelH400 input[type="text"],
+body.SkyGenelH400 input[type="password"],
+body.SkyGenelH400 button,
+body.SkyGenelH400 select {
+    height: 24px !important
+}
+
+input.YaziNesnesi[type="text"],
+input.YaziNesnesi[type="password"] {
+    height: 33px !important;
+    margin-top: 1px;
+    margin-bottom: 1px
+}
+
+body.SkyGenelH800 input.YaziNesnesi[type="text"],
+body.SkyGenelH800 input.YaziNesnesi[type="password"] {
+    height: 28px !important
+}
+
+body.SkyGenelH400 input.YaziNesnesi[type="text"],
+body.SkyGenelH400 input.YaziNesnesi[type="password"] {
+    height: 23px !important
+}
+
+input.InpFiltrele[type="text"],
+input.InpFiltrele[type="password"] {
+    height: 35px !important;
+    margin: 0
+}
+
+body.SkyGenelH800 input.InpFiltrele[type="text"],
+body.SkyGenelH800 input.InpFiltrele[type="password"] {
+    height: 30px !important
+}
+
+body.SkyGenelH400 input.InpFiltrele[type="text"],
+body.SkyGenelH400 input.InpFiltrele[type="password"] {
+    height: 25px !important
+}
+
+body.SkyIlkMobil.SkyEkranYatay.SkyGenelWH500 #PencereAna.SkyMasaGorunur .AnaUstPanel {
+    height: 0 !important
+}
+
+.IconYazi {
+    width: 35px;
+    height: 35px
+}
+
+.IconYaziW {
+    width: 35px
+}
+
+.IconYaziH {
+    height: 35px
+}
+
+.IconTopic {
+    width: 25px;
+    height: 25px
+}
+
+.IconTopicH,
+select.IconTopicH {
+    height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1px
+}
+
+.IconTopicH img,
+select.IconTopicH img {
+    height: 23px;
+    width: 23px
+}
+
+body.SkyGenelW1050 .IconTopic {
+    width: 23px;
+    height: 23px
+}
+
+body.SkyGenelW1050 .IconTopicH,
+body.SkyGenelW1050 select.IconTopicH {
+    height: 23px
+}
+
+body.SkyGenelW1050 .IconTopicH img,
+body.SkyGenelW1050 select.IconTopicH img {
+    height: 21px;
+    width: 21px
+}
+
+body.SkyGenelH800 .IconYazi {
+    width: 30px;
+    height: 30px
+}
+
+body.SkyGenelH800 .IconYaziW {
+    width: 30px
+}
+
+body.SkyGenelH800 .IconYaziH {
+    height: 30px
+}
+
+body.SkyGenelH800 .IconTopic {
+    width: 22px;
+    height: 22px
+}
+
+body.SkyGenelH800 .IconTopicH,
+body.SkyGenelH800 select.IconTopicH {
+    height: 22px;
+    padding-top: 0
+}
+
+body.SkyGenelH800 .IconTopicH img,
+body.SkyGenelH800 select.IconTopicH img {
+    height: 20px;
+    width: 20px;
+    padding-top: 0
+}
+
+body.SkyGenelH400 .IconYazi {
+    width: 25px;
+    height: 25px
+}
+
+body.SkyGenelH400 .IconYaziW {
+    width: 25px
+}
+
+body.SkyGenelH400 .IconYaziH {
+    height: 25px
+}
+
+body.SkyGenelH400 .IconTopic {
+    width: 22px;
+    height: 22px
+}
+
+body.SkyGenelH400 .IconTopicH,
+body.SkyGenelH400 select.IconTopicH {
+    height: 22px;
+    padding-top: 0
+}
+
+body.SkyGenelH400 .IconTopicH img,
+body.SkyGenelH400 select.IconTopicH img {
+    height: 20px;
+    width: 20px;
+    padding-top: 0
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaMesajContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    z-index: 200
+}
+
+body.SkyIlkMobil.SkyEkranDikey.SkyGenelWH500 .MasaMesajContainer {
+    height: auto;
+    width: auto
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaNickContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    z-index: 200
+}
+
+body.SkyIlkMobil.SkyEkranDikey.SkyGenelWH500 .MasaNickContainer {
+    bottom: 0;
+    height: auto;
+    width: auto
+}
+
+body.SkyPCWideScreen .MasaNickOrtak #MasaResimDiv #MasaResimImg {
+    height: 2vw;
+    width: 2vw
+}
+
+body.SkyPCWideScreen .MasaNickYatay .MasaNickDivDis,
+body.SkyPCWideScreen .MasaNickDikey .MasaNickDivDis {
+    height: 2vw
+}
+
+body.SkyGenelH800 .FormSatirX>label {
+    margin-top: 7px
+}
+
+body.SkyGenelH800 #DialogHakkinda #HakkindaMarquee {
+    height: 65px !important
+}
+
+body.SkyGenelH400 .FormSatirX>label {
+    margin-top: 6px
+}
+
+body.SkyGenelH400 #DialogHakkinda #HakkindaMarquee {
+    height: 65px !important
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaDivDigerIcerik {
+    position: absolute;
+    width: 100%;
+    z-index: 200
+}
+
+body.SkyIlkMobil.SkyEkranYatay.SkyGenelWH500 .MasaDivDigerIcerik>div {
+    margin-right: 0 !important
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .MasaDivDigerIcerik>div {
+    margin-bottom: 0 !important
+}
+
+body:not(.SkyGenelWH500) .SkyMobilButonGoster,
+body.SkyIlkPC .SkyMobilButonGoster {
+    display: none !important
+}
+
+@media screen and (min-width:200px) and (min-height:200px) {
+    body.SkyIlkMobil.SkyGenelWH500 #MasaMesajContainer.SkyMobilGizle {
+        display: none !important
+    }
+}
+
+body.SkyGenelW450 .AnaUstHGExt.SkyMobilGizle {
+    display: none !important
+}
+
+body.SkyGenelW450 .AnaUstHGExt {
+    z-index: 201;
+    position: absolute;
+    height: auto;
+    left: 0;
+    margin: 0;
+    padding: 10px
+}
+
+body.SkyGenelW450 .AnaAvatarDivAsagiOk {
+    display: inline-block !important
+}
+
+body.SkyGenelW450 #AnaUstHGExt {
+    background-color: black
+}
+
+body.SkyIlkMobil.SkyGenelWH500 .MasaNickContainer.SkyMobilGizle {
+    display: none !important
+}
+
+body.SkyGenelWH500 .SkyMobilGizle:not(.MasaNickContainer):not(#MasaMesajContainer):not(#MasaDivDigerIcerik):not(#MasaButonKalk):not(#AnaUstPanelExt):not(#AnaUstHGExt) {
+    display: none !important
+}
+
+body.SkyIlkMobil.SkyGenelWH500 #MasaDivDigerIcerik.SkyMobilGizle {
+    display: none !important
+}
+
+body.SkyIlkMobil.SkyGenelWH500 #MasaButonKalk.SkyMobilGizle {
+    display: none !important
+}
+
+body.SkyGenelWH500 .IconB {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    max-width: 32px;
+    max-height: 32px
+}
+
+body.SkyGenelWH500 .SkyMobilAktifButon {
+    position: relative
+}
+
+body.SkyGenelWH500 .MobilButonOkSol {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px !important;
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid white
+}
+
+body.SkyGenelWH500 .MobilButonOkSag {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px !important;
+    right: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid white
+}
+
+body.SkyGenelWH500 .MobilButonOkAlt {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px !important;
+    bottom: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid white;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent
+}
+
+body.SkyScrollSifir #AnaTablarScroll {
+    overflow-y: hidden;
+    overflow-x: auto
+}
+
+body.SkyGenelWH500 .tabButonOrtakAE,
+body.SkyGenelWH500 .tabKapat,
+body.SkyGenelWH500 .tabButon #TabBaslik {
+    padding-top: 4px;
+    padding-bottom: 4px
+}
+
+body.SkyEkranYatay.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkSol {
+    display: block
+}
+
+body.SkyEkranYatay.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkSag {
+    display: block
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .SkyMobilAktifButon>.MobilButonOkAlt {
+    display: block
+}
+
+body.SkyGenelWH500 .OzelProfil {
+    position: relative
+}
+
+body.SkyGenelWH500 .GizliMobil {
+    display: none !important
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .GizliMobilD {
+    display: none !important
+}
+
+body.SkyEkranDikey.SkyGenelWH500 .GizliMobilD2,
+body.SkyIlkPC.SkyGenelWH500 .GizliMobilD2 {
+    display: none !important
+}
+
+body.SkyEkranYatay.SkyGenelWH500 .GizliMobilY {
+    display: none !important
+}
+
+body:not(.SkyGenelWH500) .GizliPC {
+    display: none !important
+}
+
+body.SkyGenelH400 .OzelProfil table tr td div {
+    padding-bottom: 0 !important
+}
+
+body.SkyGenelH400 #OzelAvatarDiv {
+    margin-top: 0 !important
+}
+
+body.SkyGenelH400 #DialogProfilim .menuDiv {
+    padding: 2px 4px
+}
+
+body.SkyGenelH400 .SDlgOrtak #DlgButonlarDiv {
+    padding-bottom: 2px;
+    padding-top: 2px
+}
+
+body.SkyGenelW350 #LobiNickListeIconDiv {
+    margin-left: 0
+}
+
+body.SkyGenelW350 #LobiNickListeSusDiv {
+    margin-left: 0;
+    margin-right: 0
+}
+
+body.SkyGenelW350 #DialogExtra .SDlgOrtakIc {
+    min-width: 290px
+}
+
+body.SkyGenelW600 .adminDis {
+    width: 100%
+}
+
+.LobiMasaListeTekil {
+    width: 33%
+}
+
+body.SkyGenelW1050 .LobiMasaListeTekil {
+    width: 50%
+}
+
+body.SkyGenelW700 .LobiMasaListeTekil {
+    width: 100%
+}
+
+body.SkyGenelW1050 .LobiSolAna {
+    width: 70%
+}
+
+body.SkyGenelW1050 .LobiSagAna {
+    width: 30%
+}
+
+.butonMobilGonder {
+    display: none
+}
+
+@media screen and (max-width:200px),
+screen and (max-height:200px) {
+    body .IconYaziTp {
+        top: 25px !important
+    }
+
+    body.SkyIlkMobil .MasaMesajContainer,
+    body.SkyIlkPC .MasaMesajContainer,
+    body.SkyIlkMobil .MasaArkaPanelYaziGorun,
+    body.SkyIlkPC .MasaArkaPanelYaziGorun,
+    body.SkyIlkMobil .OzelArkaPanelYaziGorun,
+    body.SkyIlkPC .OzelArkaPanelYaziGorun,
+    .YaziKutusuGenel {
+        position: static !important
+    }
+
+    body .AnaTabPanel {
+        position: absolute !important;
+        width: auto !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        max-width: none !important;
+        max-height: none !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000
+    }
+
+    body .SkyJsFocusIc .butonMobilGonder {
+        position: absolute !important;
+        display: inline-block !important;
+        width: 75px !important;
+        height: 100% !important;
+        top: 0;
+        right: 0
+    }
+
+    body .SkyJsFocusIc {
+        position: absolute !important;
+        width: auto !important;
+        height: auto !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        max-width: none !important;
+        max-height: none !important;
+        background-color: white;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1000
+    }
+
+    body .SkyJsFocusIc {
+        z-index: 1010
+    }
+
+    body .SkyJsFocusIc input[type="text"]:focus,
+    body .SkyJsFocusIc input[type="password"]:focus {
+        position: static !important;
+        width: 100% !important;
+        height: 100% !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        max-width: none !important;
+        max-height: none !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-right: 76px !important;
+        z-index: 1001
+    }
+
+    body .SkyJsFocusIc input:focus {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        z-index: 1011
+    }
+
+    body .AnaUstPanel {
+        display: none !important
+    }
+
+    body .AnaAltPanel {
+        height: 1% !important
+    }
+
+    body #MasaIcerikDiv {
+        position: static !important
+    }
+
+    body #LobiNicklerSagButonDiv {
+        display: none !important
+    }
+
+    body #PencereAna {
+        position: static !important;
+        height: 33% !important
+    }
+}
+
+#LobiMasaListeBilgiOzelIcon {
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 5px;
+    right: 3px;
+    margin: 0
+}
+
+#LobiMasaListeBilgiIconDiv {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    margin: 0;
+    color: #f1cb65;
+    font-weight: bold
+}
 
 .IconMLI {
-   width: 24px;
-   height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 
